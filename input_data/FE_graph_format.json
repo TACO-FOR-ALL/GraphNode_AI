@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "number",
+      "orig_id": "string",
+      "cluster_id": "string",
+      "cluster_name": "string",
+      "timestamp": "string | null",
+      "num_messages": "number"
+    }
+  ],
+  "edges": [
+    {
+      "source": "number",
+      "target": "number",
+      "weight": "number",
+      "type": "'hard' | 'insight'",
+      "intraCluster": "boolean"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "size": "number",
+      "themes": "string[]"
+    }
+  ],
+  "stats": {
+    "nodes": "number",
+    "edges": "number",
+    "clusters": "number"
+  }
+}

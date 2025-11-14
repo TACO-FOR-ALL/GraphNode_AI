@@ -1,0 +1,767 @@
+[
+  {
+    "title": "Data Visualization with D3.js",
+    "create_time": 1757800000,
+    "update_time": 1757800100,
+    "mapping": {
+      "conv1_id1": {
+        "id": "conv1_id1",
+        "message": {
+          "id": "conv1_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I'm learning D3.js. What's the best way to create a scatter plot with it?"
+            ]
+          }
+        },
+        "parent": null,
+        "children": ["conv1_id2"]
+      },
+      "conv1_id2": {
+        "id": "conv1_id2",
+        "message": {
+          "id": "conv1_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "You should use d3-scale for your axes and d3-force for a dynamic layout."
+            ]
+          }
+        },
+        "parent": "conv1_id1",
+        "children": ["conv1_id3"]
+      },
+      "conv1_id3": {
+        "id": "conv1_id3",
+        "message": {
+          "id": "conv1_id3",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["And how would I add tooltips to each data point?"]
+          }
+        },
+        "parent": "conv1_id2",
+        "children": ["conv1_id4"]
+      },
+      "conv1_id4": {
+        "id": "conv1_id4",
+        "message": {
+          "id": "conv1_id4",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "You can use event listeners like mouseover and mouseout to show and hide a custom HTML tooltip element."
+            ]
+          }
+        },
+        "parent": "conv1_id3",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Exploring Machine Learning",
+    "create_time": 1757800150,
+    "update_time": 1757800250,
+    "mapping": {
+      "conv2_id1": {
+        "id": "conv2_id1",
+        "message": {
+          "id": "conv2_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What's the difference between supervised and unsupervised learning?"
+            ]
+          }
+        },
+        "parent": null,
+        "children": ["conv2_id2"]
+      },
+      "conv2_id2": {
+        "id": "conv2_id2",
+        "message": {
+          "id": "conv2_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Supervised learning uses labeled data, while unsupervised learning works with unlabeled data to find patterns."
+            ]
+          }
+        },
+        "parent": "conv2_id1",
+        "children": ["conv2_id3"]
+      },
+      "conv2_id3": {
+        "id": "conv2_id3",
+        "message": {
+          "id": "conv2_id3",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Can you give me an example of an unsupervised learning algorithm?"
+            ]
+          }
+        },
+        "parent": "conv2_id2",
+        "children": ["conv2_id4"]
+      },
+      "conv2_id4": {
+        "id": "conv2_id4",
+        "message": {
+          "id": "conv2_id4",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Clustering algorithms like K-means are a common example of unsupervised learning."
+            ]
+          }
+        },
+        "parent": "conv2_id3",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Quantum Computing Basics",
+    "create_time": 1757800300,
+    "update_time": 1757800400,
+    "mapping": {
+      "conv3_id1": {
+        "id": "conv3_id1",
+        "message": {
+          "id": "conv3_id1",
+          "author": { "role": "user" },
+          "content": { "content_type": "text", "parts": ["What is a qubit?"] }
+        },
+        "parent": null,
+        "children": ["conv3_id2"]
+      },
+      "conv3_id2": {
+        "id": "conv3_id2",
+        "message": {
+          "id": "conv3_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A qubit is the basic unit of information in quantum computing, analogous to a bit in classical computing. Unlike a bit, it can exist in a superposition of both 0 and 1."
+            ]
+          }
+        },
+        "parent": "conv3_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Python Programming Help",
+    "create_time": 1757800450,
+    "update_time": 1757800550,
+    "mapping": {
+      "conv4_id1": {
+        "id": "conv4_id1",
+        "message": {
+          "id": "conv4_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["How do you handle exceptions in Python?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv4_id2"]
+      },
+      "conv4_id2": {
+        "id": "conv4_id2",
+        "message": {
+          "id": "conv4_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "You use a try...except block to catch and handle errors that occur during program execution."
+            ]
+          }
+        },
+        "parent": "conv4_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Web Development Basics",
+    "create_time": 1757800600,
+    "update_time": 1757800700,
+    "mapping": {
+      "conv5_id1": {
+        "id": "conv5_id1",
+        "message": {
+          "id": "conv5_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What are the main components of a website?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv5_id2"]
+      },
+      "conv5_id2": {
+        "id": "conv5_id2",
+        "message": {
+          "id": "conv5_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A typical website consists of HTML for structure, CSS for styling, and JavaScript for interactivity."
+            ]
+          }
+        },
+        "parent": "conv5_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Understanding Blockchain",
+    "create_time": 1757800750,
+    "update_time": 1757800850,
+    "mapping": {
+      "conv6_id1": {
+        "id": "conv6_id1",
+        "message": {
+          "id": "conv6_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["Explain how a blockchain works."]
+          }
+        },
+        "parent": null,
+        "children": ["conv6_id2"]
+      },
+      "conv6_id2": {
+        "id": "conv6_id2",
+        "message": {
+          "id": "conv6_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A blockchain is a decentralized digital ledger that records transactions across many computers, making it difficult to alter the data retroactively."
+            ]
+          }
+        },
+        "parent": "conv6_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Cloud Computing Concepts",
+    "create_time": 1757800900,
+    "update_time": 1757801000,
+    "mapping": {
+      "conv7_id1": {
+        "id": "conv7_id1",
+        "message": {
+          "id": "conv7_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What are the three main service models of cloud computing?"
+            ]
+          }
+        },
+        "parent": null,
+        "children": ["conv7_id2"]
+      },
+      "conv7_id2": {
+        "id": "conv7_id2",
+        "message": {
+          "id": "conv7_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The three main models are IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service)."
+            ]
+          }
+        },
+        "parent": "conv7_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "create_time": 1757801050,
+    "update_time": 1757801150,
+    "mapping": {
+      "conv8_id1": {
+        "id": "conv8_id1",
+        "message": {
+          "id": "conv8_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What is a phishing attack?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv8_id2"]
+      },
+      "conv8_id2": {
+        "id": "conv8_id2",
+        "message": {
+          "id": "conv8_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A phishing attack is a type of social engineering where an attacker sends a fraudulent message to trick a person into revealing sensitive information."
+            ]
+          }
+        },
+        "parent": "conv8_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Database Management",
+    "create_time": 1757801200,
+    "update_time": 1757801300,
+    "mapping": {
+      "conv9_id1": {
+        "id": "conv9_id1",
+        "message": {
+          "id": "conv9_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["Explain the difference between SQL and NoSQL databases."]
+          }
+        },
+        "parent": null,
+        "children": ["conv9_id2"]
+      },
+      "conv9_id2": {
+        "id": "conv9_id2",
+        "message": {
+          "id": "conv9_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "SQL databases are relational and use a structured query language, while NoSQL databases are non-relational and offer more flexible schemas."
+            ]
+          }
+        },
+        "parent": "conv9_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Software Development Life Cycle",
+    "create_time": 1757801350,
+    "update_time": 1757801450,
+    "mapping": {
+      "conv10_id1": {
+        "id": "conv10_id1",
+        "message": {
+          "id": "conv10_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What are the stages of the SDLC?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv10_id2"]
+      },
+      "conv10_id2": {
+        "id": "conv10_id2",
+        "message": {
+          "id": "conv10_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The stages typically include planning, analysis, design, implementation, testing, and maintenance."
+            ]
+          }
+        },
+        "parent": "conv10_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Introduction to APIs",
+    "create_time": 1757801500,
+    "update_time": 1757801600,
+    "mapping": {
+      "conv11_id1": {
+        "id": "conv11_id1",
+        "message": {
+          "id": "conv11_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What is an API and why is it important?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv11_id2"]
+      },
+      "conv11_id2": {
+        "id": "conv11_id2",
+        "message": {
+          "id": "conv11_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "An API (Application Programming Interface) allows different software systems to communicate with each other. It's crucial for building interconnected applications."
+            ]
+          }
+        },
+        "parent": "conv11_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "DevOps and CI/CD",
+    "create_time": 1757801650,
+    "update_time": 1757801750,
+    "mapping": {
+      "conv12_id1": {
+        "id": "conv12_id1",
+        "message": {
+          "id": "conv12_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What is a CI/CD pipeline?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv12_id2"]
+      },
+      "conv12_id2": {
+        "id": "conv12_id2",
+        "message": {
+          "id": "conv12_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "CI/CD stands for Continuous Integration/Continuous Delivery, and it is a set of practices used to automate the software development process."
+            ]
+          }
+        },
+        "parent": "conv12_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Agile Software Development",
+    "create_time": 1757801800,
+    "update_time": 1757801900,
+    "mapping": {
+      "conv13_id1": {
+        "id": "conv13_id1",
+        "message": {
+          "id": "conv13_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What are the key principles of the Agile Manifesto?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv13_id2"]
+      },
+      "conv13_id2": {
+        "id": "conv13_id2",
+        "message": {
+          "id": "conv13_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Key principles include prioritizing individuals and interactions over processes, and responding to change over following a plan."
+            ]
+          }
+        },
+        "parent": "conv13_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Front-end vs Back-end",
+    "create_time": 1757801950,
+    "update_time": 1757802050,
+    "mapping": {
+      "conv14_id1": {
+        "id": "conv14_id1",
+        "message": {
+          "id": "conv14_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What is the difference between front-end and back-end development?"
+            ]
+          }
+        },
+        "parent": null,
+        "children": ["conv14_id2"]
+      },
+      "conv14_id2": {
+        "id": "conv14_id2",
+        "message": {
+          "id": "conv14_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Front-end development focuses on the user interface and user experience, while back-end development handles server-side logic and databases."
+            ]
+          }
+        },
+        "parent": "conv14_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Mobile App Development",
+    "create_time": 1757802100,
+    "update_time": 1757802200,
+    "mapping": {
+      "conv15_id1": {
+        "id": "conv15_id1",
+        "message": {
+          "id": "conv15_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What's the difference between native and cross-platform mobile apps?"
+            ]
+          }
+        },
+        "parent": null,
+        "children": ["conv15_id2"]
+      },
+      "conv15_id2": {
+        "id": "conv15_id2",
+        "message": {
+          "id": "conv15_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Native apps are built for a specific platform (iOS or Android), while cross-platform apps can run on both using a single codebase."
+            ]
+          }
+        },
+        "parent": "conv15_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Machine Learning Models",
+    "create_time": 1757802250,
+    "update_time": 1757802350,
+    "mapping": {
+      "conv16_id1": {
+        "id": "conv16_id1",
+        "message": {
+          "id": "conv16_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["How does a convolutional neural network (CNN) work?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv16_id2"]
+      },
+      "conv16_id2": {
+        "id": "conv16_id2",
+        "message": {
+          "id": "conv16_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A CNN is a type of deep learning model that is primarily used for image recognition. It works by applying convolutional filters to input data to learn features."
+            ]
+          }
+        },
+        "parent": "conv16_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Natural Language Processing (NLP)",
+    "create_time": 1757802400,
+    "update_time": 1757802500,
+    "mapping": {
+      "conv17_id1": {
+        "id": "conv17_id1",
+        "message": {
+          "id": "conv17_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What is tokenization in NLP?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv17_id2"]
+      },
+      "conv17_id2": {
+        "id": "conv17_id2",
+        "message": {
+          "id": "conv17_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Tokenization is the process of breaking down a text into smaller units called tokens, such as words or subwords."
+            ]
+          }
+        },
+        "parent": "conv17_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Introduction to Git",
+    "create_time": 1757802550,
+    "update_time": 1757802650,
+    "mapping": {
+      "conv18_id1": {
+        "id": "conv18_id1",
+        "message": {
+          "id": "conv18_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["How do I use Git to manage my code?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv18_id2"]
+      },
+      "conv18_id2": {
+        "id": "conv18_id2",
+        "message": {
+          "id": "conv18_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Git is a version control system. You can use commands like `git add`, `git commit`, and `git push` to track and save changes."
+            ]
+          }
+        },
+        "parent": "conv18_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Understanding Kubernetes",
+    "create_time": 1757802700,
+    "update_time": 1757802800,
+    "mapping": {
+      "conv19_id1": {
+        "id": "conv19_id1",
+        "message": {
+          "id": "conv19_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What is Kubernetes used for?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv19_id2"]
+      },
+      "conv19_id2": {
+        "id": "conv19_id2",
+        "message": {
+          "id": "conv19_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications."
+            ]
+          }
+        },
+        "parent": "conv19_id1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "UI/UX Design Principles",
+    "create_time": 1757802850,
+    "update_time": 1757802950,
+    "mapping": {
+      "conv20_id1": {
+        "id": "conv20_id1",
+        "message": {
+          "id": "conv20_id1",
+          "author": { "role": "user" },
+          "content": {
+            "content_type": "text",
+            "parts": ["What are some key principles of UI/UX design?"]
+          }
+        },
+        "parent": null,
+        "children": ["conv20_id2"]
+      },
+      "conv20_id2": {
+        "id": "conv20_id2",
+        "message": {
+          "id": "conv20_id2",
+          "author": { "role": "assistant" },
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Key principles include clarity, consistency, and a focus on the user's journey. Use a design system to maintain consistency."
+            ]
+          }
+        },
+        "parent": "conv20_id1",
+        "children": []
+      }
+    }
+  }
+]
