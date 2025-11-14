@@ -1,0 +1,7246 @@
+{
+  "edges": [
+    {
+      "source": 0,
+      "target": 9,
+      "weight": 0.850161075592041,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "weight": 0.9157261848449707,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 27,
+      "weight": 0.8523446321487427,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 34,
+      "weight": 0.8533757328987122,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 37,
+      "weight": 0.821501612663269,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 39,
+      "weight": 0.8405436277389526,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 40,
+      "weight": 0.8246415257453918,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 45,
+      "weight": 0.8172793388366699,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 50,
+      "weight": 0.8048034906387329,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 85,
+      "weight": 0.8397889137268066,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 87,
+      "weight": 0.820209264755249,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 88,
+      "weight": 0.8527494668960571,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 158,
+      "weight": 0.8200114965438843,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 165,
+      "weight": 0.8040123581886292,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 244,
+      "weight": 0.8014965653419495,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 253,
+      "weight": 0.8000116348266602,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 325,
+      "weight": 0.8265587091445923,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 347,
+      "weight": 0.842319130897522,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 350,
+      "weight": 0.8173729181289673,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 363,
+      "weight": 0.8393727540969849,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 0,
+      "target": 372,
+      "weight": 0.8264939785003662,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "weight": 0.8816400170326233,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "weight": 0.8103336095809937,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "weight": 0.8764568567276001,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 27,
+      "weight": 0.8779803514480591,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 34,
+      "weight": 0.853655219078064,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 37,
+      "weight": 0.8299944400787354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 39,
+      "weight": 0.8452132940292358,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 40,
+      "weight": 0.8358455896377563,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 45,
+      "weight": 0.8048807382583618,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 50,
+      "weight": 0.8033303022384644,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 85,
+      "weight": 0.8034083843231201,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 88,
+      "weight": 0.8037739992141724,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 101,
+      "weight": 0.8064925074577332,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 244,
+      "weight": 0.8399378657341003,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 325,
+      "weight": 0.8120626211166382,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 347,
+      "weight": 0.8202706575393677,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 9,
+      "target": 350,
+      "weight": 0.8034411668777466,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 12,
+      "target": 13,
+      "weight": 0.8410701751708984,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 13,
+      "target": 19,
+      "weight": 0.8236393332481384,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "weight": 0.8000412583351135,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 16,
+      "target": 94,
+      "weight": 0.8045580983161926,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "weight": 0.9025848507881165,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 20,
+      "weight": 0.814536452293396,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "weight": 0.8358539938926697,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 22,
+      "weight": 0.8736913204193115,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 25,
+      "weight": 0.8614090085029602,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 50,
+      "weight": 0.8776378631591797,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 51,
+      "weight": 0.8102242946624756,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 55,
+      "weight": 0.8438445329666138,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 87,
+      "weight": 0.8170585036277771,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 94,
+      "weight": 0.8403781652450562,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 132,
+      "weight": 0.8767309188842773,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 196,
+      "weight": 0.8078613877296448,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 250,
+      "weight": 0.8081212043762207,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 251,
+      "weight": 0.80242919921875,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 274,
+      "weight": 0.8186321258544922,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 325,
+      "weight": 0.8119382858276367,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 347,
+      "weight": 0.8226265907287598,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 349,
+      "weight": 0.8489020466804504,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 17,
+      "target": 374,
+      "weight": 0.8164923191070557,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 21,
+      "weight": 0.8091421127319336,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 22,
+      "weight": 0.8654536008834839,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 23,
+      "weight": 0.8349679112434387,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 25,
+      "weight": 0.9305496215820312,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 47,
+      "weight": 0.8325783610343933,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 48,
+      "weight": 0.8570224046707153,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 50,
+      "weight": 0.8384661078453064,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 51,
+      "weight": 0.8843224048614502,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 55,
+      "weight": 0.892554759979248,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 56,
+      "weight": 0.8704578280448914,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 60,
+      "weight": 0.8207294940948486,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 62,
+      "weight": 0.8514646887779236,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 64,
+      "weight": 0.843641996383667,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 68,
+      "weight": 0.8075147867202759,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 70,
+      "weight": 0.8361527919769287,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 71,
+      "weight": 0.8194989562034607,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 74,
+      "weight": 0.8254817724227905,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 75,
+      "weight": 0.8411550521850586,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 87,
+      "weight": 0.8116855025291443,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 94,
+      "weight": 0.8580114841461182,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 126,
+      "weight": 0.8225188255310059,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 132,
+      "weight": 0.8503134250640869,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 133,
+      "weight": 0.8617744445800781,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 196,
+      "weight": 0.8153125047683716,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 274,
+      "weight": 0.8040950298309326,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 18,
+      "target": 349,
+      "weight": 0.8438916206359863,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "weight": 0.8700544834136963,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 27,
+      "weight": 0.8240742683410645,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 40,
+      "weight": 0.8397742509841919,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 50,
+      "weight": 0.8503057956695557,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 99,
+      "weight": 0.8815551996231079,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 19,
+      "target": 100,
+      "weight": 0.840530276298523,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 20,
+      "target": 22,
+      "weight": 0.8104972839355469,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 20,
+      "target": 50,
+      "weight": 0.840613603591919,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "weight": 0.8695294260978699,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 27,
+      "weight": 0.8917401432991028,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 34,
+      "weight": 0.8779559135437012,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 37,
+      "weight": 0.8339335918426514,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 39,
+      "weight": 0.8602744340896606,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 40,
+      "weight": 0.8740332722663879,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 45,
+      "weight": 0.8715198040008545,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 50,
+      "weight": 0.8760849833488464,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 85,
+      "weight": 0.8134088516235352,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 87,
+      "weight": 0.8528643846511841,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 88,
+      "weight": 0.8140968084335327,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 94,
+      "weight": 0.807097315788269,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 99,
+      "weight": 0.8655263185501099,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 101,
+      "weight": 0.8169983625411987,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 103,
+      "weight": 0.8195680975914001,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 132,
+      "weight": 0.8216807842254639,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 158,
+      "weight": 0.829836905002594,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 165,
+      "weight": 0.8150416612625122,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 196,
+      "weight": 0.8291720151901245,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 244,
+      "weight": 0.8342505693435669,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 251,
+      "weight": 0.811258852481842,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 274,
+      "weight": 0.818086564540863,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 325,
+      "weight": 0.8649831414222717,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 347,
+      "weight": 0.8883301019668579,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 349,
+      "weight": 0.8421480059623718,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 21,
+      "target": 363,
+      "weight": 0.8240784406661987,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 25,
+      "weight": 0.8547390699386597,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 27,
+      "weight": 0.8269273042678833,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 34,
+      "weight": 0.820464015007019,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 45,
+      "weight": 0.8058919310569763,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 50,
+      "weight": 0.864018976688385,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 51,
+      "weight": 0.8313430547714233,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 55,
+      "weight": 0.8212578892707825,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 62,
+      "weight": 0.8075875043869019,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 70,
+      "weight": 0.8048263788223267,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 87,
+      "weight": 0.8152827620506287,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 94,
+      "weight": 0.8357006311416626,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 126,
+      "weight": 0.8010716438293457,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 347,
+      "weight": 0.8097670078277588,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 22,
+      "target": 349,
+      "weight": 0.829267680644989,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 23,
+      "target": 25,
+      "weight": 0.9034227132797241,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 23,
+      "target": 94,
+      "weight": 0.817238450050354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 47,
+      "weight": 0.8164513111114502,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 48,
+      "weight": 0.8465512990951538,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 50,
+      "weight": 0.8108115196228027,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 51,
+      "weight": 0.8599547147750854,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 55,
+      "weight": 0.8582437038421631,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 56,
+      "weight": 0.859726071357727,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 60,
+      "weight": 0.800562858581543,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 62,
+      "weight": 0.834234356880188,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 64,
+      "weight": 0.8433407545089722,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 68,
+      "weight": 0.8030266761779785,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 70,
+      "weight": 0.8195348381996155,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 74,
+      "weight": 0.8364719152450562,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 75,
+      "weight": 0.8353164196014404,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 87,
+      "weight": 0.8148045539855957,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 94,
+      "weight": 0.8683602809906006,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 126,
+      "weight": 0.8132343292236328,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 132,
+      "weight": 0.8345624804496765,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 133,
+      "weight": 0.8488326668739319,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 347,
+      "weight": 0.8009462356567383,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 25,
+      "target": 349,
+      "weight": 0.83182692527771,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 34,
+      "weight": 0.8970955610275269,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 37,
+      "weight": 0.8582633137702942,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 39,
+      "weight": 0.8921555280685425,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 40,
+      "weight": 0.8995965719223022,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 43,
+      "weight": 0.8089660406112671,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 45,
+      "weight": 0.8019591569900513,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 50,
+      "weight": 0.883144736289978,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 85,
+      "weight": 0.802467942237854,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 87,
+      "weight": 0.8287822008132935,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 145,
+      "weight": 0.8023124933242798,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 158,
+      "weight": 0.837052583694458,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 165,
+      "weight": 0.8357243537902832,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 194,
+      "weight": 0.8159176111221313,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 198,
+      "weight": 0.8305699825286865,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 203,
+      "weight": 0.8123786449432373,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 244,
+      "weight": 0.8568689823150635,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 250,
+      "weight": 0.8347957134246826,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 251,
+      "weight": 0.8332126140594482,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 271,
+      "weight": 0.808234453201294,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 325,
+      "weight": 0.8208020329475403,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 347,
+      "weight": 0.855467677116394,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 359,
+      "weight": 0.8049395680427551,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 27,
+      "target": 363,
+      "weight": 0.8311852216720581,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 31,
+      "target": 32,
+      "weight": 0.8686158657073975,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "weight": 0.829541802406311,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 36,
+      "weight": 0.875307559967041,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 37,
+      "weight": 0.9567232131958008,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 39,
+      "weight": 0.9754559993743896,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 40,
+      "weight": 0.9209058284759521,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 43,
+      "weight": 0.8438237905502319,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 45,
+      "weight": 0.8060367703437805,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 50,
+      "weight": 0.845028281211853,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 87,
+      "weight": 0.8019208908081055,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 98,
+      "weight": 0.812218189239502,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 145,
+      "weight": 0.8111220598220825,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 158,
+      "weight": 0.836456298828125,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 162,
+      "weight": 0.8282564878463745,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 165,
+      "weight": 0.8573636412620544,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 180,
+      "weight": 0.827606201171875,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 182,
+      "weight": 0.8223105669021606,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 194,
+      "weight": 0.8547458648681641,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 198,
+      "weight": 0.820184588432312,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 203,
+      "weight": 0.8441013693809509,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 244,
+      "weight": 0.8681427836418152,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 270,
+      "weight": 0.8299318552017212,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 271,
+      "weight": 0.8595740795135498,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 325,
+      "weight": 0.8231252431869507,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 347,
+      "weight": 0.8405406475067139,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 359,
+      "weight": 0.8466609120368958,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 34,
+      "target": 363,
+      "weight": 0.8457598686218262,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 37,
+      "weight": 0.8673697710037231,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 39,
+      "weight": 0.8713717460632324,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 40,
+      "weight": 0.869430661201477,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 145,
+      "weight": 0.8012285232543945,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 149,
+      "weight": 0.8269913196563721,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 162,
+      "weight": 0.8001554608345032,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 182,
+      "weight": 0.8510028123855591,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 194,
+      "weight": 0.8192558884620667,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 198,
+      "weight": 0.8290504813194275,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 200,
+      "weight": 0.8203080892562866,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 203,
+      "weight": 0.830386757850647,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 244,
+      "weight": 0.8023958206176758,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 271,
+      "weight": 0.8462384939193726,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 273,
+      "weight": 0.8134013414382935,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 359,
+      "weight": 0.8227030634880066,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 36,
+      "target": 363,
+      "weight": 0.840957522392273,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 39,
+      "weight": 0.9593740105628967,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 40,
+      "weight": 0.9087469577789307,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 43,
+      "weight": 0.8166056871414185,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 158,
+      "weight": 0.8135635852813721,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 165,
+      "weight": 0.8055805563926697,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 182,
+      "weight": 0.8215707540512085,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 194,
+      "weight": 0.8032351732254028,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 203,
+      "weight": 0.8093593120574951,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 210,
+      "weight": 0.8050205707550049,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 244,
+      "weight": 0.8314862251281738,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 270,
+      "weight": 0.8074162006378174,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 271,
+      "weight": 0.8242015838623047,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 359,
+      "weight": 0.8477676510810852,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 360,
+      "weight": 0.8212474584579468,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 37,
+      "target": 363,
+      "weight": 0.8109502792358398,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 38,
+      "target": 176,
+      "weight": 0.8885768055915833,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 40,
+      "weight": 0.9232744574546814,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 43,
+      "weight": 0.8345968723297119,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 50,
+      "weight": 0.8232331275939941,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 145,
+      "weight": 0.8046834468841553,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 158,
+      "weight": 0.8223463296890259,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 162,
+      "weight": 0.8190096616744995,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 165,
+      "weight": 0.8404364585876465,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 180,
+      "weight": 0.8091737031936646,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 182,
+      "weight": 0.8443347811698914,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 194,
+      "weight": 0.8361040353775024,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 198,
+      "weight": 0.8302352428436279,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 203,
+      "weight": 0.8303269147872925,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 244,
+      "weight": 0.8702029585838318,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 270,
+      "weight": 0.8133072257041931,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 271,
+      "weight": 0.8405449390411377,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 325,
+      "weight": 0.8014748096466064,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 347,
+      "weight": 0.8248386383056641,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 359,
+      "weight": 0.8529084920883179,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 39,
+      "target": 363,
+      "weight": 0.8426357507705688,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 43,
+      "weight": 0.8470476269721985,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 45,
+      "weight": 0.8286095857620239,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 50,
+      "weight": 0.8729971647262573,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 87,
+      "weight": 0.8073986768722534,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 99,
+      "weight": 0.803543210029602,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 101,
+      "weight": 0.8330050706863403,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 145,
+      "weight": 0.8349622488021851,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 158,
+      "weight": 0.8182510137557983,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 162,
+      "weight": 0.8169500827789307,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 165,
+      "weight": 0.8318713903427124,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 180,
+      "weight": 0.8089398145675659,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 182,
+      "weight": 0.8773517608642578,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 193,
+      "weight": 0.8234349489212036,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 194,
+      "weight": 0.8210225105285645,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 198,
+      "weight": 0.86137855052948,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 200,
+      "weight": 0.8401549458503723,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 203,
+      "weight": 0.8709012269973755,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 244,
+      "weight": 0.8810042142868042,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 251,
+      "weight": 0.8281406164169312,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 270,
+      "weight": 0.8110752105712891,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 271,
+      "weight": 0.8606213331222534,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 325,
+      "weight": 0.8289884328842163,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 347,
+      "weight": 0.8588905930519104,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 349,
+      "weight": 0.803972065448761,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 359,
+      "weight": 0.8775149583816528,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 40,
+      "target": 363,
+      "weight": 0.8588535785675049,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 42,
+      "target": 43,
+      "weight": 0.812400221824646,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 42,
+      "target": 83,
+      "weight": 0.8100218176841736,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 43,
+      "target": 165,
+      "weight": 0.8307690024375916,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 43,
+      "target": 244,
+      "weight": 0.8486764430999756,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 43,
+      "target": 359,
+      "weight": 0.808234453201294,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 45,
+      "target": 50,
+      "weight": 0.8266646862030029,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 45,
+      "target": 138,
+      "weight": 0.8192921876907349,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 45,
+      "target": 325,
+      "weight": 0.8098518252372742,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 45,
+      "target": 347,
+      "weight": 0.8589639067649841,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 45,
+      "target": 349,
+      "weight": 0.805705189704895,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 48,
+      "weight": 0.869468092918396,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 50,
+      "weight": 0.8118258714675903,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 51,
+      "weight": 0.8660229444503784,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 55,
+      "weight": 0.8328107595443726,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 56,
+      "weight": 0.8558222055435181,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 62,
+      "weight": 0.8403725624084473,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 64,
+      "weight": 0.8417867422103882,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 70,
+      "weight": 0.8160659074783325,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 71,
+      "weight": 0.8161187171936035,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 74,
+      "weight": 0.8262203335762024,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 75,
+      "weight": 0.8815402984619141,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 126,
+      "weight": 0.8380672335624695,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 47,
+      "target": 133,
+      "weight": 0.8132340908050537,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 51,
+      "weight": 0.9464688301086426,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 53,
+      "weight": 0.8101390600204468,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 55,
+      "weight": 0.8782587051391602,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 56,
+      "weight": 0.9631013870239258,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 60,
+      "weight": 0.9132722020149231,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 61,
+      "weight": 0.8380398750305176,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 62,
+      "weight": 0.9337189197540283,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 64,
+      "weight": 0.8861548900604248,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 65,
+      "weight": 0.8005577921867371,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 68,
+      "weight": 0.8587651252746582,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 70,
+      "weight": 0.8343461751937866,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 71,
+      "weight": 0.8060187697410583,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 72,
+      "weight": 0.8066249489784241,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 74,
+      "weight": 0.8697662353515625,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 75,
+      "weight": 0.9444732666015625,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 126,
+      "weight": 0.8497305512428284,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 133,
+      "weight": 0.8665981292724609,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 48,
+      "target": 249,
+      "weight": 0.8481916189193726,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 51,
+      "weight": 0.8274773359298706,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 55,
+      "weight": 0.8299920558929443,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 87,
+      "weight": 0.8729816675186157,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 94,
+      "weight": 0.8098716735839844,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 103,
+      "weight": 0.8199973106384277,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 132,
+      "weight": 0.8642789721488953,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 165,
+      "weight": 0.8018033504486084,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 184,
+      "weight": 0.8045699596405029,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 196,
+      "weight": 0.8596575260162354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 244,
+      "weight": 0.8210575580596924,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 250,
+      "weight": 0.8756342530250549,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 251,
+      "weight": 0.8640151619911194,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 274,
+      "weight": 0.8757503032684326,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 325,
+      "weight": 0.853647768497467,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 346,
+      "weight": 0.8051949739456177,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 347,
+      "weight": 0.879347562789917,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 349,
+      "weight": 0.8993750810623169,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 50,
+      "target": 363,
+      "weight": 0.8034005165100098,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 55,
+      "weight": 0.9265164136886597,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 56,
+      "weight": 0.9631879329681396,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 60,
+      "weight": 0.9224545955657959,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 61,
+      "weight": 0.8430640697479248,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 62,
+      "weight": 0.9309443235397339,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 64,
+      "weight": 0.8842871189117432,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 65,
+      "weight": 0.8162131309509277,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 68,
+      "weight": 0.9088424444198608,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 70,
+      "weight": 0.874042272567749,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 71,
+      "weight": 0.8326319456100464,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 74,
+      "weight": 0.8848428726196289,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 75,
+      "weight": 0.8983757495880127,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 126,
+      "weight": 0.8537665009498596,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 133,
+      "weight": 0.901421070098877,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 249,
+      "weight": 0.8511436581611633,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 51,
+      "target": 349,
+      "weight": 0.8259910345077515,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 53,
+      "target": 64,
+      "weight": 0.8326576948165894,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 53,
+      "target": 74,
+      "weight": 0.8142409324645996,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 56,
+      "weight": 0.9114708304405212,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 60,
+      "weight": 0.8845638036727905,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 62,
+      "weight": 0.8959460258483887,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 64,
+      "weight": 0.8601462841033936,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 68,
+      "weight": 0.8923717737197876,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 70,
+      "weight": 0.8860399723052979,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 71,
+      "weight": 0.8863835334777832,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 74,
+      "weight": 0.8999189138412476,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 75,
+      "weight": 0.857755720615387,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 83,
+      "weight": 0.817447304725647,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 87,
+      "weight": 0.801274299621582,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 94,
+      "weight": 0.8033461570739746,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 126,
+      "weight": 0.8198821544647217,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 132,
+      "weight": 0.8245748281478882,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 133,
+      "weight": 0.885467529296875,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 249,
+      "weight": 0.806668758392334,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 55,
+      "target": 349,
+      "weight": 0.8060482740402222,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 60,
+      "weight": 0.9505670666694641,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 61,
+      "weight": 0.8860994577407837,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 62,
+      "weight": 0.9607645273208618,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 64,
+      "weight": 0.8941857218742371,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 65,
+      "weight": 0.8175704479217529,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 68,
+      "weight": 0.8857640624046326,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 70,
+      "weight": 0.852432370185852,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 71,
+      "weight": 0.8214631080627441,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 72,
+      "weight": 0.8050541877746582,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 74,
+      "weight": 0.8941628336906433,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 75,
+      "weight": 0.9136126041412354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 126,
+      "weight": 0.8380031585693359,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 133,
+      "weight": 0.8744686841964722,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 56,
+      "target": 249,
+      "weight": 0.8767104148864746,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 61,
+      "weight": 0.8555526733398438,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 62,
+      "weight": 0.911780595779419,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 64,
+      "weight": 0.8415574431419373,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 68,
+      "weight": 0.8866603374481201,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 70,
+      "weight": 0.805634617805481,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 74,
+      "weight": 0.8411424160003662,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 75,
+      "weight": 0.8775466084480286,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 133,
+      "weight": 0.8523620367050171,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 60,
+      "target": 249,
+      "weight": 0.8555454015731812,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 61,
+      "target": 62,
+      "weight": 0.9139323234558105,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 61,
+      "target": 64,
+      "weight": 0.850900411605835,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 61,
+      "target": 74,
+      "weight": 0.8150006532669067,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 61,
+      "target": 75,
+      "weight": 0.8418871164321899,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 61,
+      "target": 249,
+      "weight": 0.8851882219314575,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 64,
+      "weight": 0.9250417947769165,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 65,
+      "weight": 0.8406332731246948,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 68,
+      "weight": 0.8092958927154541,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 70,
+      "weight": 0.8725858330726624,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 71,
+      "weight": 0.8504036664962769,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 74,
+      "weight": 0.9145140647888184,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 75,
+      "weight": 0.919194221496582,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 126,
+      "weight": 0.8490616083145142,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 133,
+      "weight": 0.8562270402908325,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 62,
+      "target": 249,
+      "weight": 0.8990364074707031,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 65,
+      "weight": 0.816466212272644,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 70,
+      "weight": 0.8734191656112671,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 71,
+      "weight": 0.8416820764541626,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 72,
+      "weight": 0.8455601930618286,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 74,
+      "weight": 0.9177939891815186,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 75,
+      "weight": 0.8961654901504517,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 77,
+      "weight": 0.8130419850349426,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 126,
+      "weight": 0.8531092405319214,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 133,
+      "weight": 0.8250494003295898,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 64,
+      "target": 249,
+      "weight": 0.8495666980743408,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 65,
+      "target": 70,
+      "weight": 0.8176488280296326,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 65,
+      "target": 74,
+      "weight": 0.8387061357498169,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 65,
+      "target": 249,
+      "weight": 0.8055521845817566,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 68,
+      "target": 133,
+      "weight": 0.8720369935035706,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 71,
+      "weight": 0.8663090467453003,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 74,
+      "weight": 0.8667467832565308,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 75,
+      "weight": 0.8378576636314392,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 94,
+      "weight": 0.8221582174301147,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 126,
+      "weight": 0.8050324320793152,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 132,
+      "weight": 0.8312826156616211,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 133,
+      "weight": 0.8089412450790405,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 70,
+      "target": 349,
+      "weight": 0.8133849501609802,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 71,
+      "target": 74,
+      "weight": 0.8893706798553467,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 71,
+      "target": 75,
+      "weight": 0.832309365272522,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 71,
+      "target": 133,
+      "weight": 0.8068243265151978,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 72,
+      "target": 126,
+      "weight": 0.8168816566467285,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 74,
+      "target": 75,
+      "weight": 0.8695160150527954,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 74,
+      "target": 126,
+      "weight": 0.8239595890045166,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 74,
+      "target": 133,
+      "weight": 0.8348002433776855,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 74,
+      "target": 249,
+      "weight": 0.8482779264450073,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 75,
+      "target": 77,
+      "weight": 0.8351846933364868,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 75,
+      "target": 126,
+      "weight": 0.8524952530860901,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 75,
+      "target": 133,
+      "weight": 0.8349772691726685,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 75,
+      "target": 249,
+      "weight": 0.83186936378479,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 76,
+      "target": 221,
+      "weight": 0.9131041765213013,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 76,
+      "target": 228,
+      "weight": 0.8229838609695435,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 76,
+      "target": 237,
+      "weight": 0.8321252465248108,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 76,
+      "target": 260,
+      "weight": 0.8386020660400391,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 80,
+      "target": 102,
+      "weight": 0.9374852180480957,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 81,
+      "target": 83,
+      "weight": 0.800690770149231,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 85,
+      "target": 87,
+      "weight": 0.8263221979141235,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 85,
+      "target": 88,
+      "weight": 0.8336442708969116,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 85,
+      "target": 363,
+      "weight": 0.836677610874176,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 86,
+      "target": 363,
+      "weight": 0.8029366731643677,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 86,
+      "target": 368,
+      "weight": 0.8217998743057251,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 88,
+      "weight": 0.8188790082931519,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 94,
+      "weight": 0.8474007844924927,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 103,
+      "weight": 0.8122223615646362,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 113,
+      "weight": 0.818062961101532,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 120,
+      "weight": 0.811477541923523,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 132,
+      "weight": 0.8626782894134521,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 146,
+      "weight": 0.8012382984161377,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 196,
+      "weight": 0.8215820789337158,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 250,
+      "weight": 0.8227449655532837,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 251,
+      "weight": 0.8175973296165466,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 274,
+      "weight": 0.8508355021476746,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 325,
+      "weight": 0.8290488719940186,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 346,
+      "weight": 0.8152744770050049,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 347,
+      "weight": 0.8847901821136475,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 349,
+      "weight": 0.8604346513748169,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 87,
+      "target": 363,
+      "weight": 0.8360841274261475,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 88,
+      "target": 350,
+      "weight": 0.842564582824707,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 88,
+      "target": 363,
+      "weight": 0.8051681518554688,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 92,
+      "target": 96,
+      "weight": 0.8466587662696838,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 92,
+      "target": 350,
+      "weight": 0.8060917854309082,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 94,
+      "target": 131,
+      "weight": 0.8037174940109253,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 94,
+      "target": 132,
+      "weight": 0.853965163230896,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 94,
+      "target": 274,
+      "weight": 0.8222863674163818,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 94,
+      "target": 347,
+      "weight": 0.8120523691177368,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 94,
+      "target": 349,
+      "weight": 0.8187984824180603,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 96,
+      "target": 368,
+      "weight": 0.8350976705551147,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 97,
+      "target": 113,
+      "weight": 0.8300683498382568,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 97,
+      "target": 147,
+      "weight": 0.8049079179763794,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 98,
+      "target": 194,
+      "weight": 0.8419845700263977,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 98,
+      "target": 271,
+      "weight": 0.8064292669296265,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 99,
+      "target": 100,
+      "weight": 0.8053674101829529,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 99,
+      "target": 101,
+      "weight": 0.8539615869522095,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 103,
+      "target": 184,
+      "weight": 0.8018757104873657,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 103,
+      "target": 196,
+      "weight": 0.8067649602890015,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 103,
+      "target": 250,
+      "weight": 0.8025891780853271,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 103,
+      "target": 325,
+      "weight": 0.8437011241912842,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 103,
+      "target": 347,
+      "weight": 0.8323273658752441,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 107,
+      "target": 177,
+      "weight": 0.8745263814926147,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 110,
+      "target": 117,
+      "weight": 0.9013316631317139,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 110,
+      "target": 122,
+      "weight": 0.876298189163208,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 110,
+      "target": 130,
+      "weight": 0.9215277433395386,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 113,
+      "target": 146,
+      "weight": 0.808677613735199,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 113,
+      "target": 147,
+      "weight": 0.8410705924034119,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 113,
+      "target": 274,
+      "weight": 0.800728440284729,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 113,
+      "target": 346,
+      "weight": 0.8101538419723511,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 115,
+      "target": 351,
+      "weight": 0.8239851593971252,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 116,
+      "target": 149,
+      "weight": 0.8248279094696045,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 117,
+      "target": 122,
+      "weight": 0.8560017347335815,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 117,
+      "target": 130,
+      "weight": 0.9219330549240112,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 132,
+      "weight": 0.8520917892456055,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 184,
+      "weight": 0.8053580522537231,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 325,
+      "weight": 0.80368971824646,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 347,
+      "weight": 0.806690514087677,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 349,
+      "weight": 0.8035037517547607,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 120,
+      "target": 351,
+      "weight": 0.8527092933654785,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 122,
+      "target": 130,
+      "weight": 0.8425674438476562,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 126,
+      "target": 127,
+      "weight": 0.8718728423118591,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 126,
+      "target": 133,
+      "weight": 0.8285110592842102,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 147,
+      "weight": 0.8635143041610718,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 184,
+      "weight": 0.8035528659820557,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 196,
+      "weight": 0.8613536357879639,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 251,
+      "weight": 0.8034623265266418,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 274,
+      "weight": 0.8734167218208313,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 325,
+      "weight": 0.8526945114135742,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 347,
+      "weight": 0.8746548295021057,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 349,
+      "weight": 0.9014176726341248,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 132,
+      "target": 351,
+      "weight": 0.8282999992370605,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 133,
+      "target": 249,
+      "weight": 0.8018002510070801,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 133,
+      "target": 349,
+      "weight": 0.8038511276245117,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 138,
+      "target": 347,
+      "weight": 0.8024100065231323,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 180,
+      "weight": 0.8340908885002136,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 198,
+      "weight": 0.87236088514328,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 200,
+      "weight": 0.8128180503845215,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 203,
+      "weight": 0.8042570948600769,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 244,
+      "weight": 0.8719147443771362,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 271,
+      "weight": 0.8197232484817505,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 359,
+      "weight": 0.8001073598861694,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 145,
+      "target": 363,
+      "weight": 0.8061302900314331,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 147,
+      "weight": 0.8016562461853027,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 253,
+      "weight": 0.807645857334137,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 274,
+      "weight": 0.8214643597602844,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 346,
+      "weight": 0.8492591381072998,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 347,
+      "weight": 0.8502243757247925,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 349,
+      "weight": 0.8012953996658325,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 146,
+      "target": 363,
+      "weight": 0.828571081161499,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 147,
+      "target": 196,
+      "weight": 0.8027006387710571,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 147,
+      "target": 274,
+      "weight": 0.821590781211853,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 147,
+      "target": 347,
+      "weight": 0.80733722448349,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 147,
+      "target": 349,
+      "weight": 0.8286679983139038,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 148,
+      "target": 193,
+      "weight": 0.8547326326370239,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 148,
+      "target": 197,
+      "weight": 0.8046979904174805,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 148,
+      "target": 203,
+      "weight": 0.8018275499343872,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 148,
+      "target": 271,
+      "weight": 0.8059177994728088,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 162,
+      "weight": 0.8060914874076843,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 194,
+      "weight": 0.8445394039154053,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 198,
+      "weight": 0.8303338289260864,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 200,
+      "weight": 0.8872619271278381,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 203,
+      "weight": 0.8397578597068787,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 270,
+      "weight": 0.833834171295166,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 271,
+      "weight": 0.8701303005218506,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 273,
+      "weight": 0.8181555271148682,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 359,
+      "weight": 0.8237440586090088,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 149,
+      "target": 363,
+      "weight": 0.8765252828598022,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 150,
+      "target": 151,
+      "weight": 0.848397970199585,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 152,
+      "target": 153,
+      "weight": 0.8935528993606567,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 152,
+      "target": 161,
+      "weight": 0.8726357221603394,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 153,
+      "target": 161,
+      "weight": 0.9073325395584106,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 157,
+      "target": 162,
+      "weight": 0.8042886257171631,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 157,
+      "target": 200,
+      "weight": 0.810692310333252,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 157,
+      "target": 203,
+      "weight": 0.8089380264282227,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 157,
+      "target": 271,
+      "weight": 0.8003256916999817,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 158,
+      "target": 165,
+      "weight": 0.8416268229484558,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 158,
+      "target": 325,
+      "weight": 0.8144611120223999,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 161,
+      "target": 196,
+      "weight": 0.801228404045105,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 165,
+      "weight": 0.8056313991546631,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 193,
+      "weight": 0.8431118726730347,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 194,
+      "weight": 0.869813084602356,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 200,
+      "weight": 0.8402798175811768,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 203,
+      "weight": 0.863324761390686,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 244,
+      "weight": 0.8170704245567322,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 270,
+      "weight": 0.8173987865447998,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 271,
+      "weight": 0.888027548789978,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 273,
+      "weight": 0.8183615207672119,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 347,
+      "weight": 0.8148495554924011,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 359,
+      "weight": 0.8305756449699402,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 162,
+      "target": 363,
+      "weight": 0.8938969373703003,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 193,
+      "weight": 0.8177335262298584,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 194,
+      "weight": 0.8252705931663513,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 203,
+      "weight": 0.8354126214981079,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 244,
+      "weight": 0.8723412752151489,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 270,
+      "weight": 0.844327986240387,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 271,
+      "weight": 0.8691380023956299,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 347,
+      "weight": 0.8130396604537964,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 359,
+      "weight": 0.8256734609603882,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 165,
+      "target": 363,
+      "weight": 0.8031238317489624,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 166,
+      "target": 167,
+      "weight": 0.8992971181869507,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 170,
+      "target": 171,
+      "weight": 0.8454240560531616,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 172,
+      "target": 173,
+      "weight": 0.8730754256248474,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 172,
+      "target": 177,
+      "weight": 0.8294634819030762,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 172,
+      "target": 184,
+      "weight": 0.8305468559265137,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 172,
+      "target": 186,
+      "weight": 0.8132574558258057,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 173,
+      "target": 177,
+      "weight": 0.8187563419342041,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 173,
+      "target": 184,
+      "weight": 0.8264559507369995,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 174,
+      "target": 191,
+      "weight": 0.8787466287612915,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 174,
+      "target": 203,
+      "weight": 0.8034202456474304,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 174,
+      "target": 244,
+      "weight": 0.8047749996185303,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 174,
+      "target": 359,
+      "weight": 0.8203402161598206,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 176,
+      "target": 181,
+      "weight": 0.8536378145217896,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 177,
+      "target": 184,
+      "weight": 0.8247606754302979,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 180,
+      "target": 198,
+      "weight": 0.848016619682312,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 180,
+      "target": 200,
+      "weight": 0.8271372318267822,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 180,
+      "target": 203,
+      "weight": 0.8089792728424072,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 180,
+      "target": 244,
+      "weight": 0.8285961151123047,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 180,
+      "target": 271,
+      "weight": 0.8402701616287231,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 181,
+      "target": 199,
+      "weight": 0.8018687963485718,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 181,
+      "target": 200,
+      "weight": 0.8239967823028564,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 181,
+      "target": 203,
+      "weight": 0.8023416996002197,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 181,
+      "target": 359,
+      "weight": 0.804222583770752,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 193,
+      "weight": 0.8096710443496704,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 194,
+      "weight": 0.8244705200195312,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 198,
+      "weight": 0.8550335168838501,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 200,
+      "weight": 0.8378337621688843,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 203,
+      "weight": 0.8562090396881104,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 244,
+      "weight": 0.8652760982513428,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 270,
+      "weight": 0.8116261959075928,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 271,
+      "weight": 0.8450745940208435,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 359,
+      "weight": 0.903957724571228,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 360,
+      "weight": 0.8057050704956055,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 182,
+      "target": 363,
+      "weight": 0.8360850811004639,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 184,
+      "target": 347,
+      "weight": 0.8216743469238281,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 184,
+      "target": 349,
+      "weight": 0.8007487058639526,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 190,
+      "weight": 0.8507730960845947,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 209,
+      "weight": 0.8069553375244141,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 210,
+      "weight": 0.8270018100738525,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 223,
+      "weight": 0.8244066834449768,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 231,
+      "weight": 0.8167374730110168,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 366,
+      "weight": 0.8707097768783569,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 371,
+      "weight": 0.8040850758552551,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 187,
+      "target": 372,
+      "weight": 0.8299531936645508,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 188,
+      "target": 227,
+      "weight": 0.8167584538459778,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 191,
+      "target": 203,
+      "weight": 0.8094255924224854,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 191,
+      "target": 359,
+      "weight": 0.8204793930053711,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 192,
+      "target": 199,
+      "weight": 0.8232008218765259,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 194,
+      "weight": 0.8327188491821289,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 197,
+      "weight": 0.8377679586410522,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 198,
+      "weight": 0.8005040884017944,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 200,
+      "weight": 0.8767616748809814,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 203,
+      "weight": 0.8968046307563782,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 244,
+      "weight": 0.8840820789337158,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 245,
+      "weight": 0.8448798656463623,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 270,
+      "weight": 0.8385242223739624,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 271,
+      "weight": 0.9071210622787476,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 347,
+      "weight": 0.8037233948707581,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 359,
+      "weight": 0.8809623122215271,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 193,
+      "target": 363,
+      "weight": 0.8622075915336609,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 198,
+      "weight": 0.8213803768157959,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 200,
+      "weight": 0.8534232378005981,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 203,
+      "weight": 0.8991731405258179,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 244,
+      "weight": 0.8380101323127747,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 270,
+      "weight": 0.8875203132629395,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 271,
+      "weight": 0.8950695991516113,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 273,
+      "weight": 0.8232394456863403,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 346,
+      "weight": 0.8151439428329468,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 347,
+      "weight": 0.8310019969940186,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 359,
+      "weight": 0.8518720865249634,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 194,
+      "target": 363,
+      "weight": 0.8806426525115967,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 274,
+      "weight": 0.9064478874206543,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 325,
+      "weight": 0.9280552268028259,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 346,
+      "weight": 0.8212053775787354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 347,
+      "weight": 0.8882064819335938,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 349,
+      "weight": 0.9188357591629028,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 196,
+      "target": 363,
+      "weight": 0.8025921583175659,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 197,
+      "target": 200,
+      "weight": 0.8192952871322632,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 197,
+      "target": 271,
+      "weight": 0.8285135626792908,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 199,
+      "weight": 0.8494554758071899,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 200,
+      "weight": 0.8796752691268921,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 203,
+      "weight": 0.8337056636810303,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 244,
+      "weight": 0.8902384042739868,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 270,
+      "weight": 0.8001250624656677,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 271,
+      "weight": 0.8558302521705627,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 359,
+      "weight": 0.8671255707740784,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 198,
+      "target": 363,
+      "weight": 0.8306819200515747,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 199,
+      "target": 200,
+      "weight": 0.8456137180328369,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 199,
+      "target": 271,
+      "weight": 0.8000167012214661,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 199,
+      "target": 359,
+      "weight": 0.8031504154205322,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 203,
+      "weight": 0.8797642588615417,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 244,
+      "weight": 0.8593573570251465,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 245,
+      "weight": 0.8433628678321838,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 253,
+      "weight": 0.8030733466148376,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 270,
+      "weight": 0.8595288991928101,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 271,
+      "weight": 0.9253581762313843,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 273,
+      "weight": 0.8163729906082153,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 359,
+      "weight": 0.8879035115242004,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 200,
+      "target": 363,
+      "weight": 0.8867826461791992,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 202,
+      "target": 203,
+      "weight": 0.8159687519073486,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 204,
+      "weight": 0.853323757648468,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 244,
+      "weight": 0.8668313026428223,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 245,
+      "weight": 0.8267152309417725,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 270,
+      "weight": 0.92520672082901,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 271,
+      "weight": 0.931348443031311,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 273,
+      "weight": 0.8309679627418518,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 346,
+      "weight": 0.8074867129325867,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 347,
+      "weight": 0.8252866268157959,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 359,
+      "weight": 0.9002834558486938,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 360,
+      "weight": 0.84787517786026,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 203,
+      "target": 363,
+      "weight": 0.8676542639732361,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 205,
+      "target": 212,
+      "weight": 0.8355215787887573,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 205,
+      "target": 214,
+      "weight": 0.802016019821167,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 205,
+      "target": 366,
+      "weight": 0.8285415172576904,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 205,
+      "target": 371,
+      "weight": 0.8472745418548584,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 206,
+      "target": 256,
+      "weight": 0.8127269148826599,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 206,
+      "target": 371,
+      "weight": 0.8101767301559448,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 207,
+      "target": 253,
+      "weight": 0.8132627010345459,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 207,
+      "target": 350,
+      "weight": 0.8033756613731384,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 207,
+      "target": 363,
+      "weight": 0.8382362723350525,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 207,
+      "target": 372,
+      "weight": 0.9337696433067322,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 210,
+      "weight": 0.9086310863494873,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 211,
+      "weight": 0.818371057510376,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 218,
+      "weight": 0.8251354098320007,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 223,
+      "weight": 0.9197511076927185,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 230,
+      "weight": 0.8014050722122192,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 231,
+      "weight": 0.8423702716827393,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 356,
+      "weight": 0.892745852470398,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 365,
+      "weight": 0.8808879852294922,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 366,
+      "weight": 0.8883941173553467,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 209,
+      "target": 367,
+      "weight": 0.8645462989807129,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 211,
+      "weight": 0.9276447296142578,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 212,
+      "weight": 0.8016297817230225,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 218,
+      "weight": 0.8584792613983154,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 223,
+      "weight": 0.9418318271636963,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 230,
+      "weight": 0.8378678560256958,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 231,
+      "weight": 0.8387188911437988,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 233,
+      "weight": 0.8090561628341675,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 257,
+      "weight": 0.8181431293487549,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 356,
+      "weight": 0.9431658983230591,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 365,
+      "weight": 0.9177185893058777,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 366,
+      "weight": 0.9104337692260742,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 367,
+      "weight": 0.8244390487670898,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 371,
+      "weight": 0.8211228251457214,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 210,
+      "target": 372,
+      "weight": 0.8519585132598877,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 211,
+      "target": 223,
+      "weight": 0.8435443639755249,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 211,
+      "target": 356,
+      "weight": 0.8599160313606262,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 211,
+      "target": 365,
+      "weight": 0.842553973197937,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 211,
+      "target": 366,
+      "weight": 0.8040367364883423,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 214,
+      "weight": 0.9335424900054932,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 218,
+      "weight": 0.8555546998977661,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 256,
+      "weight": 0.8142298460006714,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 356,
+      "weight": 0.8924540281295776,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 366,
+      "weight": 0.8186377286911011,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 212,
+      "target": 371,
+      "weight": 0.8668937683105469,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 214,
+      "target": 371,
+      "weight": 0.8179399967193604,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 218,
+      "target": 223,
+      "weight": 0.8463227152824402,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 218,
+      "target": 356,
+      "weight": 0.8904953598976135,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 218,
+      "target": 366,
+      "weight": 0.8376376628875732,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 218,
+      "target": 371,
+      "weight": 0.8065982460975647,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 219,
+      "target": 255,
+      "weight": 0.8119601011276245,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 219,
+      "target": 365,
+      "weight": 0.8294899463653564,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 219,
+      "target": 369,
+      "weight": 0.8237648606300354,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 221,
+      "target": 228,
+      "weight": 0.875544011592865,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 221,
+      "target": 237,
+      "weight": 0.8581593036651611,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 221,
+      "target": 260,
+      "weight": 0.8865569829940796,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 221,
+      "target": 352,
+      "weight": 0.8330905437469482,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 230,
+      "weight": 0.8372786045074463,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 231,
+      "weight": 0.8139597177505493,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 356,
+      "weight": 0.8970628976821899,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 365,
+      "weight": 0.8746734261512756,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 366,
+      "weight": 0.9176183938980103,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 367,
+      "weight": 0.8323425054550171,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 371,
+      "weight": 0.8184350728988647,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 223,
+      "target": 372,
+      "weight": 0.8059072494506836,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 224,
+      "target": 366,
+      "weight": 0.8124643564224243,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 224,
+      "target": 371,
+      "weight": 0.8620483875274658,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 228,
+      "target": 260,
+      "weight": 0.8138630390167236,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 230,
+      "target": 231,
+      "weight": 0.8847010135650635,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 230,
+      "target": 233,
+      "weight": 0.9309191703796387,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 230,
+      "target": 234,
+      "weight": 0.8469703197479248,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 230,
+      "target": 257,
+      "weight": 0.8303331136703491,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 230,
+      "target": 372,
+      "weight": 0.8422927856445312,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 231,
+      "target": 233,
+      "weight": 0.8494277000427246,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 231,
+      "target": 234,
+      "weight": 0.9228813648223877,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 231,
+      "target": 365,
+      "weight": 0.8293734192848206,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 231,
+      "target": 366,
+      "weight": 0.8130043745040894,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 233,
+      "target": 234,
+      "weight": 0.8318123817443848,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 233,
+      "target": 372,
+      "weight": 0.8121840953826904,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 237,
+      "target": 260,
+      "weight": 0.8139057755470276,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 243,
+      "target": 255,
+      "weight": 0.9235656261444092,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 245,
+      "weight": 0.8595967292785645,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 270,
+      "weight": 0.8172626495361328,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 271,
+      "weight": 0.88511723279953,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 325,
+      "weight": 0.8186691999435425,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 347,
+      "weight": 0.8527563810348511,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 359,
+      "weight": 0.9054508209228516,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 244,
+      "target": 363,
+      "weight": 0.8682488203048706,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 245,
+      "target": 271,
+      "weight": 0.8215970396995544,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 245,
+      "target": 359,
+      "weight": 0.8495796918869019,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 250,
+      "target": 251,
+      "weight": 0.9348827600479126,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 251,
+      "target": 347,
+      "weight": 0.8314591646194458,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 251,
+      "target": 349,
+      "weight": 0.8174112439155579,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 271,
+      "weight": 0.8243228197097778,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 289,
+      "weight": 0.8259624242782593,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 346,
+      "weight": 0.8301510214805603,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 347,
+      "weight": 0.8393666744232178,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 350,
+      "weight": 0.8446463346481323,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 359,
+      "weight": 0.8071435689926147,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 253,
+      "target": 363,
+      "weight": 0.8855938911437988,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 256,
+      "target": 371,
+      "weight": 0.8672530651092529,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 257,
+      "target": 262,
+      "weight": 0.9061594605445862,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 257,
+      "target": 372,
+      "weight": 0.8562588691711426,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 270,
+      "target": 271,
+      "weight": 0.9291616082191467,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 270,
+      "target": 273,
+      "weight": 0.8129748106002808,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 270,
+      "target": 359,
+      "weight": 0.8894888162612915,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 270,
+      "target": 360,
+      "weight": 0.8773963451385498,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 270,
+      "target": 363,
+      "weight": 0.8500652313232422,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 273,
+      "weight": 0.8501796722412109,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 346,
+      "weight": 0.8015052080154419,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 347,
+      "weight": 0.8452311754226685,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 359,
+      "weight": 0.9252117872238159,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 360,
+      "weight": 0.8486289978027344,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 271,
+      "target": 363,
+      "weight": 0.9133766889572144,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 273,
+      "target": 359,
+      "weight": 0.8133732080459595,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 273,
+      "target": 363,
+      "weight": 0.8512355089187622,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 325,
+      "weight": 0.898483395576477,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 346,
+      "weight": 0.8986963033676147,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 347,
+      "weight": 0.9083589315414429,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 349,
+      "weight": 0.927115797996521,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 351,
+      "weight": 0.8009258508682251,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 274,
+      "target": 363,
+      "weight": 0.8240960240364075,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 278,
+      "target": 279,
+      "weight": 0.830668032169342,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 283,
+      "target": 286,
+      "weight": 0.8616936802864075,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 289,
+      "target": 321,
+      "weight": 0.8216261267662048,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 289,
+      "target": 363,
+      "weight": 0.8242999315261841,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 290,
+      "target": 296,
+      "weight": 0.826070249080658,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 292,
+      "weight": 0.9917371273040771,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 300,
+      "weight": 0.8065699338912964,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 336,
+      "weight": 0.9723217487335205,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 337,
+      "weight": 0.9660231471061707,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 338,
+      "weight": 0.8064625263214111,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 339,
+      "weight": 0.8620157241821289,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 291,
+      "target": 341,
+      "weight": 0.8436425924301147,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 292,
+      "target": 336,
+      "weight": 0.9691061973571777,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 292,
+      "target": 337,
+      "weight": 0.9652774333953857,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 292,
+      "target": 338,
+      "weight": 0.8035484552383423,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 292,
+      "target": 339,
+      "weight": 0.8494358062744141,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 292,
+      "target": 341,
+      "weight": 0.8480026721954346,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 297,
+      "target": 305,
+      "weight": 0.8081258535385132,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 300,
+      "target": 307,
+      "weight": 0.8159462213516235,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 300,
+      "target": 337,
+      "weight": 0.8146741390228271,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 303,
+      "target": 305,
+      "weight": 0.8269001245498657,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 303,
+      "target": 312,
+      "weight": 0.831800639629364,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 305,
+      "target": 312,
+      "weight": 0.8141151070594788,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 309,
+      "weight": 0.8287900686264038,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 313,
+      "weight": 0.8421592712402344,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 314,
+      "weight": 0.8369525671005249,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 317,
+      "weight": 0.826055645942688,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 322,
+      "weight": 0.8405370712280273,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 323,
+      "weight": 0.8227066993713379,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 308,
+      "target": 331,
+      "weight": 0.9020911455154419,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 309,
+      "target": 314,
+      "weight": 0.803993821144104,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 309,
+      "target": 323,
+      "weight": 0.8456810712814331,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 314,
+      "target": 331,
+      "weight": 0.8527454733848572,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 317,
+      "target": 319,
+      "weight": 0.8022983074188232,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 320,
+      "target": 321,
+      "weight": 0.9359961152076721,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 322,
+      "target": 331,
+      "weight": 0.8125990033149719,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 325,
+      "target": 346,
+      "weight": 0.8045337796211243,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 325,
+      "target": 347,
+      "weight": 0.8894270658493042,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 325,
+      "target": 349,
+      "weight": 0.88959801197052,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 325,
+      "target": 363,
+      "weight": 0.8142066597938538,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 329,
+      "target": 333,
+      "weight": 0.8460015058517456,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 336,
+      "target": 337,
+      "weight": 0.9716731309890747,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 336,
+      "target": 339,
+      "weight": 0.8213911056518555,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 336,
+      "target": 341,
+      "weight": 0.8286158442497253,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 337,
+      "target": 339,
+      "weight": 0.8385833501815796,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 337,
+      "target": 341,
+      "weight": 0.8424162268638611,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 339,
+      "target": 341,
+      "weight": 0.8183406591415405,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 339,
+      "target": 342,
+      "weight": 0.8674073815345764,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 346,
+      "target": 347,
+      "weight": 0.867622971534729,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 346,
+      "target": 349,
+      "weight": 0.852217435836792,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 346,
+      "target": 358,
+      "weight": 0.8205010294914246,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 346,
+      "target": 363,
+      "weight": 0.8528181910514832,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 349,
+      "weight": 0.91530841588974,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 350,
+      "weight": 0.8006889820098877,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 351,
+      "weight": 0.8224060535430908,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 358,
+      "weight": 0.8027385473251343,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 359,
+      "weight": 0.8034294247627258,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 347,
+      "target": 363,
+      "weight": 0.8814162611961365,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 349,
+      "target": 351,
+      "weight": 0.8274335861206055,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 349,
+      "target": 363,
+      "weight": 0.8233662843704224,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 356,
+      "target": 365,
+      "weight": 0.876593291759491,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 356,
+      "target": 366,
+      "weight": 0.9051342010498047,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 356,
+      "target": 367,
+      "weight": 0.8182955384254456,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 356,
+      "target": 371,
+      "weight": 0.8542095422744751,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 356,
+      "target": 372,
+      "weight": 0.818901777267456,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 359,
+      "target": 360,
+      "weight": 0.8775279521942139,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 359,
+      "target": 363,
+      "weight": 0.8869067430496216,
+      "type": "semantic",
+      "is_intra_cluster": false,
+      "confidence": "high"
+    },
+    {
+      "source": 363,
+      "target": 372,
+      "weight": 0.8125208020210266,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 365,
+      "target": 366,
+      "weight": 0.8773192167282104,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 365,
+      "target": 367,
+      "weight": 0.8422025442123413,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 366,
+      "target": 367,
+      "weight": 0.8663004636764526,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 366,
+      "target": 371,
+      "weight": 0.9109712243080139,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 366,
+      "target": 372,
+      "weight": 0.8187020421028137,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    },
+    {
+      "source": 371,
+      "target": 372,
+      "weight": 0.8278268575668335,
+      "type": "semantic",
+      "is_intra_cluster": true,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "total_edges": 902,
+    "intra_cluster_edges": 823,
+    "inter_cluster_edges": 79,
+    "high_confidence_edges": 902,
+    "llm_verified_edges": 0,
+    "thresholds": {
+      "requested": {
+        "high": 0.8,
+        "medium": 0.6
+      },
+      "effective": {
+        "high": 0.8,
+        "medium": 0.6
+      },
+      "adjusted": false
+    },
+    "similarity_stats": {
+      "count": 70500,
+      "max": 0.9917371273040771,
+      "min": -0.18830205500125885,
+      "mean": 0.35564079880714417,
+      "p90": 0.6349039614200592,
+      "p75": 0.5010318458080292
+    }
+  }
+}

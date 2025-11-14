@@ -1,0 +1,19 @@
+embedding_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+keyword:
+  top_n: 5
+  max_ngram: 3
+  dedup_thresh: 0.8
+graph:
+  sim_top_k: 5
+  sim_threshold: null
+cluster:
+  min_cluster_size: 5
+  min_samples: 5
+  metric: euclidean
+preprocess:
+  lower: true
+  strip_urls: true
+  strip_code: true
+  strip_punct: false
+  stopwords_langs: [en, zh, ko]
+
