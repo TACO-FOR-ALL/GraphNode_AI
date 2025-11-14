@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "number",
+      "orig_id": "string",
+      "cluster_id": "string",
+      "cluster_name": "string",
+      "keywords": [
+        {
+          "term": "string",
+          "score": "number"
+        }
+      ],
+      "timestamp": "string | null",
+      "num_messages": "number"
+    }
+  ],
+  "edges": [
+    {
+      "source": "number",
+      "target": "number",
+      "weight": "number",
+      "type": "string",
+      "is_intra_cluster": "boolean",
+      "confidence": "string"
+    }
+  ],
+  "metadata": {
+    "total_nodes": "number",
+    "total_edges": "number",
+    "clusters": {
+      "total_clusters": "number",
+      "clusters": [
+        {
+          "id": "string",
+          "name": "string",
+          "description": "string",
+          "key_themes": "string[]",
+          "size": "number"
+        }
+      ]
+    },
+    "edge_stats": {
+      "total_edges": "number",
+      "intra_cluster_edges": "number",
+      "inter_cluster_edges": "number",
+      "high_confidence_edges": "number",
+      "llm_verified_edges": "number",
+      "thresholds": {
+        "requested": {
+          "high": "number",
+          "medium": "number"
+        },
+        "effective": {
+          "high": "number",
+          "medium": "number"
+        },
+        "adjusted": "boolean"
+      },
+      "similarity_stats": {
+        "count": "number",
+        "max": "number",
+        "min": "number",
+        "mean": "number",
+        "p90": "number",
+        "p75": "number"
+      }
+    },
+    "pipeline_params": {
+      "embedding_model": "string",
+      "keyword_params": {
+        "top_n": "number",
+        "max_ngram": "number",
+        "dedup_thresh": "number"
+      },
+      "preprocess_params": {
+        "lower": "boolean",
+        "strip_urls": "boolean",
+        "strip_code": "boolean",
+        "strip_punct": "boolean",
+        "stopwords_langs": "string[]"
+      }
+    }
+  }
+}
