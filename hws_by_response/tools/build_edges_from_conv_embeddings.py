@@ -368,6 +368,7 @@ def main():
     parser.add_argument("--plot", action="store_true", help="Save similarity distribution plot as PNG")
     parser.add_argument("--categories", type=str, default=None, help="Optional: category JSON file (conversation_id -> category)")
     parser.add_argument("--keywords", type=str, default=None, help="Optional: keywords JSON file for node metadata")
+    parser.add_argument("--target-hard-cross-edges", type=int, default=300, help="Target number of hard cross-category edges (default: 300)")
     args = parser.parse_args()
     
     t_start = time.time()
@@ -395,34 +396,60 @@ def main():
     print(f"Similarity matrix: {sim_matrix.shape}")
     
     print("엣지 생성 중...")
-    
+
     # First pass: compute similarities to determine auto thresholds
     n = len(conv_ids)
     all_similarities = []
+    cross_category_similarities = []  # For dynamic threshold calculation
+
     for i in range(n):
         for j in range(i + 1, n):
-            all_similarities.append(sim_matrix[i, j])
-    
+            sim = sim_matrix[i, j]
+            all_similarities.append(sim)
+
+            # Track cross-category similarities if categories are provided
+            if categories:
+                src_cat = categories.get(conv_ids[i])
+                tgt_cat = categories.get(conv_ids[j])
+                if src_cat and tgt_cat and src_cat != tgt_cat:
+                    cross_category_similarities.append(sim)
+
     all_similarities = np.array(all_similarities)
-    
+
     # Auto-calculate thresholds if not provided
     hard_threshold = args.hard_threshold
     pending_low = args.pending_low
     pending_high = args.pending_high
-    
+
     if hard_threshold is None or pending_low is None or pending_high is None:
         median = float(np.median(all_similarities))
         p80 = float(np.percentile(all_similarities, 80))
         p90 = float(np.percentile(all_similarities, 90))
-        
-        if hard_threshold is None:
+
+        # Dynamic threshold: target ~N hard cross-category edges
+        if hard_threshold is None and categories and cross_category_similarities:
+            cross_cat_sims = np.array(cross_category_similarities)
+            cross_cat_sims_sorted = np.sort(cross_cat_sims)[::-1]  # Descending order
+
+            target_hard_cross_edges = args.target_hard_cross_edges
+            if len(cross_cat_sims_sorted) > target_hard_cross_edges:
+                # Take the similarity of the Nth edge as threshold
+                hard_threshold = float(cross_cat_sims_sorted[target_hard_cross_edges - 1])
+                print(f"Dynamic hard_threshold for ~{target_hard_cross_edges} cross-category edges: {hard_threshold:.4f}")
+                print(f"  (Total cross-category pairs: {len(cross_cat_sims_sorted)})")
+            else:
+                # Not enough cross-category pairs, use P90
+                hard_threshold = p90
+                print(f"Not enough cross-category pairs ({len(cross_cat_sims_sorted)}), using P90: {hard_threshold:.4f}")
+        elif hard_threshold is None:
             hard_threshold = p90
+
         if pending_high is None:
             pending_high = hard_threshold  # Same as hard_threshold
         if pending_low is None:
             pending_low = p80
-        
-        print(f"Threshold 자동 계산: Median={median:.4f}, P80={p80:.4f}, P90={p90:.4f}")
+
+        print(f"Threshold 계산: Median={median:.4f}, P80={p80:.4f}, P90={p90:.4f}")
         print(f"  hard_threshold={hard_threshold:.4f}, pending_low={pending_low:.4f}, pending_high={pending_high:.4f}\n")
     
     edges, stats, similarities = build_edges(

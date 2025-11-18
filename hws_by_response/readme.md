@@ -116,7 +116,7 @@ python llm_categorize_batch.py --keywords-input output/s2_keywords_pipeline_embe
 ## 일반 유사도 기반 생성
 ```bash
 # 카테고리 + 키워드 포함 (추천)
-python tools/build_edges_from_conv_embeddings.py --embeddings output/conversation_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --keywords output/s2_keywords_pipeline_embedreuse_tfidf.json --plot
+python tools/build_edges_from_conv_embeddings.py --embeddings output/conversation_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --keywords output/s2_keywords_pipeline_embedreuse_tfidf.json --plot --target-hard-cross-edges 50
 
 # 카테고리만
 python tools/build_edges_from_conv_embeddings.py --embeddings output/conversation_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --plot
