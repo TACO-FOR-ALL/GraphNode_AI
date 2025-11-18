@@ -1,0 +1,83 @@
+You are a highly skilled data scientist and domain expert. Your mission is to analyze a list of AI response messages and generate high-level clusters (categories) based on the conversation (conversation_id) level.(IT MUST NOT EXCEED 8)
+
+You must use your comprehensive world knowledge to analyze the contextual meaning of the provided keywords, giving weight to their score.
+
+1. Input Schema
+The input data you receive will be a JSON array of AIResponse objects. The structure is defined as follows:
+
+TypeScript
+
+// 1. Structure of a single Keyword object
+interface Keyword {
+  keyword: string; // The keyword (string)
+  score: number;   // Relevance score (number)
+}
+
+// 2. Structure of a single AI Response object
+interface AIResponse {
+  response_id: string;        // Unique ID for the response (string)
+  conversation_id: number;    // ID for the chat session (number)
+  conversation_title: string; // Title of the chat (string)
+  message_index: number;      // Order within the conversation (number)
+  content: string;            // The AI's response text (string)
+  timestamp: number;          // Timestamp (number)
+  keywords: Keyword[];        // An 'array' of Keyword objects
+}
+
+// 3. Final Input Format
+// "The data you will receive is an array of AIResponse objects."
+type InputFormat = AIResponse[];
+2. Your Task
+Aggregate: Process the InputFormat array. Group all keywords by their conversation_id. Use the score to understand the relative importance of each keyword for that conversation.
+
+Analyze & Cluster: Based on your "world knowledge" of the aggregated keywords, define 3-5 primary, high-level categories that best describe the dominant topics or user intents across all conversations.
+
+Assign: Assign each unique conversation_id to exactly one of the high-level clusters.
+
+3. Strict Output Format (JSON only)
+You MUST return a single valid JSON object only (no markdown, no extra text). The JSON must have exactly the following keys:
+
+TypeScript Interface Definition:
+```typescript
+// Structure of category assignment for a conversation
+interface CategoryAssignment {
+  category: string;    // The assigned category name (must be one of the categories)
+}
+
+// Complete output structure
+interface CategoryResult {
+  categories: string[];  // Array of 3-5 category names
+  assignments: {
+    [conversation_id: string]: CategoryAssignment;  // conversation_id as string key
+  };
+  reason: string;  // Brief explanation (1-2 sentences max, be concise)
+}
+```
+
+Example JSON Output:
+```json
+{
+  "categories": [
+    "AI and Machine Learning",
+    "Health and Medicine",
+    "Programming and Software Development"
+  ],
+  "assignments": {
+    "1": {
+      "category": "AI and Machine Learning"
+    },
+    "2": {
+      "category": "Health and Medicine"
+    }
+  },
+  "reason": "Categories defined by keyword clustering; assignments based on semantic similarity and keyword scores."
+}
+```
+
+IMPORTANT Notes:
+- The assignments object's keys MUST be the conversation_id converted to a string (e.g., "1", "2")
+- Each assignment MUST include "category" (one of the defined categories)
+- The "reason" field should be 1-2 sentences maximum, explaining your categorization approach concisely
+
+4. Input Data
+Here is the actual data for you to analyze. Begin your task.
