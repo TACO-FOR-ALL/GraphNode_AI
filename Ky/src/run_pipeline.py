@@ -130,7 +130,7 @@ def main() -> None:
     parser.add_argument(
         "--medium-threshold",
         type=float,
-        default=0.6,
+        default=0.7,
         help="Medium confidence edge threshold (default: 0.6)",
     )
     parser.add_argument(
@@ -211,9 +211,7 @@ def main() -> None:
     step1_keyword = float(timing.get("keyword_seconds", 0.0) or 0.0)
 
     print(f"✓ Step 1 completed in {step1_total:.1f}s")
-    print(
-        f"  └─ Embedding: {step1_embedding:.1f}s, Keyword: {step1_keyword:.1f}s\n"
-    )
+    print(f"  └─ Embedding: {step1_embedding:.1f}s, Keyword: {step1_keyword:.1f}s\n")
 
     # Step 2: LLM-based clustering
     cluster_cmd = [
