@@ -36,6 +36,12 @@ def preprocess_content(text):
     text = re.sub(r'`[^`]+`', ' ', text)
     text = re.sub(r'(?m)^(?: {4}|\t).*$', ' ', text)
     
+    # LaTeX 스타일 수식 제거 ($$...$$, $...$, \[...\], \(...\))
+    text = re.sub(r'\$\$[\s\S]*?\$\$', ' ', text)
+    text = re.sub(r'\$[^$\n]+\$', ' ', text)
+    text = re.sub(r'\\\[[\s\S]*?\\\]', ' ', text)
+    text = re.sub(r'\\\([^)]*\\\)', ' ', text)
+    
     # 3. URL 제거
     text = re.sub(r'https?://\S+|www\.\S+', '', text)
     

@@ -1,0 +1,989 @@
+[
+  {
+    "qa_id": "375_1",
+    "conversation_id": 375,
+    "qa_index": 1,
+    "keywords": [
+      {
+        "keyword": "pdf_url",
+        "similarity": 0.8610354661941528
+      },
+      {
+        "keyword": "diagram",
+        "similarity": 0.8559234142303467
+      },
+      {
+        "keyword": "architecture",
+        "similarity": 0.8431157469749451
+      },
+      {
+        "keyword": "paper",
+        "similarity": 0.8308355808258057
+      },
+      {
+        "keyword": "please",
+        "similarity": 0.8078283667564392
+      },
+      {
+        "keyword": "part",
+        "similarity": 0.806256115436554
+      },
+      {
+        "keyword": "of",
+        "similarity": 0.798500657081604
+      },
+      {
+        "keyword": "the",
+        "similarity": 0.7977700233459473
+      },
+      {
+        "keyword": "give",
+        "similarity": 0.7970287799835205
+      },
+      {
+        "keyword": "in",
+        "similarity": 0.7963997721672058
+      }
+    ]
+  },
+  {
+    "qa_id": "375_2",
+    "conversation_id": 375,
+    "qa_index": 2,
+    "keywords": [
+      {
+        "keyword": "table1",
+        "similarity": 0.858210563659668
+      },
+      {
+        "keyword": "pdf_url",
+        "similarity": 0.8561437726020813
+      },
+      {
+        "keyword": "maxpool",
+        "similarity": 0.846118152141571
+      },
+      {
+        "keyword": "conv364",
+        "similarity": 0.8446125984191895
+      },
+      {
+        "keyword": "images",
+        "similarity": 0.8381401896476746
+      },
+      {
+        "keyword": "table",
+        "similarity": 0.8250208497047424
+      },
+      {
+        "keyword": "at",
+        "similarity": 0.8197382688522339
+      },
+      {
+        "keyword": "after",
+        "similarity": 0.8179285526275635
+      },
+      {
+        "keyword": "1",
+        "similarity": 0.8109452724456787
+      },
+      {
+        "keyword": "64",
+        "similarity": 0.8102905750274658
+      }
+    ]
+  },
+  {
+    "qa_id": "375_3",
+    "conversation_id": 375,
+    "qa_index": 3,
+    "keywords": [
+      {
+        "keyword": "conv3128",
+        "similarity": 0.8674997687339783
+      },
+      {
+        "keyword": "pdf_url",
+        "similarity": 0.8287777304649353
+      },
+      {
+        "keyword": "feature",
+        "similarity": 0.8281368017196655
+      },
+      {
+        "keyword": "maps",
+        "similarity": 0.8180720806121826
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8144254088401794
+      },
+      {
+        "keyword": "output",
+        "similarity": 0.8057477474212646
+      },
+      {
+        "keyword": "after",
+        "similarity": 0.8036689162254333
+      },
+      {
+        "keyword": "many",
+        "similarity": 0.8020237684249878
+      },
+      {
+        "keyword": "is",
+        "similarity": 0.8006687164306641
+      },
+      {
+        "keyword": "how",
+        "similarity": 0.79756760597229
+      }
+    ]
+  },
+  {
+    "qa_id": "375_4",
+    "conversation_id": 375,
+    "qa_index": 4,
+    "keywords": [
+      {
+        "keyword": "conv3128",
+        "similarity": 0.8408218622207642
+      },
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8308651447296143
+      },
+      {
+        "keyword": "filters",
+        "similarity": 0.8125647306442261
+      },
+      {
+        "keyword": "filter",
+        "similarity": 0.8098353147506714
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8093278408050537
+      },
+      {
+        "keyword": "kernels",
+        "similarity": 0.8073627948760986
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.8072888851165771
+      },
+      {
+        "keyword": "feature",
+        "similarity": 0.8045599460601807
+      },
+      {
+        "keyword": "depth",
+        "similarity": 0.8044877052307129
+      },
+      {
+        "keyword": "volume",
+        "similarity": 0.8044708371162415
+      }
+    ]
+  },
+  {
+    "qa_id": "375_5",
+    "conversation_id": 375,
+    "qa_index": 5,
+    "keywords": [
+      {
+        "keyword": "maxpool",
+        "similarity": 0.8327587842941284
+      },
+      {
+        "keyword": "dimension",
+        "similarity": 0.8288210034370422
+      },
+      {
+        "keyword": "pdf_url",
+        "similarity": 0.8263841867446899
+      },
+      {
+        "keyword": "table1",
+        "similarity": 0.8106763958930969
+      },
+      {
+        "keyword": "second",
+        "similarity": 0.8053981065750122
+      },
+      {
+        "keyword": "configuration",
+        "similarity": 0.8040584921836853
+      },
+      {
+        "keyword": "6422",
+        "similarity": 0.7987486124038696
+      },
+      {
+        "keyword": "is",
+        "similarity": 0.7883080244064331
+      },
+      {
+        "keyword": "window",
+        "similarity": 0.7877383828163147
+      },
+      {
+        "keyword": "for",
+        "similarity": 0.78548663854599
+      }
+    ]
+  },
+  {
+    "qa_id": "375_6",
+    "conversation_id": 375,
+    "qa_index": 6,
+    "keywords": [
+      {
+        "keyword": "conv3512",
+        "similarity": 0.8575555086135864
+      },
+      {
+        "keyword": "conv3512s",
+        "similarity": 0.855556070804596
+      },
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8353289365768433
+      },
+      {
+        "keyword": "box",
+        "similarity": 0.8208208084106445
+      },
+      {
+        "keyword": "layers",
+        "similarity": 0.8142974972724915
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8137798309326172
+      },
+      {
+        "keyword": "filters",
+        "similarity": 0.8053025007247925
+      },
+      {
+        "keyword": "of",
+        "similarity": 0.8030851483345032
+      },
+      {
+        "keyword": "two",
+        "similarity": 0.8014160394668579
+      },
+      {
+        "keyword": "filter",
+        "similarity": 0.8007748126983643
+      }
+    ]
+  },
+  {
+    "qa_id": "375_7",
+    "conversation_id": 375,
+    "qa_index": 7,
+    "keywords": [
+      {
+        "keyword": "fc4096",
+        "similarity": 0.8675110936164856
+      },
+      {
+        "keyword": "pdf_url",
+        "similarity": 0.8294490575790405
+      },
+      {
+        "keyword": "size",
+        "similarity": 0.8255022764205933
+      },
+      {
+        "keyword": "configuration",
+        "similarity": 0.8246217966079712
+      },
+      {
+        "keyword": "in",
+        "similarity": 0.8150462508201599
+      },
+      {
+        "keyword": "is",
+        "similarity": 0.8099910616874695
+      },
+      {
+        "keyword": "first",
+        "similarity": 0.8058031797409058
+      },
+      {
+        "keyword": "input",
+        "similarity": 0.8056791424751282
+      },
+      {
+        "keyword": "correct",
+        "similarity": 0.8011002540588379
+      },
+      {
+        "keyword": "it",
+        "similarity": 0.7994870543479919
+      }
+    ]
+  },
+  {
+    "qa_id": "375_8",
+    "conversation_id": 375,
+    "qa_index": 8,
+    "keywords": [
+      {
+        "keyword": "vgg",
+        "similarity": 0.862439751625061
+      },
+      {
+        "keyword": "vgg16",
+        "similarity": 0.8457692861557007
+      },
+      {
+        "keyword": "vgg19",
+        "similarity": 0.8372118473052979
+      },
+      {
+        "keyword": "geometry",
+        "similarity": 0.7753263115882874
+      },
+      {
+        "keyword": "research",
+        "similarity": 0.7751824855804443
+      },
+      {
+        "keyword": "visual",
+        "similarity": 0.7728631496429443
+      },
+      {
+        "keyword": "for",
+        "similarity": 0.7713941335678101
+      },
+      {
+        "keyword": "of",
+        "similarity": 0.7659472227096558
+      },
+      {
+        "keyword": "developed",
+        "similarity": 0.7657768726348877
+      },
+      {
+        "keyword": "what",
+        "similarity": 0.765467643737793
+      }
+    ]
+  },
+  {
+    "qa_id": "375_9",
+    "conversation_id": 375,
+    "qa_index": 9,
+    "keywords": [
+      {
+        "keyword": "fc4096",
+        "similarity": 0.8620845079421997
+      },
+      {
+        "keyword": "neuron",
+        "similarity": 0.8248265981674194
+      },
+      {
+        "keyword": "4096",
+        "similarity": 0.8217862844467163
+      },
+      {
+        "keyword": "neurons",
+        "similarity": 0.8165138959884644
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8110015988349915
+      },
+      {
+        "keyword": "channels",
+        "similarity": 0.8086555600166321
+      },
+      {
+        "keyword": "sigmoid",
+        "similarity": 0.805860698223114
+      },
+      {
+        "keyword": "activation",
+        "similarity": 0.8024924397468567
+      },
+      {
+        "keyword": "network",
+        "similarity": 0.7995912432670593
+      },
+      {
+        "keyword": "connected",
+        "similarity": 0.7993000149726868
+      }
+    ]
+  },
+  {
+    "qa_id": "375_10",
+    "conversation_id": 375,
+    "qa_index": 10,
+    "keywords": [
+      {
+        "keyword": "fc4096",
+        "similarity": 0.8579680919647217
+      },
+      {
+        "keyword": "512x7x7",
+        "similarity": 0.830045759677887
+      },
+      {
+        "keyword": "neuron",
+        "similarity": 0.8285993933677673
+      },
+      {
+        "keyword": "25088dimensional",
+        "similarity": 0.8267043828964233
+      },
+      {
+        "keyword": "output",
+        "similarity": 0.8208416104316711
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8200557827949524
+      },
+      {
+        "keyword": "neurons",
+        "similarity": 0.8195557594299316
+      },
+      {
+        "keyword": "maxpool",
+        "similarity": 0.818913996219635
+      },
+      {
+        "keyword": "to",
+        "similarity": 0.8187174797058105
+      },
+      {
+        "keyword": "volume",
+        "similarity": 0.8184601068496704
+      }
+    ]
+  },
+  {
+    "qa_id": "375_11",
+    "conversation_id": 375,
+    "qa_index": 11,
+    "keywords": [
+      {
+        "keyword": "neuron",
+        "similarity": 0.8257679343223572
+      },
+      {
+        "keyword": "activation",
+        "similarity": 0.8235951662063599
+      },
+      {
+        "keyword": "neurons",
+        "similarity": 0.8219063878059387
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.815663754940033
+      },
+      {
+        "keyword": "fc4096",
+        "similarity": 0.8142675757408142
+      },
+      {
+        "keyword": "nonlinear",
+        "similarity": 0.8038934469223022
+      },
+      {
+        "keyword": "fc",
+        "similarity": 0.8017385601997375
+      },
+      {
+        "keyword": "nonlinearity",
+        "similarity": 0.7995353937149048
+      },
+      {
+        "keyword": "function",
+        "similarity": 0.796769380569458
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.7959840297698975
+      }
+    ]
+  },
+  {
+    "qa_id": "375_12",
+    "conversation_id": 375,
+    "qa_index": 12,
+    "keywords": [
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8483830094337463
+      },
+      {
+        "keyword": "convolution",
+        "similarity": 0.8308488130569458
+      },
+      {
+        "keyword": "receptive",
+        "similarity": 0.8146346211433411
+      },
+      {
+        "keyword": "layer",
+        "similarity": 0.8143227100372314
+      },
+      {
+        "keyword": "spatial",
+        "similarity": 0.8124419450759888
+      },
+      {
+        "keyword": "×",
+        "similarity": 0.8090881109237671
+      },
+      {
+        "keyword": "original",
+        "similarity": 0.8082084655761719
+      },
+      {
+        "keyword": "layers",
+        "similarity": 0.8080670833587646
+      },
+      {
+        "keyword": "neuron",
+        "similarity": 0.8078677654266357
+      },
+      {
+        "keyword": "neurons",
+        "similarity": 0.8045234084129333
+      }
+    ]
+  },
+  {
+    "qa_id": "375_13",
+    "conversation_id": 375,
+    "qa_index": 13,
+    "keywords": [
+      {
+        "keyword": "convolution",
+        "similarity": 0.8298149108886719
+      },
+      {
+        "keyword": "research",
+        "similarity": 0.82573401927948
+      },
+      {
+        "keyword": "equivalence",
+        "similarity": 0.8191978931427002
+      },
+      {
+        "keyword": "kernels",
+        "similarity": 0.8181813955307007
+      },
+      {
+        "keyword": "kernel",
+        "similarity": 0.8160377740859985
+      },
+      {
+        "keyword": "equivalent",
+        "similarity": 0.8084346055984497
+      },
+      {
+        "keyword": "finding",
+        "similarity": 0.8045552968978882
+      },
+      {
+        "keyword": "55",
+        "similarity": 0.8045141696929932
+      },
+      {
+        "keyword": "33",
+        "similarity": 0.7997894287109375
+      },
+      {
+        "keyword": "of",
+        "similarity": 0.7987505197525024
+      }
+    ]
+  },
+  {
+    "qa_id": "375_14",
+    "conversation_id": 375,
+    "qa_index": 14,
+    "keywords": [
+      {
+        "keyword": "nonlinearity",
+        "similarity": 0.8218173980712891
+      },
+      {
+        "keyword": "nonlinear",
+        "similarity": 0.8217535018920898
+      },
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8154127597808838
+      },
+      {
+        "keyword": "convolution",
+        "similarity": 0.8151912689208984
+      },
+      {
+        "keyword": "activation",
+        "similarity": 0.8132005929946899
+      },
+      {
+        "keyword": "rectification",
+        "similarity": 0.8092089891433716
+      },
+      {
+        "keyword": "linearity",
+        "similarity": 0.8083745241165161
+      },
+      {
+        "keyword": "linear",
+        "similarity": 0.807919979095459
+      },
+      {
+        "keyword": "×",
+        "similarity": 0.8072978258132935
+      },
+      {
+        "keyword": "singlelayer",
+        "similarity": 0.8068277835845947
+      }
+    ]
+  },
+  {
+    "qa_id": "375_15",
+    "conversation_id": 375,
+    "qa_index": 15,
+    "keywords": [
+      {
+        "keyword": "residual",
+        "similarity": 0.824774980545044
+      },
+      {
+        "keyword": "resnet",
+        "similarity": 0.8157779574394226
+      },
+      {
+        "keyword": "gradients",
+        "similarity": 0.8150207996368408
+      },
+      {
+        "keyword": "gradient",
+        "similarity": 0.8109879493713379
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.8043926358222961
+      },
+      {
+        "keyword": "what",
+        "similarity": 0.800081193447113
+      },
+      {
+        "keyword": "inputoutput",
+        "similarity": 0.7991582155227661
+      },
+      {
+        "keyword": "vanishing",
+        "similarity": 0.795129656791687
+      },
+      {
+        "keyword": "loss",
+        "similarity": 0.7945796251296997
+      },
+      {
+        "keyword": "of",
+        "similarity": 0.794122576713562
+      }
+    ]
+  },
+  {
+    "qa_id": "375_16",
+    "conversation_id": 375,
+    "qa_index": 16,
+    "keywords": [
+      {
+        "keyword": "endtoend",
+        "similarity": 0.8396339416503906
+      },
+      {
+        "keyword": "training",
+        "similarity": 0.827463686466217
+      },
+      {
+        "keyword": "trained",
+        "similarity": 0.8239743709564209
+      },
+      {
+        "keyword": "to",
+        "similarity": 0.8115327954292297
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.8108956813812256
+      },
+      {
+        "keyword": "learn",
+        "similarity": 0.7998616695404053
+      },
+      {
+        "keyword": "learning",
+        "similarity": 0.7994896769523621
+      },
+      {
+        "keyword": "optimize",
+        "similarity": 0.7980632781982422
+      },
+      {
+        "keyword": "what",
+        "similarity": 0.7972769737243652
+      },
+      {
+        "keyword": "handengineered",
+        "similarity": 0.7960876226425171
+      }
+    ]
+  },
+  {
+    "qa_id": "375_17",
+    "conversation_id": 375,
+    "qa_index": 17,
+    "keywords": [
+      {
+        "keyword": "vnet",
+        "similarity": 0.8422045111656189
+      },
+      {
+        "keyword": "resnet",
+        "similarity": 0.8366469144821167
+      },
+      {
+        "keyword": "unet",
+        "similarity": 0.8086203336715698
+      },
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8033400177955627
+      },
+      {
+        "keyword": "volumetric",
+        "similarity": 0.8019343614578247
+      },
+      {
+        "keyword": "segmentation",
+        "similarity": 0.8018825054168701
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.7999533414840698
+      },
+      {
+        "keyword": "gradient",
+        "similarity": 0.7958645224571228
+      },
+      {
+        "keyword": "crossentropy",
+        "similarity": 0.7953234314918518
+      },
+      {
+        "keyword": "coefficient",
+        "similarity": 0.7893003225326538
+      }
+    ]
+  },
+  {
+    "qa_id": "375_18",
+    "conversation_id": 375,
+    "qa_index": 18,
+    "keywords": [
+      {
+        "keyword": "segmentation",
+        "similarity": 0.8495063781738281
+      },
+      {
+        "keyword": "segmantation",
+        "similarity": 0.8335182070732117
+      },
+      {
+        "keyword": "volumetric",
+        "similarity": 0.8233959674835205
+      },
+      {
+        "keyword": "tumor",
+        "similarity": 0.8170819282531738
+      },
+      {
+        "keyword": "tumors",
+        "similarity": 0.8133089542388916
+      },
+      {
+        "keyword": "segments",
+        "similarity": 0.8115975856781006
+      },
+      {
+        "keyword": "convolutional",
+        "similarity": 0.8112130165100098
+      },
+      {
+        "keyword": "neural",
+        "similarity": 0.8101661205291748
+      },
+      {
+        "keyword": "medical",
+        "similarity": 0.8091858625411987
+      },
+      {
+        "keyword": "tissue",
+        "similarity": 0.808142364025116
+      }
+    ]
+  },
+  {
+    "qa_id": "375_19",
+    "conversation_id": 375,
+    "qa_index": 19,
+    "keywords": [
+      {
+        "keyword": "arxiv",
+        "similarity": 0.8450189828872681
+      },
+      {
+        "keyword": "peerreviewed",
+        "similarity": 0.8286423087120056
+      },
+      {
+        "keyword": "preliminary",
+        "similarity": 0.8184729814529419
+      },
+      {
+        "keyword": "scientific",
+        "similarity": 0.8156616687774658
+      },
+      {
+        "keyword": "articles",
+        "similarity": 0.8145313262939453
+      },
+      {
+        "keyword": "free",
+        "similarity": 0.8134647607803345
+      },
+      {
+        "keyword": "quantitative",
+        "similarity": 0.8130089044570923
+      },
+      {
+        "keyword": "repository",
+        "similarity": 0.8126801252365112
+      },
+      {
+        "keyword": "journal",
+        "similarity": 0.8107651472091675
+      },
+      {
+        "keyword": "science",
+        "similarity": 0.8107088804244995
+      }
+    ]
+  },
+  {
+    "qa_id": "375_20",
+    "conversation_id": 375,
+    "qa_index": 20,
+    "keywords": [
+      {
+        "keyword": "annotation",
+        "similarity": 0.8279761075973511
+      },
+      {
+        "keyword": "annotations",
+        "similarity": 0.8254408836364746
+      },
+      {
+        "keyword": "annotator",
+        "similarity": 0.8191392421722412
+      },
+      {
+        "keyword": "annotated",
+        "similarity": 0.8166673183441162
+      },
+      {
+        "keyword": "labeling",
+        "similarity": 0.8067587614059448
+      },
+      {
+        "keyword": "labels",
+        "similarity": 0.7992855310440063
+      },
+      {
+        "keyword": "truth",
+        "similarity": 0.7944597005844116
+      },
+      {
+        "keyword": "tumor",
+        "similarity": 0.7932171821594238
+      },
+      {
+        "keyword": "ground",
+        "similarity": 0.7927224636077881
+      },
+      {
+        "keyword": "segmentation",
+        "similarity": 0.7917678356170654
+      }
+    ]
+  },
+  {
+    "qa_id": "375_21",
+    "conversation_id": 375,
+    "qa_index": 21,
+    "keywords": [
+      {
+        "keyword": "distances",
+        "similarity": 0.8072965741157532
+      },
+      {
+        "keyword": "distance",
+        "similarity": 0.803386926651001
+      },
+      {
+        "keyword": "discrepancy",
+        "similarity": 0.8027023077011108
+      },
+      {
+        "keyword": "quantify",
+        "similarity": 0.7955640554428101
+      },
+      {
+        "keyword": "hx",
+        "similarity": 0.7948065996170044
+      },
+      {
+        "keyword": "segmentation",
+        "similarity": 0.7921559810638428
+      },
+      {
+        "keyword": "hausdorff",
+        "similarity": 0.7907941937446594
+      },
+      {
+        "keyword": "segmentations",
+        "similarity": 0.7892592549324036
+      },
+      {
+        "keyword": "mathematical",
+        "similarity": 0.7890239953994751
+      },
+      {
+        "keyword": "closest",
+        "similarity": 0.7877814769744873
+      }
+    ]
+  }
+]
