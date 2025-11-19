@@ -1,0 +1,989 @@
+[
+  {
+    "qa_id": "1_0",
+    "conversation_id": 1,
+    "qa_index": 0,
+    "keywords": [
+      {
+        "keyword": "backtesting",
+        "similarity": 0.7363464832305908
+      },
+      {
+        "keyword": "테스트",
+        "similarity": 0.4227815270423889
+      },
+      {
+        "keyword": "검증",
+        "similarity": 0.41073495149612427
+      },
+      {
+        "keyword": "뒤",
+        "similarity": 0.36105862259864807
+      },
+      {
+        "keyword": "검증하",
+        "similarity": 0.34210628271102905
+      },
+      {
+        "keyword": "소프트웨어",
+        "similarity": 0.2843974828720093
+      },
+      {
+        "keyword": "확인",
+        "similarity": 0.2756916880607605
+      },
+      {
+        "keyword": "기능이나",
+        "similarity": 0.2715338468551636
+      },
+      {
+        "keyword": "엔지니어링",
+        "similarity": 0.27069178223609924
+      },
+      {
+        "keyword": "ai머신러닝금융시뮬레이션",
+        "similarity": 0.26661136746406555
+      }
+    ]
+  },
+  {
+    "qa_id": "1_1",
+    "conversation_id": 1,
+    "qa_index": 1,
+    "keywords": [
+      {
+        "keyword": "backtesting",
+        "similarity": 0.6561322212219238
+      },
+      {
+        "keyword": "ai머신러닝금융",
+        "similarity": 0.6004955768585205
+      },
+      {
+        "keyword": "모델전략알고리즘",
+        "similarity": 0.5534957647323608
+      },
+      {
+        "keyword": "예측",
+        "similarity": 0.43926388025283813
+      },
+      {
+        "keyword": "금융ai",
+        "similarity": 0.43371134996414185
+      },
+      {
+        "keyword": "시뮬레이션",
+        "similarity": 0.4326331317424774
+      },
+      {
+        "keyword": "금융",
+        "similarity": 0.4247291684150696
+      },
+      {
+        "keyword": "전략알고리즘",
+        "similarity": 0.42394721508026123
+      },
+      {
+        "keyword": "ai머신러닝",
+        "similarity": 0.414994478225708
+      },
+      {
+        "keyword": "시뮬레이션하",
+        "similarity": 0.41278743743896484
+      }
+    ]
+  },
+  {
+    "qa_id": "1_2",
+    "conversation_id": 1,
+    "qa_index": 2,
+    "keywords": [
+      {
+        "keyword": "한국어",
+        "similarity": 0.5777208805084229
+      },
+      {
+        "keyword": "한글",
+        "similarity": 0.4528004825115204
+      },
+      {
+        "keyword": "리눅스",
+        "similarity": 0.37104544043540955
+      },
+      {
+        "keyword": "ubuntu",
+        "similarity": 0.3371220827102661
+      },
+      {
+        "keyword": "윈도우",
+        "similarity": 0.3275259733200073
+      },
+      {
+        "keyword": "설정",
+        "similarity": 0.31949111819267273
+      },
+      {
+        "keyword": "폰트",
+        "similarity": 0.309639036655426
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.30018141865730286
+      },
+      {
+        "keyword": "설치된",
+        "similarity": 0.29962271451950073
+      },
+      {
+        "keyword": "코드알려줘",
+        "similarity": 0.28070366382598877
+      }
+    ]
+  },
+  {
+    "qa_id": "1_3",
+    "conversation_id": 1,
+    "qa_index": 3,
+    "keywords": [
+      {
+        "keyword": "macbook",
+        "similarity": 0.6902062296867371
+      },
+      {
+        "keyword": "matplotlib",
+        "similarity": 0.42511963844299316
+      },
+      {
+        "keyword": "macos",
+        "similarity": 0.30995994806289673
+      },
+      {
+        "keyword": "설정",
+        "similarity": 0.29672476649284363
+      },
+      {
+        "keyword": "텍스트",
+        "similarity": 0.2683781385421753
+      },
+      {
+        "keyword": "설치",
+        "similarity": 0.266734778881073
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.2538857161998749
+      },
+      {
+        "keyword": "rc",
+        "similarity": 0.2511844038963318
+      },
+      {
+        "keyword": "폰트",
+        "similarity": 0.2431238293647766
+      },
+      {
+        "keyword": "팁",
+        "similarity": 0.2406640648841858
+      }
+    ]
+  },
+  {
+    "qa_id": "1_4",
+    "conversation_id": 1,
+    "qa_index": 4,
+    "keywords": [
+      {
+        "keyword": "pdread_csvuserswooseokhandesktopkagglellm_finetuningdatatraincsv",
+        "similarity": 0.5688306093215942
+      },
+      {
+        "keyword": "import",
+        "similarity": 0.566836953163147
+      },
+      {
+        "keyword": "pandas",
+        "similarity": 0.4957161843776703
+      },
+      {
+        "keyword": "train_dfpromptapplypreprocess_text",
+        "similarity": 0.47750023007392883
+      },
+      {
+        "keyword": "sklearnfeature_extractiontext",
+        "similarity": 0.4664860963821411
+      },
+      {
+        "keyword": "train_dfresponse_aapplypreprocess_text",
+        "similarity": 0.46626630425453186
+      },
+      {
+        "keyword": "train_dfresponse_bapplypreprocess_text",
+        "similarity": 0.44389745593070984
+      },
+      {
+        "keyword": "sklearnmetricspairwise",
+        "similarity": 0.4110206365585327
+      },
+      {
+        "keyword": "train_dfshape",
+        "similarity": 0.40955984592437744
+      },
+      {
+        "keyword": "create_prompt_response_pairtrain_df",
+        "similarity": 0.4073357582092285
+      }
+    ]
+  },
+  {
+    "qa_id": "1_5",
+    "conversation_id": 1,
+    "qa_index": 5,
+    "keywords": [
+      {
+        "keyword": "데이터용",
+        "similarity": 0.5255981683731079
+      },
+      {
+        "keyword": "데이터",
+        "similarity": 0.48394572734832764
+      },
+      {
+        "keyword": "tfidf",
+        "similarity": 0.4794308841228485
+      },
+      {
+        "keyword": "id도",
+        "similarity": 0.47817766666412354
+      },
+      {
+        "keyword": "id",
+        "similarity": 0.47681644558906555
+      },
+      {
+        "keyword": "벡터화",
+        "similarity": 0.44844675064086914
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.4373060464859009
+      },
+      {
+        "keyword": "만들어드릴까",
+        "similarity": 0.4362393021583557
+      },
+      {
+        "keyword": "계산",
+        "similarity": 0.43423473834991455
+      },
+      {
+        "keyword": "만들어드릴게",
+        "similarity": 0.4117402136325836
+      }
+    ]
+  },
+  {
+    "qa_id": "1_6",
+    "conversation_id": 1,
+    "qa_index": 6,
+    "keywords": [
+      {
+        "keyword": "p_winner_dfappendprompt",
+        "similarity": 0.6027437448501587
+      },
+      {
+        "keyword": "dataframe",
+        "similarity": 0.45350632071495056
+      },
+      {
+        "keyword": "response_a",
+        "similarity": 0.45281103253364563
+      },
+      {
+        "keyword": "데이터",
+        "similarity": 0.4426133930683136
+      },
+      {
+        "keyword": "pandas",
+        "similarity": 0.433250367641449
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.4233658015727997
+      },
+      {
+        "keyword": "반환",
+        "similarity": 0.38869887590408325
+      },
+      {
+        "keyword": "해결",
+        "similarity": 0.3833255171775818
+      },
+      {
+        "keyword": "고치면",
+        "similarity": 0.37732914090156555
+      },
+      {
+        "keyword": "고쳐줘",
+        "similarity": 0.36960020661354065
+      }
+    ]
+  },
+  {
+    "qa_id": "1_7",
+    "conversation_id": 1,
+    "qa_index": 7,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.612097442150116
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.527501106262207
+      },
+      {
+        "keyword": "구현",
+        "similarity": 0.4971376061439514
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.4688328504562378
+      },
+      {
+        "keyword": "출력",
+        "similarity": 0.45489931106567383
+      },
+      {
+        "keyword": "방식",
+        "similarity": 0.44534164667129517
+      },
+      {
+        "keyword": "방법",
+        "similarity": 0.44477611780166626
+      },
+      {
+        "keyword": "def",
+        "similarity": 0.43273648619651794
+      },
+      {
+        "keyword": "성능",
+        "similarity": 0.42607951164245605
+      },
+      {
+        "keyword": "문제",
+        "similarity": 0.42434796690940857
+      }
+    ]
+  },
+  {
+    "qa_id": "1_8",
+    "conversation_id": 1,
+    "qa_index": 8,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresp_loser_df",
+        "similarity": 0.6282851099967957
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.6061534881591797
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.6027547121047974
+      },
+      {
+        "keyword": "dfcross_encoder_score",
+        "similarity": 0.5983825922012329
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.5815441012382507
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.5674355030059814
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.5433821082115173
+      },
+      {
+        "keyword": "typeerror",
+        "similarity": 0.5331478118896484
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.5000358819961548
+      },
+      {
+        "keyword": "textinputsequence",
+        "similarity": 0.4602811336517334
+      }
+    ]
+  },
+  {
+    "qa_id": "1_9",
+    "conversation_id": 1,
+    "qa_index": 9,
+    "keywords": [
+      {
+        "keyword": "preprocess_texttext_list_str",
+        "similarity": 0.6218153238296509
+      },
+      {
+        "keyword": "문자열str",
+        "similarity": 0.43413734436035156
+      },
+      {
+        "keyword": "dict",
+        "similarity": 0.4173162579536438
+      },
+      {
+        "keyword": "텍스트",
+        "similarity": 0.4150408208370209
+      },
+      {
+        "keyword": "변환",
+        "similarity": 0.4041988253593445
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.3923385441303253
+      },
+      {
+        "keyword": "전처리",
+        "similarity": 0.3895340859889984
+      },
+      {
+        "keyword": "처리",
+        "similarity": 0.3726506531238556
+      },
+      {
+        "keyword": "def",
+        "similarity": 0.37093663215637207
+      },
+      {
+        "keyword": "수정된",
+        "similarity": 0.3480262756347656
+      }
+    ]
+  },
+  {
+    "qa_id": "1_10",
+    "conversation_id": 1,
+    "qa_index": 10,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.7530104517936707
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.5449655055999756
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.5133467316627502
+      },
+      {
+        "keyword": "p_loser_df",
+        "similarity": 0.4877384901046753
+      },
+      {
+        "keyword": "데이터프레임p_winner_df",
+        "similarity": 0.46221262216567993
+      },
+      {
+        "keyword": "계산",
+        "similarity": 0.4545249342918396
+      },
+      {
+        "keyword": "q",
+        "similarity": 0.4156029224395752
+      },
+      {
+        "keyword": "실행",
+        "similarity": 0.3656767010688782
+      },
+      {
+        "keyword": "def",
+        "similarity": 0.3574334383010864
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.35443514585494995
+      }
+    ]
+  },
+  {
+    "qa_id": "1_11",
+    "conversation_id": 1,
+    "qa_index": 11,
+    "keywords": [
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.5994669198989868
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.5803617238998413
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.5757632255554199
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.5529972910881042
+      },
+      {
+        "keyword": "typeerror",
+        "similarity": 0.5226675271987915
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.4923226833343506
+      },
+      {
+        "keyword": "textinputsequence",
+        "similarity": 0.4555888772010803
+      },
+      {
+        "keyword": "cross_encoder_predict_rank_args_decorator",
+        "similarity": 0.44581887125968933
+      },
+      {
+        "keyword": "error",
+        "similarity": 0.391787052154541
+      },
+      {
+        "keyword": "cell",
+        "similarity": 0.3767596185207367
+      }
+    ]
+  },
+  {
+    "qa_id": "1_12",
+    "conversation_id": 1,
+    "qa_index": 12,
+    "keywords": [
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.6029047966003418
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.57818603515625
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.578170895576477
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.5495160818099976
+      },
+      {
+        "keyword": "typeerror",
+        "similarity": 0.5264085531234741
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.49452710151672363
+      },
+      {
+        "keyword": "textinputsequence",
+        "similarity": 0.4512558579444885
+      },
+      {
+        "keyword": "cross_encoder_predict_rank_args_decorator",
+        "similarity": 0.4383445978164673
+      },
+      {
+        "keyword": "cell",
+        "similarity": 0.3735570013523102
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.344831645488739
+      }
+    ]
+  },
+  {
+    "qa_id": "1_13",
+    "conversation_id": 1,
+    "qa_index": 13,
+    "keywords": [
+      {
+        "keyword": "government",
+        "similarity": 0.543224573135376
+      },
+      {
+        "keyword": "governments",
+        "similarity": 0.526896059513092
+      },
+      {
+        "keyword": "governance",
+        "similarity": 0.4876905679702759
+      },
+      {
+        "keyword": "authoritynngovernments",
+        "similarity": 0.46571290493011475
+      },
+      {
+        "keyword": "q",
+        "similarity": 0.4018002152442932
+      },
+      {
+        "keyword": "queries",
+        "similarity": 0.4017177224159241
+      },
+      {
+        "keyword": "질문",
+        "similarity": 0.40012091398239136
+      },
+      {
+        "keyword": "citizensnnfurthermore",
+        "similarity": 0.3984564244747162
+      },
+      {
+        "keyword": "tac",
+        "similarity": 0.38011619448661804
+      },
+      {
+        "keyword": "tic",
+        "similarity": 0.37818264961242676
+      }
+    ]
+  },
+  {
+    "qa_id": "1_14",
+    "conversation_id": 1,
+    "qa_index": 14,
+    "keywords": [
+      {
+        "keyword": "check",
+        "similarity": 0.47050708532333374
+      },
+      {
+        "keyword": "dattype",
+        "similarity": 0.43387550115585327
+      },
+      {
+        "keyword": "color",
+        "similarity": 0.4020509719848633
+      },
+      {
+        "keyword": "pandas",
+        "similarity": 0.356990784406662
+      },
+      {
+        "keyword": "data",
+        "similarity": 0.31857892870903015
+      },
+      {
+        "keyword": "if",
+        "similarity": 0.31015545129776
+      },
+      {
+        "keyword": "row",
+        "similarity": 0.3021029233932495
+      },
+      {
+        "keyword": "rows",
+        "similarity": 0.29298314452171326
+      },
+      {
+        "keyword": "dataframe",
+        "similarity": 0.2909601032733917
+      },
+      {
+        "keyword": "consistent",
+        "similarity": 0.28889724612236023
+      }
+    ]
+  },
+  {
+    "qa_id": "1_15",
+    "conversation_id": 1,
+    "qa_index": 15,
+    "keywords": [
+      {
+        "keyword": "p_winner_df",
+        "similarity": 0.5655092000961304
+      },
+      {
+        "keyword": "textinputsequence",
+        "similarity": 0.5125884413719177
+      },
+      {
+        "keyword": "typeerror",
+        "similarity": 0.4708815813064575
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.4068889617919922
+      },
+      {
+        "keyword": "encoder",
+        "similarity": 0.3981086015701294
+      },
+      {
+        "keyword": "response",
+        "similarity": 0.37917637825012207
+      },
+      {
+        "keyword": "predict",
+        "similarity": 0.37464696168899536
+      },
+      {
+        "keyword": "str",
+        "similarity": 0.3577190637588501
+      },
+      {
+        "keyword": "q",
+        "similarity": 0.3419075012207031
+      },
+      {
+        "keyword": "비교",
+        "similarity": 0.3304930329322815
+      }
+    ]
+  },
+  {
+    "qa_id": "1_16",
+    "conversation_id": 1,
+    "qa_index": 16,
+    "keywords": [
+      {
+        "keyword": "crossencoder보다",
+        "similarity": 0.6120597124099731
+      },
+      {
+        "keyword": "crossencoder용과",
+        "similarity": 0.6091960668563843
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.5798294544219971
+      },
+      {
+        "keyword": "crossencodermsmarcominilml6v2",
+        "similarity": 0.5731798410415649
+      },
+      {
+        "keyword": "sentencetransformer",
+        "similarity": 0.5188361406326294
+      },
+      {
+        "keyword": "rossencoderstsbrobertabase",
+        "similarity": 0.49043864011764526
+      },
+      {
+        "keyword": "sentencebert",
+        "similarity": 0.4519263505935669
+      },
+      {
+        "keyword": "sentencebert도",
+        "similarity": 0.44695621728897095
+      },
+      {
+        "keyword": "semantic",
+        "similarity": 0.43697890639305115
+      },
+      {
+        "keyword": "비교",
+        "similarity": 0.4305242896080017
+      }
+    ]
+  },
+  {
+    "qa_id": "1_17",
+    "conversation_id": 1,
+    "qa_index": 17,
+    "keywords": [
+      {
+        "keyword": "crossencodermsmarcominilml6v2",
+        "similarity": 0.5624626874923706
+      },
+      {
+        "keyword": "비교",
+        "similarity": 0.5226888656616211
+      },
+      {
+        "keyword": "분석용",
+        "similarity": 0.5177403688430786
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.5107009410858154
+      },
+      {
+        "keyword": "비교해주",
+        "similarity": 0.5074435472488403
+      },
+      {
+        "keyword": "비교할",
+        "similarity": 0.5059424042701721
+      },
+      {
+        "keyword": "분석",
+        "similarity": 0.5055845975875854
+      },
+      {
+        "keyword": "비교할수있게",
+        "similarity": 0.46468687057495117
+      },
+      {
+        "keyword": "최적화",
+        "similarity": 0.4475448429584503
+      },
+      {
+        "keyword": "점수",
+        "similarity": 0.44070833921432495
+      }
+    ]
+  },
+  {
+    "qa_id": "1_18",
+    "conversation_id": 1,
+    "qa_index": 18,
+    "keywords": [
+      {
+        "keyword": "p_winner_dfto_csvsemantic_analysis_resultcross_encoderms_marco_minilm_l_6_v2winner_scorescsv",
+        "similarity": 0.7779628038406372
+      },
+      {
+        "keyword": "p_loser_dfto_csvsemantic_analysis_resultcross_encoderms_marco_minilm_l_6_v2loser_scorescsv",
+        "similarity": 0.7644941210746765
+      },
+      {
+        "keyword": "osmakedirssemantic_analysis_resultcross_encoder",
+        "similarity": 0.6601381897926331
+      },
+      {
+        "keyword": "데이터",
+        "similarity": 0.41158416867256165
+      },
+      {
+        "keyword": "indexfalse",
+        "similarity": 0.37716612219810486
+      },
+      {
+        "keyword": "csv",
+        "similarity": 0.37484100461006165
+      },
+      {
+        "keyword": "exist_oktrue",
+        "similarity": 0.373806357383728
+      },
+      {
+        "keyword": "결과",
+        "similarity": 0.34437617659568787
+      },
+      {
+        "keyword": "코드에",
+        "similarity": 0.31978675723075867
+      },
+      {
+        "keyword": "q",
+        "similarity": 0.3113027811050415
+      }
+    ]
+  },
+  {
+    "qa_id": "1_19",
+    "conversation_id": 1,
+    "qa_index": 19,
+    "keywords": [
+      {
+        "keyword": "blip3",
+        "similarity": 0.6128956079483032
+      },
+      {
+        "keyword": "blip3text",
+        "similarity": 0.51655113697052
+      },
+      {
+        "keyword": "models",
+        "similarity": 0.4756235182285309
+      },
+      {
+        "keyword": "xgenmm",
+        "similarity": 0.46524864435195923
+      },
+      {
+        "keyword": "멀티모달multimodal",
+        "similarity": 0.4581497013568878
+      },
+      {
+        "keyword": "멀티모달",
+        "similarity": 0.4580761194229126
+      },
+      {
+        "keyword": "모델",
+        "similarity": 0.4566323161125183
+      },
+      {
+        "keyword": "multimodal",
+        "similarity": 0.4338538348674774
+      },
+      {
+        "keyword": "버전global",
+        "similarity": 0.42013147473335266
+      },
+      {
+        "keyword": "작업multimodal",
+        "similarity": 0.42009246349334717
+      }
+    ]
+  },
+  {
+    "qa_id": "1_20",
+    "conversation_id": 1,
+    "qa_index": 20,
+    "keywords": [
+      {
+        "keyword": "statsttest_indwinner_scores",
+        "similarity": 0.5666008591651917
+      },
+      {
+        "keyword": "nameerror",
+        "similarity": 0.5536730289459229
+      },
+      {
+        "keyword": "t_stat",
+        "similarity": 0.539154052734375
+      },
+      {
+        "keyword": "loser_scores",
+        "similarity": 0.45073992013931274
+      },
+      {
+        "keyword": "ttest",
+        "similarity": 0.44058871269226074
+      },
+      {
+        "keyword": "scipystats",
+        "similarity": 0.4191145598888397
+      },
+      {
+        "keyword": "p_value",
+        "similarity": 0.393368124961853
+      },
+      {
+        "keyword": "stats",
+        "similarity": 0.34869223833084106
+      },
+      {
+        "keyword": "traceback",
+        "similarity": 0.3407153785228729
+      },
+      {
+        "keyword": "cell",
+        "similarity": 0.3249119520187378
+      }
+    ]
+  }
+]

@@ -1,0 +1,1872 @@
+{
+  "1": {
+    "category": "Machine Learning and AI",
+    "reason": "The keywords discuss backtesting, which is a critical concept in AI and machine learning for validating models using historical data.",
+    "conversation_title": "Backtesting 의미 설명"
+  },
+  "2": {
+    "category": "Language and Translation",
+    "reason": "The conversation is focused on the meaning and comparison of the term '분점' in the context of Chinese, which involves translation and linguistic analysis.",
+    "conversation_title": "분점 의미 비교"
+  },
+  "3": {
+    "category": "Health and Medicine",
+    "reason": "The title and keywords relate to dental orthodontics and the health implications of dental treatments.",
+    "conversation_title": "치과 교정 중국어"
+  },
+  "4": {
+    "category": "Language and Translation",
+    "reason": "The conversation revolves around translating specific dental terminology, fitting it within the context of language studies.",
+    "conversation_title": "가철성 유지장치 번역"
+  },
+  "5": {
+    "category": "Language and Translation",
+    "reason": "This conversation is centered around expressing shoe sizes in English, a clear example of translation and language use.",
+    "conversation_title": "발크기 영어로 표현"
+  },
+  "6": {
+    "category": "Language and Translation",
+    "reason": "The keywords are focused on translating a phrase related to plans falling through, indicating a language translation context.",
+    "conversation_title": "파토났다 번역하기"
+  },
+  "7": {
+    "category": "Language and Translation",
+    "reason": "The discussion involves the translation of detergent terms into Chinese, emphasizing the linguistic aspect of the conversation.",
+    "conversation_title": "세제 번역 비교"
+  },
+  "8": {
+    "category": "Language and Translation",
+    "reason": "This conversation concerns translating automotive seat terminology into Chinese, aligning it with language translation activities.",
+    "conversation_title": "자동차 좌석 중국어 표현"
+  },
+  "9": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation discusses technical specifications of a product (ThinkBook 14+), which is largely related to software and hardware development.",
+    "conversation_title": "ThinkBook 14+ 2025 信息"
+  },
+  "10": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation focuses on the installation process of a library (TensorFlow), which directly pertains to programming.",
+    "conversation_title": "TensorFlow 라이브러리 설치"
+  },
+  "11": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion about K-fold and cross-validation is a fundamental part of model evaluation in machine learning.",
+    "conversation_title": "K-fold vs cross validation"
+  },
+  "12": {
+    "category": "Language and Translation",
+    "reason": "The focus is on translating a phrase about buying a refrigerator into Korean, indicating a translation task.",
+    "conversation_title": "Translate to Korean"
+  },
+  "13": {
+    "category": "Machine Learning and AI",
+    "reason": "It describes training methods for encoder-decoder architectures, which are essential in AI, especially in natural language processing.",
+    "conversation_title": "인코더 디코더 훈련 방법"
+  },
+  "14": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation regards the explanation of transformer models, which are a significant part of contemporary AI and ML.",
+    "conversation_title": "Transformer 번역 설명"
+  },
+  "15": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion surrounding Jupyter Notebooks involves software principles and development environments.",
+    "conversation_title": "Jupyter Notebook 원리"
+  },
+  "16": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation is about using Google Colab with Hugging Face, which is a programming and AI tool integration.",
+    "conversation_title": "Google Colab Hugging Face"
+  },
+  "17": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation compares traditional GAN discriminators and StyleGAN, discussions that are central to machine learning models.",
+    "conversation_title": "StyleGAN Discriminator 비교"
+  },
+  "18": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation is focused on the mapping network concept, relevant to machine learning architecture.",
+    "conversation_title": "Mapping network 설명"
+  },
+  "19": {
+    "category": "Machine Learning and AI",
+    "reason": "It explains the structure and principles behind GANs, which are pivotal in the field of AI.",
+    "conversation_title": "GAN 구조와 원리 설명"
+  },
+  "20": {
+    "category": "Machine Learning and AI",
+    "reason": "The explanation of tensor operations is a fundamental topic in machine learning frameworks like Keras.",
+    "conversation_title": "expand_dims 역할 설명"
+  },
+  "21": {
+    "category": "Machine Learning and AI",
+    "reason": "Residual blocks are crucial components of deep learning architectures, which is why this conversation fits this category.",
+    "conversation_title": "ResidualBlock 설명"
+  },
+  "22": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion concerns fine-tuning LLM classification in deep learning, which is a key area in the AI field.",
+    "conversation_title": "LLM_classification_finetuning_deeplearning"
+  },
+  "23": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on developing an AI API application, which encompasses software development processes.",
+    "conversation_title": "AI API 앱 개발 형식"
+  },
+  "24": {
+    "category": "Machine Learning and AI",
+    "reason": "This talks about energy-based models, which are associated with AI and machine learning methodologies.",
+    "conversation_title": "에너지 기반 모델 설명"
+  },
+  "25": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation discusses converting a file format from PDF to JPG, which involves software development aspects.",
+    "conversation_title": "Pdf to jpg converter"
+  },
+  "26": {
+    "category": "Machine Learning and AI",
+    "reason": "It relates to an explanation of energy-based models in the context of machine learning, focusing on mathematical concepts.",
+    "conversation_title": "에너지 기반 모델 설명"
+  },
+  "27": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation addresses troubleshooting a GPU connection issue within a cloud platform, related to software development practices.",
+    "conversation_title": "Vast.ai 연결 문제 해결"
+  },
+  "28": {
+    "category": "Data Processing and Analysis",
+    "reason": "The discussion on memory analysis pertains to data processing aspects within computational environments.",
+    "conversation_title": "dp_base 메모리 분석"
+  },
+  "29": {
+    "category": "Health and Medicine",
+    "reason": "This explores the self-healing capabilities of partial tears, directly relating to health and medical knowledge.",
+    "conversation_title": "부분파열 자연 치유 가능성"
+  },
+  "30": {
+    "category": "Machine Learning and AI",
+    "reason": "Discussing the method to continue training a model relates to practices in machine learning workflows.",
+    "conversation_title": "훈련 재개 방법"
+  },
+  "31": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation is about configuring an extension for VSCode, which is purely a software development topic.",
+    "conversation_title": "VSCode md 파일 설정"
+  },
+  "32": {
+    "category": "Social and Political Issues",
+    "reason": "The discussion on yacht auction rules can relate to economic and social discussions surrounding auction practices.",
+    "conversation_title": "Yacht Auction 규칙 요약"
+  },
+  "33": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation involves discussing the application of Monte Carlo Tree Search in simulations, which is an AI-related topic.",
+    "conversation_title": "MCTS 적용 가능성"
+  },
+  "34": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation discusses analyzing strategies in AI-based games, a core area of machine learning applications.",
+    "conversation_title": "AI 전략 게임 분석"
+  },
+  "35": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation involves numerical concepts relevant to AI algorithm structures.",
+    "conversation_title": "mcts"
+  },
+  "36": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation involves iterating files using Python, which is a programming language development task.",
+    "conversation_title": "Iterate files Python"
+  },
+  "37": {
+    "category": "Programming and Software Development",
+    "reason": "The title and keywords are about using lists in C++, which directly relates to software development.",
+    "conversation_title": "Using C++ list"
+  },
+  "38": {
+    "category": "Programming and Software Development",
+    "reason": "The keywords indicate issues related to pointers in C++, a programming language topic.",
+    "conversation_title": "Fenwick 2D "
+  },
+  "39": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion comparing erase and remove functions in C++ relates to programming concepts.",
+    "conversation_title": "Erase vs remove in C++"
+  },
+  "40": {
+    "category": "Machine Learning and AI",
+    "reason": "The context around mCTS and simulation relates to AI strategy in gaming.",
+    "conversation_title": "시간 고려한 mCTS"
+  },
+  "41": {
+    "category": "Machine Learning and AI",
+    "reason": "Getting data from TensorFlow datasets relates to data management in machine learning frameworks.",
+    "conversation_title": "Get data from tf.dataset"
+  },
+  "42": {
+    "category": "Programming and Software Development",
+    "reason": "This involves constructor sorting in programming, a direct software development task.",
+    "conversation_title": "Sort moves by size"
+  },
+  "43": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation focuses on text processing and matching, which falls under data analysis.",
+    "conversation_title": "Pad punctuation 설명"
+  },
+  "44": {
+    "category": "Programming and Software Development",
+    "reason": "The keywords speak about analysis of constants and instructions, significantly relating to programming.",
+    "conversation_title": "常量和指令分析"
+  },
+  "45": {
+    "category": "Machine Learning and AI",
+    "reason": "This discusses adding noise to labels, which is a technique in AI to improve model robustness.",
+    "conversation_title": "Adding noise to labels"
+  },
+  "46": {
+    "category": "Programming and Software Development",
+    "reason": "Checking Git repository status relates to software development workflow.",
+    "conversation_title": "Check Git repository status"
+  },
+  "47": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion involves solutions related to training loops in Keras, which is relevant to machine learning.",
+    "conversation_title": "Keras 오류 해결 방법"
+  },
+  "48": {
+    "category": "Data Processing and Analysis",
+    "reason": "The explanation appears to focus on mathematical expressions, which relates to data analysis.",
+    "conversation_title": "마지막 식 설명"
+  },
+  "49": {
+    "category": "Data Processing and Analysis",
+    "reason": "This involves finding coefficients in a mathematical context, hence falls under data analysis.",
+    "conversation_title": "x^2 계수 찾기"
+  },
+  "50": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses hunger and death, touching on societal issues related to famine.",
+    "conversation_title": "挨饿与死亡"
+  },
+  "51": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation focuses on using numpy, which is a programming library for numerical computation.",
+    "conversation_title": "Check numpy ndarray values"
+  },
+  "52": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation is about complex analysis, which can relate to broader philosophical discussions in mathematics.",
+    "conversation_title": "复变函数奇点分析"
+  },
+  "53": {
+    "category": "Language and Translation",
+    "reason": "The conversation is about learning English, which directly relates to language education.",
+    "conversation_title": "Best Ways to Learn English"
+  },
+  "54": {
+    "category": "Data Processing and Analysis",
+    "reason": "The discussion on evaluating limits connects to mathematical concepts frequently used in data analysis.",
+    "conversation_title": "Limit of sequence"
+  },
+  "55": {
+    "category": "Language and Translation",
+    "reason": "This conversation is focused on methods to learn Chinese, a language education topic.",
+    "conversation_title": "学好中文方法"
+  },
+  "56": {
+    "category": "Data Processing and Analysis",
+    "reason": "The topic involves proofs in complex analysis which are foundational in data processing techniques.",
+    "conversation_title": "Cauchy-Goursat 정리 증명"
+  },
+  "57": {
+    "category": "Data Processing and Analysis",
+    "reason": "The focus is on singularities in functions, which is a mathematical concept relevant to analytical data processes.",
+    "conversation_title": "Singularities of tan function"
+  },
+  "58": {
+    "category": "Language and Translation",
+    "reason": "The conversation is about expressions in congratulating someone, which relates to language usage.",
+    "conversation_title": "Good news expressions"
+  },
+  "59": {
+    "category": "Language and Translation",
+    "reason": "This conversation discusses translations related to ceasefire negotiations, highlighting language importance in communication.",
+    "conversation_title": "French ceasefire negotiations"
+  },
+  "60": {
+    "category": "Advertising and Marketing",
+    "reason": "The topic is about optimizing expressions, which can relate to effective communication in marketing strategies.",
+    "conversation_title": "等候名单表达优化"
+  },
+  "61": {
+    "category": "Data Processing and Analysis",
+    "reason": "This involves trigonometric identities which can be pertinent to analytical methods.",
+    "conversation_title": "삼각함수 반각 공식"
+  },
+  "62": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation is centered around integrals, a fundamental concept in data analysis techniques.",
+    "conversation_title": "Integral of sin function"
+  },
+  "63": {
+    "category": "Data Processing and Analysis",
+    "reason": "The focus here is on complex integrals which are essential in data processing tasks.",
+    "conversation_title": "复杂积分求解"
+  },
+  "64": {
+    "category": "Language and Translation",
+    "reason": "The conversation is about writing polite emails, which relates to language use in communication.",
+    "conversation_title": "邮件绑定咨询回复"
+  },
+  "65": {
+    "category": "Data Processing and Analysis",
+    "reason": "It discusses properties of integrals, linking to methods used in data analysis and mathematical processing.",
+    "conversation_title": "积分一致有界性"
+  },
+  "66": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation covers average value theorems in calculus, foundational in data analysis methods.",
+    "conversation_title": "第二积分平均值定理"
+  },
+  "67": {
+    "category": "Data Processing and Analysis",
+    "reason": "Discussion about Riemann integrals relates to methods in mathematical analyses of data.",
+    "conversation_title": "연속함수와 적분 가능성"
+  },
+  "68": {
+    "category": "Language and Translation",
+    "reason": "The conversation is about polite expressions for requests, a language-related issue.",
+    "conversation_title": "申请复学礼貌表达"
+  },
+  "69": {
+    "category": "Data Processing and Analysis",
+    "reason": "This involves integrals and their properties, relevant to mathematical analysis.",
+    "conversation_title": "짧은 구간 적분 해석"
+  },
+  "70": {
+    "category": "Social and Political Issues",
+    "reason": "The discussion ties into issues regarding military service in Korea, which is a political matter.",
+    "conversation_title": "复学情况说明简化"
+  },
+  "71": {
+    "category": "Data Processing and Analysis",
+    "reason": "Focuses on conditions for extreme values in functions, related to data processing techniques.",
+    "conversation_title": "二元函数极值条件"
+  },
+  "72": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation is about extremum conditions, significant in analyzing datasets.",
+    "conversation_title": "다원함수 극값 존재 여부"
+  },
+  "73": {
+    "category": "Data Processing and Analysis",
+    "reason": "Discussing limits relates closely to data analysis and mathematical evaluations.",
+    "conversation_title": "Limit evaluation p to 0"
+  },
+  "74": {
+    "category": "Data Processing and Analysis",
+    "reason": "This identity relates to combinatorial mathematics, significant for data analysis.",
+    "conversation_title": "Pascal's Rule Identity"
+  },
+  "75": {
+    "category": "Data Processing and Analysis",
+    "reason": "Concerned with boundedness and continuity in functions, key aspects of analyzing data methodologies.",
+    "conversation_title": "Continuity and Boundedness"
+  },
+  "76": {
+    "category": "Data Processing and Analysis",
+    "reason": "Proof of Fourier series ties directly to mathematical analysis, a key area in data science.",
+    "conversation_title": "Proof of Fourier Series"
+  },
+  "77": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation pertains to Jupyter notebooks, which are used for coding and data analysis.",
+    "conversation_title": "주피터 노트북 실행법"
+  },
+  "78": {
+    "category": "Data Processing and Analysis",
+    "reason": "Convergence of series is significant in statistical and data analysis contexts.",
+    "conversation_title": "Convergence of Series"
+  },
+  "79": {
+    "category": "Data Processing and Analysis",
+    "reason": "This conversation explores the concepts of convergence, which is crucial in analytical approaches.",
+    "conversation_title": "Series Convergence Explanation"
+  },
+  "80": {
+    "category": "Social and Political Issues",
+    "reason": "Conversations about school policy impact and enrollment reflect social and political aspects.",
+    "conversation_title": "复学及选课咨询"
+  },
+  "81": {
+    "category": "Social and Political Issues",
+    "reason": "Discusses military training and deployment, representing social and political concerns.",
+    "conversation_title": "Hey y'all summary"
+  },
+  "82": {
+    "category": "Programming and Software Development",
+    "reason": "Focused on constructing grammar for programming language compilers, a technical aspect of software development.",
+    "conversation_title": "Canonical LR Grammar Construction"
+  },
+  "83": {
+    "category": "Language and Translation",
+    "reason": "The conversation centers on evaluating academic writing, which relates to language proficiency.",
+    "conversation_title": "TOEFL Writing Evaluation"
+  },
+  "84": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is about strings in programming, linking directly to software development.",
+    "conversation_title": "문법 설계 요청"
+  },
+  "85": {
+    "category": "Data Processing and Analysis",
+    "reason": "Involves the use of Pandas, a library in Python for data manipulation, which fits into data processing.",
+    "conversation_title": "Pandas map 함수 사용법"
+  },
+  "86": {
+    "category": "Programming and Software Development",
+    "reason": "Relates to resolving errors in data merging, a common software development task.",
+    "conversation_title": "Merge error solution"
+  },
+  "87": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is about optimizing code, pertinent to software development best practices.",
+    "conversation_title": "Code Optimization Suggestions"
+  },
+  "88": {
+    "category": "Programming and Software Development",
+    "reason": "Discusses factorial calculations in Python, a programming-related topic.",
+    "conversation_title": "Recent Factorial in Python"
+  },
+  "89": {
+    "category": "Programming and Software Development",
+    "reason": "Focuses on inserting data into a DataFrame using Pandas, relevant to software development.",
+    "conversation_title": "데이터프레임 삽입 방법"
+  },
+  "90": {
+    "category": "Data Processing and Analysis",
+    "reason": "Calculating probabilities with dice relates to statistical data analysis.",
+    "conversation_title": "주사위 확률 계산"
+  },
+  "91": {
+    "category": "Data Processing and Analysis",
+    "reason": "Explores correlation and causation, which are key concepts in data analysis.",
+    "conversation_title": "상관관계 vs 인과관계"
+  },
+  "92": {
+    "category": "Machine Learning and AI",
+    "reason": "Discusses basics of models in a machine learning context, fitting well within AI categories.",
+    "conversation_title": "AR to MA 변환"
+  },
+  "93": {
+    "category": "Data Processing and Analysis",
+    "reason": "Involves probability mass functions, a statistical concept used in data processing.",
+    "conversation_title": "Scipy PMF Usage"
+  },
+  "94": {
+    "category": "Machine Learning and AI",
+    "reason": "Explains the DBSCAN algorithm, which is used in clustering within machine learning.",
+    "conversation_title": "DBSCAN 알고리즘 설명"
+  },
+  "95": {
+    "category": "Machine Learning and AI",
+    "reason": "Focuses on K-Means algorithm conditions, a crucial topic in machine learning clustering.",
+    "conversation_title": "K-Means 알고리즘 종료 조건"
+  },
+  "96": {
+    "category": "Social and Political Issues",
+    "reason": "Discusses public perception and opinions about superstars, linking to social dynamics.",
+    "conversation_title": "Superstars and Anti-fans"
+  },
+  "97": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion about indexing in Pandas is directly related to software development practices.",
+    "conversation_title": "Column vs Row Index"
+  },
+  "98": {
+    "category": "Machine Learning and AI",
+    "reason": "Involves fixing errors in K-Means clustering, pertinent to machine learning operations.",
+    "conversation_title": "KMeans Silhouette Error Fix"
+  },
+  "99": {
+    "category": "Programming and Software Development",
+    "reason": "Suggestions for code optimization relate directly to software development improvements.",
+    "conversation_title": "Code optimization suggestions"
+  },
+  "100": {
+    "category": "Machine Learning and AI",
+    "reason": "Discusses issues with TensorFlow, a key framework in machine learning.",
+    "conversation_title": "TensorFlow tensor scope error"
+  },
+  "101": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation pertains to handling masks in a Transformer encoder, which is a concept in neural networks and deep learning.",
+    "conversation_title": "Masking in Transformer Encoder"
+  },
+  "102": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion revolves around fixing an error related to Keras and TensorFlow, which are frameworks for software development.",
+    "conversation_title": "KerasTensor tf.one_hot Error"
+  },
+  "103": {
+    "category": "Language and Translation",
+    "reason": "The conversation involves audio transcription and text, indicating focus on language processing.",
+    "conversation_title": "Hello conversation"
+  },
+  "104": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation addresses an error in TensorFlow, a software development issue.",
+    "conversation_title": "TensorFlow copy error fix"
+  },
+  "105": {
+    "category": "Language and Translation",
+    "reason": "The conversation focuses on expressions and their meanings in a language context.",
+    "conversation_title": "You cool 표현 사용"
+  },
+  "106": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is centered on iterators in programming, which is a core topic in software development.",
+    "conversation_title": "Iterator + n vs iterator++"
+  },
+  "107": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation discusses oversampling in relation to HGBT performance, which falls under machine learning techniques.",
+    "conversation_title": "HGBT Performance with Oversampling"
+  },
+  "108": {
+    "category": "Programming and Software Development",
+    "reason": "The task involves unzipping a file from Google Drive, which is a programming-related task.",
+    "conversation_title": "Unzip Google Drive File"
+  },
+  "109": {
+    "category": "Language and Translation",
+    "reason": "The focus is on improving message clarity, relating to language and communication.",
+    "conversation_title": "Message Clarity Improvement"
+  },
+  "110": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses enlisting in Korea, which pertains to social and political issues related to military service.",
+    "conversation_title": "DeepSeek招聘回复"
+  },
+  "111": {
+    "category": "Language and Translation",
+    "reason": "This involves grammar correction and idiomatic expressions, which are aspects of language.",
+    "conversation_title": "Ethnic violence grammar correction"
+  },
+  "112": {
+    "category": "Language and Translation",
+    "reason": "The conversation deals with audio transcriptions and informal expressions in English.",
+    "conversation_title": "Exciting Day"
+  },
+  "113": {
+    "category": "Language and Translation",
+    "reason": "The focus is on natural phrasing suggestions, directly related to improving language use.",
+    "conversation_title": "Natural phrasing suggestions"
+  },
+  "114": {
+    "category": "Data Processing and Analysis",
+    "reason": "Drawing box plots relates to data visualization and analysis.",
+    "conversation_title": "Draw box plots df"
+  },
+  "115": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation discusses a mathematical concept related to functions and their properties.",
+    "conversation_title": "Local Maximum of Function"
+  },
+  "116": {
+    "category": "Machine Learning and AI",
+    "reason": "The focus is on interpreting model evaluation results, common in ML context.",
+    "conversation_title": "모델 평가 결과 해석"
+  },
+  "117": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is about fixing logic in code, which is associated with software development.",
+    "conversation_title": "Fixing Duplicate Logic"
+  },
+  "118": {
+    "category": "Language and Translation",
+    "reason": "Clarifying sentence tense and structure pertains to language use.",
+    "conversation_title": "Drawer search clarification"
+  },
+  "119": {
+    "category": "Social and Political Issues",
+    "reason": "Discussion of hype around a public figure relates to social perceptions and political aspects.",
+    "conversation_title": "최씨 과대평가 해석"
+  },
+  "120": {
+    "category": "Data Processing and Analysis",
+    "reason": "The focus is on variance tests and statistical analysis of data.",
+    "conversation_title": "분산 검정 요청"
+  },
+  "121": {
+    "category": "Programming and Software Development",
+    "reason": "Fixing feature names in XGBoost relates to programming within machine learning.",
+    "conversation_title": "Fixing Feature Names XGBoost"
+  },
+  "122": {
+    "category": "Data Processing and Analysis",
+    "reason": "Drawing complex functions relates to data visual representation.",
+    "conversation_title": "Draw Lnz Clarification"
+  },
+  "123": {
+    "category": "Language and Translation",
+    "reason": "This conversation focuses on explaining phrases, part of language education.",
+    "conversation_title": "Phrase Explanations"
+  },
+  "124": {
+    "category": "Data Processing and Analysis",
+    "reason": "Copying data in Pandas pertains to data manipulation and analysis.",
+    "conversation_title": "Copy Data in Pandas"
+  },
+  "125": {
+    "category": "Machine Learning and AI",
+    "reason": "Fixing errors in association rules relates to machine learning algorithms.",
+    "conversation_title": "Association Rules Error Fix"
+  },
+  "126": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation addresses a coding issue with numpy, a software library.",
+    "conversation_title": "Numpy append 문제"
+  },
+  "127": {
+    "category": "Data Processing and Analysis",
+    "reason": "Limit evaluation relates to mathematical calculations often used in data analysis.",
+    "conversation_title": "Limit evaluation explanation"
+  },
+  "128": {
+    "category": "Data Processing and Analysis",
+    "reason": "Inquiring about limit solutions typically falls under mathematical analysis.",
+    "conversation_title": "Limit Solution Request"
+  },
+  "129": {
+    "category": "Data Processing and Analysis",
+    "reason": "Fixing TypeErrors during data aggregation pertains to data analysis processes.",
+    "conversation_title": "Fixing TypeError in Aggregation"
+  },
+  "130": {
+    "category": "Data Processing and Analysis",
+    "reason": "Presenting charts in matplotlib relates to data visualization.",
+    "conversation_title": "Show MAPE on Bar Chart"
+  },
+  "131": {
+    "category": "Language and Translation",
+    "reason": "Revision of English sentences is directly related to language learning and grammar.",
+    "conversation_title": "English Sentence Revision"
+  },
+  "132": {
+    "category": "Data Processing and Analysis",
+    "reason": "Discussion of statistical tests and significance pertains to data analysis.",
+    "conversation_title": "사피로 테스트 검정통계치"
+  },
+  "133": {
+    "category": "Machine Learning and AI",
+    "reason": "The focus on decision functions relates to machine learning models.",
+    "conversation_title": "Pandas vs Numpy for ML"
+  },
+  "134": {
+    "category": "Data Processing and Analysis",
+    "reason": "Solving differential problems relates to mathematical analysis.",
+    "conversation_title": "미분 문제 풀이"
+  },
+  "135": {
+    "category": "Language and Translation",
+    "reason": "TOEFL speaking revision is centered around language proficiency testing.",
+    "conversation_title": "TOEFL Speaking Revision"
+  },
+  "136": {
+    "category": "Programming and Software Development",
+    "reason": "Applying numpy functionalities involves programming concepts.",
+    "conversation_title": "np.sqrt 적용하기"
+  },
+  "137": {
+    "category": "Data Processing and Analysis",
+    "reason": "Describing max value in a DataFrame relates to data analysis operations.",
+    "conversation_title": "DataFrame max 값 설명"
+  },
+  "138": {
+    "category": "Programming and Software Development",
+    "reason": "Using ping commands relates to network programming and operations.",
+    "conversation_title": "Ping 명령어와 네트워크 스캔"
+  },
+  "139": {
+    "category": "Data Processing and Analysis",
+    "reason": "Printing data samples pertains to data handling in analysis.",
+    "conversation_title": "Printing ShardingFilterIterDataPipe Samples"
+  },
+  "140": {
+    "category": "Programming and Software Development",
+    "reason": "Explaining matrix operations ties into programming and algorithm design.",
+    "conversation_title": "Transpose Function Explanation"
+  },
+  "141": {
+    "category": "Programming and Software Development",
+    "reason": "Unzipping files programmatically falls under software development tasks.",
+    "conversation_title": "Unzipping img_align_celeba.zip"
+  },
+  "142": {
+    "category": "Programming and Software Development",
+    "reason": "Checking and extracting tar files relates to file manipulation in programming.",
+    "conversation_title": "Check and Extract Tar"
+  },
+  "144": {
+    "category": "Web Development",
+    "reason": "Identifying laptop types relates to web development and device compatibility.",
+    "conversation_title": "노트북 종류 확인"
+  },
+  "145": {
+    "category": "Language and Translation",
+    "reason": "Simple greetings and help relate to conversational language use.",
+    "conversation_title": "간단한 인사와 도움"
+  },
+  "146": {
+    "category": "Programming and Software Development",
+    "reason": "Fixing issues with binary search implementation pertains to programming concepts.",
+    "conversation_title": "Binary Search Fix"
+  },
+  "147": {
+    "category": "Machine Learning and AI",
+    "reason": "Generating uniform distributions relates to data generation in machine learning context.",
+    "conversation_title": "numpy"
+  },
+  "148": {
+    "category": "Programming and Software Development",
+    "reason": "Creating plots in matplotlib involves programming and data visualization.",
+    "conversation_title": "Matplotlib"
+  },
+  "149": {
+    "category": "Programming and Software Development",
+    "reason": "Filling character arrays pertains to programming and data structure management.",
+    "conversation_title": "Fill Char Array with Space"
+  },
+  "150": {
+    "category": "Machine Learning and AI",
+    "reason": "Discussing vector comparison is relevant in machine learning approaches.",
+    "conversation_title": "Naive 접근 방식 수정"
+  },
+  "151": {
+    "category": "Programming and Software Development",
+    "reason": "Fixing bugs related to input buffer size is a software development task.",
+    "conversation_title": "Input Buffer Size Fix"
+  },
+  "152": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation focuses on handling input validation and errors related to buffer overflow, which are programming concepts.",
+    "conversation_title": "Input Validation & Handling"
+  },
+  "153": {
+    "category": "Machine Learning and AI",
+    "reason": "The topic of batch normalization is a key concept in machine learning, particularly in training neural networks.",
+    "conversation_title": "Batch Normalization Stability"
+  },
+  "154": {
+    "category": "Machine Learning and AI",
+    "reason": "Input normalization is a fundamental process in machine learning for preparing data for model training.",
+    "conversation_title": "Input Normalization & Whitening."
+  },
+  "155": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation deals with fixing code specific to programming problems, relevant to software development.",
+    "conversation_title": "Corregir código matriz cuadrada"
+  },
+  "156": {
+    "category": "Programming and Software Development",
+    "reason": "This discussion focuses on retrieving values from a data structure, which is a programming task.",
+    "conversation_title": "Configuracion valor predeterminado."
+  },
+  "157": {
+    "category": "Programming and Software Development",
+    "reason": "The use of dictionaries in Python is a programming topic, discussing data structures and usage.",
+    "conversation_title": "Dict usage in Python"
+  },
+  "158": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation revolves around the use of vectors, a programming structure commonly used in coding.",
+    "conversation_title": "Map with Vector Element"
+  },
+  "159": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses programming functions and operations within loops, which are key programming concepts.",
+    "conversation_title": "Two Outs, One Loop"
+  },
+  "160": {
+    "category": "Programming and Software Development",
+    "reason": "Variadic templates are a programming concept related to template programming in C++.",
+    "conversation_title": "Dynamic Parameters with Variadic Templates"
+  },
+  "161": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation is centered around correcting a parameter declaration in code, a programming-related issue.",
+    "conversation_title": "Parameter Declaration Error"
+  },
+  "162": {
+    "category": "Programming and Software Development",
+    "reason": "Dynamic key names in dictionaries pertain to programming, discussing data manipulation in code.",
+    "conversation_title": "Store values dynamically in dict"
+  },
+  "163": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses custom comparator functions used in vector manipulation, which is a programming topic.",
+    "conversation_title": "Lower_bound su vector<pair>"
+  },
+  "164": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation pertains to supervised learning, a significant area in machine learning.",
+    "conversation_title": "샴 네트워크: 지도학습 모델"
+  },
+  "165": {
+    "category": "Machine Learning and AI",
+    "reason": "Batch normalization is a concept used in deep learning and machine learning tasks.",
+    "conversation_title": "Reset Vector to Empty"
+  },
+  "166": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation involves code improvements, which relate to programming practices.",
+    "conversation_title": "MBTI Distance Calculation"
+  },
+  "167": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses manufacturing sectors, which pertains to business and social context.",
+    "conversation_title": "스마트카트 제조 업종"
+  },
+  "168": {
+    "category": "Machine Learning and AI",
+    "reason": "Transformers for image recognition relate to advanced machine learning techniques, especially in computer vision.",
+    "conversation_title": "Transformers Revolutionize Computer Vision"
+  },
+  "169": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion involves autonomous functionalities, which are part of machine learning applications.",
+    "conversation_title": "GuideBot 자율주행 기능"
+  },
+  "170": {
+    "category": "Web Development",
+    "reason": "This conversation focuses on dynamic imports in React, which is related to web development practices.",
+    "conversation_title": "Dynamic Imports in React"
+  },
+  "171": {
+    "category": "Machine Learning and AI",
+    "reason": "Clothing segmentation using deep learning is squarely in the realm of machine learning applications.",
+    "conversation_title": "Clothing Segmentation Using Deep Learning"
+  },
+  "172": {
+    "category": "Machine Learning and AI",
+    "reason": "Outfit segmentation involves image processing techniques used in machine learning.",
+    "conversation_title": "Segment Outfit using OpenCV"
+  },
+  "173": {
+    "category": "Machine Learning and AI",
+    "reason": "Image segmentation is a critical task in machine learning and computer vision.",
+    "conversation_title": "Image Segmentation Deep Learning."
+  },
+  "174": {
+    "category": "Data Processing and Analysis",
+    "reason": "Image transformation and feature extraction relate to data processing techniques in analyzing images.",
+    "conversation_title": "Image Transformation and Feature Extraction"
+  },
+  "175": {
+    "category": "Programming and Software Development",
+    "reason": "This concerns array initialization, a programming task regarding data structures.",
+    "conversation_title": "Correcting Array Initialization"
+  },
+  "176": {
+    "category": "Machine Learning and AI",
+    "reason": "Solving Sudoku puzzles using backtracking techniques is a problem-solving method within AI.",
+    "conversation_title": "Sudoku Solver Using Backtracking"
+  },
+  "177": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is about managing vector states in programming, relevant to coding practices.",
+    "conversation_title": "Erase Does Not Affect Capacity"
+  },
+  "178": {
+    "category": "Data Processing and Analysis",
+    "reason": "Downloading and managing datasets (CIFAR-10) involves data processing tasks.",
+    "conversation_title": "CIFAR-10 DOWNLOAD CHECK"
+  },
+  "179": {
+    "category": "Programming and Software Development",
+    "reason": "Refactoring code using lambda functions pertains to coding techniques.",
+    "conversation_title": "Lambda Refactoring with Loops"
+  },
+  "180": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion about game design connects with programming concepts in creating games.",
+    "conversation_title": "Programming Language Game Concept"
+  },
+  "181": {
+    "category": "Programming and Software Development",
+    "reason": "Fixing logic for the N-Queens problem pertains to programming solutions.",
+    "conversation_title": "Fixing N-Queens Logic"
+  },
+  "182": {
+    "category": "Programming and Software Development",
+    "reason": "Memory management concerns in vector handling relate to programming practices.",
+    "conversation_title": "Memory Management Considerations"
+  },
+  "183": {
+    "category": "Programming and Software Development",
+    "reason": "Resolving name conflicts in programming involves namespace and scope management within code.",
+    "conversation_title": "Resolve Name Conflict"
+  },
+  "184": {
+    "category": "Programming and Software Development",
+    "reason": "Unzipping files is a data manipulation task directly related to programming.",
+    "conversation_title": "Unzip file in Drive"
+  },
+  "185": {
+    "category": "Machine Learning and AI",
+    "reason": "Feature extraction in images is a common task within machine learning processes.",
+    "conversation_title": "Feature Extraction from Images"
+  },
+  "186": {
+    "category": "Data Processing and Analysis",
+    "reason": "Storage considerations in Google Colab involve data handling analysis.",
+    "conversation_title": "Google Colab Storage: Yes."
+  },
+  "187": {
+    "category": "Machine Learning and AI",
+    "reason": "Applications of model outputs relate closely to practical implementations in AI.",
+    "conversation_title": "Model Output Applications"
+  },
+  "188": {
+    "category": "Web Development",
+    "reason": "Web scraping and crawling tasks are fundamental topics in web development.",
+    "conversation_title": "Web Crawler Musinsa Python"
+  },
+  "189": {
+    "category": "Web Development",
+    "reason": "Downloading WebDriver for Chrome relates to web development tools and setup.",
+    "conversation_title": "Download Chromium WebDriver CLI"
+  },
+  "190": {
+    "category": "Programming and Software Development",
+    "reason": "Installing commands in a Linux environment pertains to programming setups.",
+    "conversation_title": "Tree Command Installation"
+  },
+  "191": {
+    "category": "Programming and Software Development",
+    "reason": "Fixing URL scheme issues is a programming-related task focused on web protocols.",
+    "conversation_title": "Missing URL Scheme Fix"
+  },
+  "192": {
+    "category": "Programming and Software Development",
+    "reason": "Resizing structures and vectors relates to programming operations in coding.",
+    "conversation_title": "Resize MAP to N."
+  },
+  "193": {
+    "category": "Programming and Software Development",
+    "reason": "Sorting operations in programming relate to algorithm development.",
+    "conversation_title": "Descending Array with STL"
+  },
+  "194": {
+    "category": "Programming and Software Development",
+    "reason": "Correcting array initialization issues speaks to coding practices.",
+    "conversation_title": "Array Initialization Correction"
+  },
+  "195": {
+    "category": "Programming and Software Development",
+    "reason": "Sorting a queue in C++ involves programming logic and algorithm implementations.",
+    "conversation_title": "Sort Queue in C++"
+  },
+  "196": {
+    "category": "Machine Learning and AI",
+    "reason": "Building models for AI applications is directly related to machine learning development.",
+    "conversation_title": "AI 집중 모델 구축"
+  },
+  "197": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion of regularization terms relates to machine learning model optimizations.",
+    "conversation_title": "cs231"
+  },
+  "198": {
+    "category": "Programming and Software Development",
+    "reason": "Using bit masking in programming pertains to low-level data manipulation techniques.",
+    "conversation_title": "Bit Masking for Row Selection"
+  },
+  "199": {
+    "category": "Programming and Software Development",
+    "reason": "Working with iterators in programming is a technical coding task.",
+    "conversation_title": "Vector Summation with Errors"
+  },
+  "200": {
+    "category": "Programming and Software Development",
+    "reason": "Algorithms related to vector handling pertain to programming tasks and structures.",
+    "conversation_title": "Algorithm(230308)"
+  },
+  "201": {
+    "category": "Programming and Software Development",
+    "reason": "Converting data types (integer to string) is a programming-related operation.",
+    "conversation_title": "Convert Integer to String"
+  },
+  "202": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation focuses on C++ string stream usage, which is a programming topic.",
+    "conversation_title": "Stringstream Usage Basics"
+  },
+  "203": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation involves modifying a distance variable, which relates to programming.",
+    "conversation_title": "Add 1 to distance"
+  },
+  "204": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses array initialization, a programming concept.",
+    "conversation_title": "Algorithm(240223)"
+  },
+  "205": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on populating an array, a common programming task.",
+    "conversation_title": "Fill Array with Values"
+  },
+  "206": {
+    "category": "Web Development",
+    "reason": "This conversation discusses Bootstrap, a framework for developing responsive websites.",
+    "conversation_title": "BOOTSTRAP"
+  },
+  "207": {
+    "category": "Web Development",
+    "reason": "The discussion on CSS pertains to styling for websites.",
+    "conversation_title": "css"
+  },
+  "208": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation involves Python, a programming language.",
+    "conversation_title": "python"
+  },
+  "209": {
+    "category": "Programming and Software Development",
+    "reason": "The topic revolves around using Android Studio, which is a development environment for Android apps.",
+    "conversation_title": "android studio"
+  },
+  "210": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is about FastAPI and middleware, both of which are software development concepts.",
+    "conversation_title": "fastapi"
+  },
+  "211": {
+    "category": "Data Processing and Analysis",
+    "reason": "This conversation discusses DynamoDB, a database service related to data analysis.",
+    "conversation_title": "DYNAMODB"
+  },
+  "212": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation is centered on SQL databases, which are used for data processing.",
+    "conversation_title": "dynamo db"
+  },
+  "213": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is Flutter, a framework for building mobile applications.",
+    "conversation_title": "flutter"
+  },
+  "214": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation discusses GPA calculation, which involves data analysis.",
+    "conversation_title": "PYTHON"
+  },
+  "215": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is about Flutter color codes, a programming topic.",
+    "conversation_title": "flutter"
+  },
+  "216": {
+    "category": "Data Processing and Analysis",
+    "reason": "This conversation talks about summing columns in Excel, which deals with data analysis.",
+    "conversation_title": "EXCEL"
+  },
+  "217": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is about managing tmux sessions, a programming tool.",
+    "conversation_title": "View tmux Sessions"
+  },
+  "218": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion revolves around the emulator in Android Studio, a software development aspect.",
+    "conversation_title": "ANDROID STUDIO"
+  },
+  "219": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation involves Flutter and diagram usage, a development topic.",
+    "conversation_title": "FLUTTER-DIAGRAM"
+  },
+  "220": {
+    "category": "Programming and Software Development",
+    "reason": "Discussing remote server usage pertains to software development infrastructure.",
+    "conversation_title": "恒源云"
+  },
+  "221": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses themes related to childhood creativity, fitting into societal discussions.",
+    "conversation_title": "GIT"
+  },
+  "222": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on creating and managing a conda environment, a software development topic.",
+    "conversation_title": "Conda"
+  },
+  "223": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation is centered on React components, which is a programming framework.",
+    "conversation_title": "react"
+  },
+  "224": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses user authentication in React, a coding topic.",
+    "conversation_title": "REACT"
+  },
+  "225": {
+    "category": "Programming and Software Development",
+    "reason": "Creating a React app deals with software development.",
+    "conversation_title": "React"
+  },
+  "226": {
+    "category": "Machine Learning and AI",
+    "reason": "The topic revolves around inductive bias in computer vision algorithms.",
+    "conversation_title": "COMPUTER VISION"
+  },
+  "227": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation discusses division operations, related to algorithm performance, which fits AI discussions.",
+    "conversation_title": "TRANSFORMER"
+  },
+  "228": {
+    "category": "Machine Learning and AI",
+    "reason": "The focus is on installing MONAI, a library used in machine learning for medical imaging.",
+    "conversation_title": "MONAI"
+  },
+  "229": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is about managing packages in Colab, a programming environment.",
+    "conversation_title": "Colab"
+  },
+  "230": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses GPU usage in Google Colab, a programming-related topic.",
+    "conversation_title": "COLAB"
+  },
+  "231": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion focuses on Django coding, a software development framework.",
+    "conversation_title": "DJANGO_code"
+  },
+  "232": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation is centered around the Django project and framework, related to software development.",
+    "conversation_title": "Django"
+  },
+  "233": {
+    "category": "Data Processing and Analysis",
+    "reason": "The topic is about using MySQL Workbench, which is a data processing tool.",
+    "conversation_title": "mysql"
+  },
+  "234": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation discusses Node.js components, indicating a software development topic.",
+    "conversation_title": "node.js"
+  },
+  "235": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on learning resources for Django, a software development framework.",
+    "conversation_title": "django"
+  },
+  "236": {
+    "category": "Data Processing and Analysis",
+    "reason": "The discussion involves installing MySQL, which relates to data processing.",
+    "conversation_title": "MYSQL"
+  },
+  "237": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses AWS IAM users, which falls under cloud software development.",
+    "conversation_title": "aws"
+  },
+  "238": {
+    "category": "Programming and Software Development",
+    "reason": "The topic is about using Conda for managing packages, a software development matter.",
+    "conversation_title": "CONDA"
+  },
+  "239": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation is about GPUs, which are commonly used in AI and machine learning.",
+    "conversation_title": "GPU"
+  },
+  "240": {
+    "category": "Machine Learning and AI",
+    "reason": "The discussion revolves around attention mechanisms, which are critical in AI and NLP.",
+    "conversation_title": "Attention in Transformer, NLP"
+  },
+  "241": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation is about structuring tables and data, which relates to data processing.",
+    "conversation_title": "DATATABLE"
+  },
+  "242": {
+    "category": "Programming and Software Development",
+    "reason": "The topic focuses on installing MongoDB, relevant to software development.",
+    "conversation_title": "MongoDB"
+  },
+  "243": {
+    "category": "Web Development",
+    "reason": "The discussion on HTML and CSS pertains to web page development.",
+    "conversation_title": "HTML&CSS"
+  },
+  "244": {
+    "category": "Programming and Software Development",
+    "reason": "Opening a terminal is a programming task necessary for software development.",
+    "conversation_title": "TERMINAL"
+  },
+  "245": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on C/C++ development concepts, which are programming-related.",
+    "conversation_title": "C/C++"
+  },
+  "246": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation discusses integer factorization, an algorithm used in AI tasks.",
+    "conversation_title": "ALGORITHM"
+  },
+  "247": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation is about creating makefile templates, which is a software development task.",
+    "conversation_title": "MAKEFILE"
+  },
+  "248": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on VSCode settings, relevant to software development environments.",
+    "conversation_title": "VSCODE"
+  },
+  "249": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion pertains to Jupyter Notebook, a tool used in programming and data science.",
+    "conversation_title": "JUPYTER NOTEBOOK"
+  },
+  "250": {
+    "category": "Health and Medicine",
+    "reason": "The focus on calculus functions suggests an application in medical data analysis.",
+    "conversation_title": "CALCULUS"
+  },
+  "251": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation is about computer graphics, which ties into AI applications.",
+    "conversation_title": "Computer Graphics"
+  },
+  "252": {
+    "category": "Programming and Software Development",
+    "reason": "The keywords relate to computer graphics, which is a field within programming and software development.",
+    "conversation_title": "计算机图形学"
+  },
+  "253": {
+    "category": "Programming and Software Development",
+    "reason": "Vivado is a software tool used for integration and development in programming FPGA devices.",
+    "conversation_title": "Vivado"
+  },
+  "254": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation is centered around Python, which is a programming language.",
+    "conversation_title": "Python"
+  },
+  "255": {
+    "category": "Web Development",
+    "reason": "Markdown is commonly used for formatting web content, which falls under web development.",
+    "conversation_title": "Markdown"
+  },
+  "256": {
+    "category": "Programming and Software Development",
+    "reason": "Terminal commands are related to software development and programming environments.",
+    "conversation_title": "Terminal Commands"
+  },
+  "257": {
+    "category": "Web Development",
+    "reason": "The keywords refer to HTML attributes, which are essential in web development.",
+    "conversation_title": "HTML&CSS&JS"
+  },
+  "258": {
+    "category": "Programming and Software Development",
+    "reason": "This conversation discusses login forms in PHP, a programming language.",
+    "conversation_title": "PHP"
+  },
+  "259": {
+    "category": "Programming and Software Development",
+    "reason": "Docker is a tool used in the software development lifecycle.",
+    "conversation_title": "Docker"
+  },
+  "260": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation revolves around Spotify, which involves cultural and social aspects of music consumption.",
+    "conversation_title": "Spotify"
+  },
+  "261": {
+    "category": "Programming and Software Development",
+    "reason": "Anaconda is a distribution for Python and R, primarily used for programming.",
+    "conversation_title": "Anaconda"
+  },
+  "262": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion focuses on MATLAB, a programming language for numerical computing.",
+    "conversation_title": "MATLAB"
+  },
+  "263": {
+    "category": "Programming and Software Development",
+    "reason": "MySQL is a database management system that is part of programming and software development.",
+    "conversation_title": "MySQL"
+  },
+  "264": {
+    "category": "Data Processing and Analysis",
+    "reason": "The keywords are related to statistical concepts like probability density and CDF, which fall under data analysis.",
+    "conversation_title": "概统"
+  },
+  "265": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation revolves around linear algebra concepts which are essential in data analysis.",
+    "conversation_title": "ALA"
+  },
+  "266": {
+    "category": "Programming and Software Development",
+    "reason": "CMake is a build system tool used in software development.",
+    "conversation_title": "CMake"
+  },
+  "267": {
+    "category": "Programming and Software Development",
+    "reason": "VS Code is a programming editor, fitting the software development category.",
+    "conversation_title": "VS Code"
+  },
+  "268": {
+    "category": "Web Development",
+    "reason": "Django is a web framework for Python, used in web development.",
+    "conversation_title": "django"
+  },
+  "269": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion on regex patterns pertains to programming language syntax.",
+    "conversation_title": "regex"
+  },
+  "270": {
+    "category": "Web Development",
+    "reason": "NGINX is a web server software that is used in web development.",
+    "conversation_title": "nginx"
+  },
+  "271": {
+    "category": "Machine Learning and AI",
+    "reason": "The emphasis on memory leaks and pointers can relate to algorithm design relevant in AI.",
+    "conversation_title": "Algorithm(240220)"
+  },
+  "272": {
+    "category": "Machine Learning and AI",
+    "reason": "Runtime errors and queues are often encountered in algorithmic and ML contexts.",
+    "conversation_title": "Algorithm(240206)"
+  },
+  "273": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation focuses on AI algorithms and their application, directly relating to machine learning.",
+    "conversation_title": "AI: Versatile and Impactful"
+  },
+  "274": {
+    "category": "Programming and Software Development",
+    "reason": "Discussions around sets and coding in C++ align with programming topics.",
+    "conversation_title": "Set Operations in C++"
+  },
+  "275": {
+    "category": "Machine Learning and AI",
+    "reason": "Computer vision is a subset of AI that processes and analyzes visual data.",
+    "conversation_title": "CS231 - Computer Vision"
+  },
+  "276": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses historical political figures and governance, fitting the social issues category.",
+    "conversation_title": "明朝马政政策"
+  },
+  "277": {
+    "category": "Social and Political Issues",
+    "reason": "This dialogue also pertains to historical political events, aligning with social and political issues.",
+    "conversation_title": "FPCB Explanation"
+  },
+  "278": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation’s focus on propaganda from a historical perspective fits the social context.",
+    "conversation_title": "文革宣传画特点"
+  },
+  "279": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation is focused on government information management, relevant to social issues.",
+    "conversation_title": "政府信息管理研究"
+  },
+  "280": {
+    "category": "Social and Political Issues",
+    "reason": "The keywords indicate a discussion about government management and political topics.",
+    "conversation_title": "정렬된 알파벳 문자열"
+  },
+  "281": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation discusses historical political context in China, fitting under social issues.",
+    "conversation_title": "书内容概括分析"
+  },
+  "282": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation pertains to discussions about startup management and social dynamics.",
+    "conversation_title": "카벤 미팅 및 정보공유"
+  },
+  "283": {
+    "category": "Health and Medicine",
+    "reason": "The context of health and wellness is addressed in the conversation.",
+    "conversation_title": "女性形象对比"
+  },
+  "284": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation analyzes political systems, fitting into social and political issues.",
+    "conversation_title": "Political System Analysis"
+  },
+  "285": {
+    "category": "Social and Political Issues",
+    "reason": "Discusses the application to political career contexts, relevant to social structures.",
+    "conversation_title": "VC Internship Application"
+  },
+  "286": {
+    "category": "Social and Political Issues",
+    "reason": "This focuses on economic globalization, a political topic.",
+    "conversation_title": "Analyzing Group Presentation on Economic Globalization"
+  },
+  "287": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation is centered on political analysis across different dynasties.",
+    "conversation_title": "分析《政治得失》内容"
+  },
+  "288": {
+    "category": "Social and Political Issues",
+    "reason": "The discussion on international relations fits within politics.",
+    "conversation_title": "International Relations Theory Challenges"
+  },
+  "289": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation discusses cultural aspects of marriage customs, fitting into the social issues category.",
+    "conversation_title": "GPT-3 can code Python"
+  },
+  "290": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation addresses code merging, which is related to software development.",
+    "conversation_title": "Merge Two Python Codes"
+  },
+  "291": {
+    "category": "Language and Translation",
+    "reason": "This conversation discusses nicknaming, which involves language and cultural nuances.",
+    "conversation_title": "지어줄 별명 요청"
+  },
+  "292": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses political themes within a book review context.",
+    "conversation_title": "Book Review: Powerful Patriots"
+  },
+  "293": {
+    "category": "Machine Learning and AI",
+    "reason": "Detecting machine-generated text falls within the realm of AI and ML.",
+    "conversation_title": "Detecting Machine-Generated Text"
+  },
+  "294": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation revolves around media perceptions of socialism, relevant to social issues.",
+    "conversation_title": "한국 언론의 사회주의 인식"
+  },
+  "295": {
+    "category": "Social and Political Issues",
+    "reason": "Discusses media's perspective on socialism, fitting social and political discussions.",
+    "conversation_title": "한국 언론과 사회주의 인식"
+  },
+  "296": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation addresses multilateral mechanisms in global issues, fitting within social issues.",
+    "conversation_title": "多边机制的有效性"
+  },
+  "297": {
+    "category": "Language and Translation",
+    "reason": "The focus is on name creation, involving language elements.",
+    "conversation_title": "윤송이 별명 아이디어"
+  },
+  "298": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation deals with motivation and consulting, relevant to social dynamics.",
+    "conversation_title": "Fit and Competencies for Consulting"
+  },
+  "299": {
+    "category": "Health and Medicine",
+    "reason": "The discussion on cognitive activity prior to sleep relates to health issues.",
+    "conversation_title": "Review of Pre-Sleep Cognitive Activity"
+  },
+  "300": {
+    "category": "Social and Political Issues",
+    "reason": "Discussion of governance reform in China, falling under political issues.",
+    "conversation_title": "三大转变讨论"
+  },
+  "301": {
+    "category": "Social and Political Issues",
+    "reason": "Focuses on China's diplomatic efforts, with political implications.",
+    "conversation_title": "China's Mediation in Diplomacy"
+  },
+  "302": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation pertains to China's globalization and reforms, discussing political and economic implications.",
+    "conversation_title": "Globalization and China's Reform"
+  },
+  "303": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation focuses on handling regex in Python, which is a programming concept.",
+    "conversation_title": "Python Regex Input Handling"
+  },
+  "304": {
+    "category": "Language and Translation",
+    "reason": "The conversation is about improving and displaying a resume, which involves effective language use.",
+    "conversation_title": "Displaying Zeal in Resume"
+  },
+  "305": {
+    "category": "Health and Medicine",
+    "reason": "The keywords relate to emotional regulation, which is a topic in psychology and mental health.",
+    "conversation_title": "Restructure Document for Clarity"
+  },
+  "306": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation discusses professional titles within a consulting association, touching on professional standards in society.",
+    "conversation_title": "Professional Titles for Association Members"
+  },
+  "307": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation analyzes causes of unrest in Hong Kong, a significant social and political topic.",
+    "conversation_title": "Analyzing Causes of Unrest"
+  },
+  "308": {
+    "category": "Social and Political Issues",
+    "reason": "It discusses mediation culture and governance within contemporary Chinese society, a political and social subject.",
+    "conversation_title": "China: Mediation Culture Impact"
+  },
+  "309": {
+    "category": "Advertising and Marketing",
+    "reason": "The keywords are about advertising platforms, indicating a focus on marketing strategies.",
+    "conversation_title": "CPMS Advertising Platforms Search"
+  },
+  "310": {
+    "category": "Advertising and Marketing",
+    "reason": "The conversation discusses advertising value and strategies related to user engagement.",
+    "conversation_title": "플랫폼 광고 가치 평가"
+  },
+  "311": {
+    "category": "Language and Translation",
+    "reason": "This conversation revolves around the effectiveness of a specific product, focusing on its language use.",
+    "conversation_title": "Is Word Smart Good?"
+  },
+  "312": {
+    "category": "Language and Translation",
+    "reason": "The conversation involves discussing strategies in a project, focusing on written communication.",
+    "conversation_title": "New chat"
+  },
+  "313": {
+    "category": "Language and Translation",
+    "reason": "This conversation is about reviewing a resume for a specific position, which involves language assessment.",
+    "conversation_title": "Resume Review for VC"
+  },
+  "314": {
+    "category": "Advertising and Marketing",
+    "reason": "It focuses on methods for digital banner advertising, a clear marketing topic.",
+    "conversation_title": "띠 배너 광고 방법"
+  },
+  "315": {
+    "category": "Advertising and Marketing",
+    "reason": "The conversation analyzes advertising performance and pricing, a topic within marketing analytics.",
+    "conversation_title": "경쟁 강도 분석 로직"
+  },
+  "316": {
+    "category": "Advertising and Marketing",
+    "reason": "The conversation discusses advertising budgets in South Korea, relevant to marketing strategies.",
+    "conversation_title": "No Average Ad Budget"
+  },
+  "317": {
+    "category": "Health and Medicine",
+    "reason": "The keywords imply a discussion on legal aspects related to AIDS, touching upon health law.",
+    "conversation_title": "New chat"
+  },
+  "318": {
+    "category": "Advertising and Marketing",
+    "reason": "This conversation addresses advertising services and costs, a focus area in marketing.",
+    "conversation_title": "Birthday Greetings! 🎉"
+  },
+  "319": {
+    "category": "Advertising and Marketing",
+    "reason": "It discusses a platform focused on advertising models, suggesting a marketing context.",
+    "conversation_title": "New chat"
+  },
+  "320": {
+    "category": "Advertising and Marketing",
+    "reason": "The conversation discusses advertising rates specifically for banner ads, relevant to marketing.",
+    "conversation_title": "New chat"
+  },
+  "321": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation is about processing CSV data, which relates to data management techniques.",
+    "conversation_title": "CSV Grade Update Script"
+  },
+  "322": {
+    "category": "Data Processing and Analysis",
+    "reason": "This conversation focuses on writing CSV data in Python, indicating a data manipulation context.",
+    "conversation_title": "Python CSV Student Scores"
+  },
+  "323": {
+    "category": "Advertising and Marketing",
+    "reason": "The discussion revolves around advertising effectiveness and case studies, which are marketing-related themes.",
+    "conversation_title": "광고 성과형 마케팅 사례"
+  },
+  "324": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation talks about small business revenue problems, touching upon economic issues affecting society.",
+    "conversation_title": "자영업자 플랫폼 매출 부진"
+  },
+  "325": {
+    "category": "Web Development",
+    "reason": "This conversation deals with uploading slides to presentations, which is related to web and application functionalities.",
+    "conversation_title": "New chat"
+  },
+  "326": {
+    "category": "Machine Learning and AI",
+    "reason": "It mentions SVM, a machine learning algorithm, fitting it into AI and machine learning topics.",
+    "conversation_title": "Computer Vision"
+  },
+  "327": {
+    "category": "Health and Medicine",
+    "reason": "The discussion focuses on health information access and concerns for college students, a healthcare-related topic.",
+    "conversation_title": "Critique of Research Study"
+  },
+  "328": {
+    "category": "Health and Medicine",
+    "reason": "It discusses a network relevant to medical imaging, relating directly to the healthcare field.",
+    "conversation_title": "Medical Imaging Universal Network"
+  },
+  "329": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation analyzes a topic related to peace and development, which implicates political matters.",
+    "conversation_title": "Analyzing \"Peace and Development\""
+  },
+  "330": {
+    "category": "Language and Translation",
+    "reason": "This conversation revolves around the topic of international literature reviews, involving language analysis.",
+    "conversation_title": "Share PDF via URL"
+  },
+  "331": {
+    "category": "Data Processing and Analysis",
+    "reason": "It discusses methods to estimate demand curves, relating to data analysis techniques.",
+    "conversation_title": "모델링 가격민감도 방법"
+  },
+  "332": {
+    "category": "Advertising and Marketing",
+    "reason": "The conversation examines advertiser behavior and ad effectiveness, a core marketing focus.",
+    "conversation_title": "안녕하세요! 도움 필요?"
+  },
+  "333": {
+    "category": "Web Development",
+    "reason": "This conversation involves uploading PDFs, which is related to web functionalities.",
+    "conversation_title": "Upload PDF for Assistance"
+  },
+  "334": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation discusses nuclear weapons in relation to North Korea, a significant political issue.",
+    "conversation_title": "한국의 핵무장 주장"
+  },
+  "335": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation covers international monetary policies, relevant to economic and political discussions.",
+    "conversation_title": "New chat"
+  },
+  "336": {
+    "category": "Social and Political Issues",
+    "reason": "It examines military agreements impacting tensions on the Korean Peninsula, a political topic.",
+    "conversation_title": "New chat"
+  },
+  "337": {
+    "category": "Language and Translation",
+    "reason": "This conversation pertains to reviewing a book, focusing on the critical analysis using language.",
+    "conversation_title": "Book Review Analysis Tips"
+  },
+  "338": {
+    "category": "Social and Political Issues",
+    "reason": "The keywords suggest an analysis of nationalist protests, pertinent to social and political themes.",
+    "conversation_title": "Book Review: Weiss' Analysis"
+  },
+  "339": {
+    "category": "Social and Political Issues",
+    "reason": "It discusses the strategic use of nationalism in China's diplomacy, a core political topic.",
+    "conversation_title": "Strategic Use of Nationalism"
+  },
+  "340": {
+    "category": "Social and Political Issues",
+    "reason": "This conversation analyzes the relationship between nationalism and protests, related to political activism.",
+    "conversation_title": "Chinese Nationalism and Protests"
+  },
+  "341": {
+    "category": "Web Development",
+    "reason": "The discussion is about instructions for uploading files, which relates to web and software functionalities.",
+    "conversation_title": "Upload File Instructions"
+  },
+  "342": {
+    "category": "Language and Translation",
+    "reason": "This conversation centers on revising written content, involving language editing.",
+    "conversation_title": "New chat"
+  },
+  "343": {
+    "category": "Social and Political Issues",
+    "reason": "The conversation addresses anti-Japan protests, which are tied to national and political sentiments.",
+    "conversation_title": "China's 1985 Anti-Japan Protests"
+  },
+  "344": {
+    "category": "Machine Learning and AI",
+    "reason": "It mentions Google Colab, a platform typically used for machine learning projects.",
+    "conversation_title": "Google(COLAB)"
+  },
+  "346": {
+    "category": "Web Development",
+    "reason": "The conversation revolves around uploading PDFs for analysis online, a web-related activity.",
+    "conversation_title": "Upload PDF for analysis"
+  },
+  "347": {
+    "category": "Machine Learning and AI",
+    "reason": "This conversation pertains to computer vision methods, a subfield of AI and machine learning.",
+    "conversation_title": "CS231 - Computer Vision(DEPRECATED)"
+  },
+  "348": {
+    "category": "Machine Learning and AI",
+    "reason": "Discusses logistic regression, a fundamental algorithm in machine learning.",
+    "conversation_title": "CS229-ML(plugins)"
+  },
+  "349": {
+    "category": "Machine Learning and AI",
+    "reason": "Keywords about vector space relate to concepts in machine learning and AI, specifically in representation theories.",
+    "conversation_title": "Target Vector Space Terminology"
+  },
+  "350": {
+    "category": "Machine Learning and AI",
+    "reason": "It discusses training examples and model parameters, key aspects of machine learning.",
+    "conversation_title": "CS229 - ML"
+  },
+  "351": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation involves data visualization techniques, which are part of data analysis.",
+    "conversation_title": "Data Visualization"
+  },
+  "352": {
+    "category": "Data Processing and Analysis",
+    "reason": "It discusses methods for handling categorical data, aligning with data processing topics.",
+    "conversation_title": "Convert Categorical Data Dummy"
+  },
+  "353": {
+    "category": "Machine Learning and AI",
+    "reason": "The conversation focuses on partition-based clustering, a method commonly used in machine learning for grouping data.",
+    "conversation_title": "Partition-Based Clustering: Sphere-Like Clusters"
+  },
+  "354": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion is about Excel VBA, which is a programming language used for software development within Excel.",
+    "conversation_title": "엑셀"
+  },
+  "355": {
+    "category": "Programming and Software Development",
+    "reason": "The keywords revolve around Git, a version control system, which is integral to software development.",
+    "conversation_title": "Git"
+  },
+  "356": {
+    "category": "Web Development",
+    "reason": "Discussions about updating Xcode are related to developing applications, especially for iOS which falls under web and mobile development.",
+    "conversation_title": "Update Flutter and Xcode"
+  },
+  "357": {
+    "category": "Web Development",
+    "reason": "The conversation talks about Flutter, which is a framework for building web and mobile applications.",
+    "conversation_title": "FLUTTER(Deprecated)"
+  },
+  "358": {
+    "category": "Programming and Software Development",
+    "reason": "Conversations regarding converting float values are related to programming topics, particularly within coding and development.",
+    "conversation_title": "Convert Floats to Integers"
+  },
+  "359": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation pertains to creating a macOS application using Xcode, a key aspect of software development.",
+    "conversation_title": "Create macOS Stopwatch Timer"
+  },
+  "360": {
+    "category": "Programming and Software Development",
+    "reason": "The discussion about algorithms and vectors indicates a programming context.",
+    "conversation_title": "ALGORITHM"
+  },
+  "361": {
+    "category": "Programming and Software Development",
+    "reason": "The focus is on pointers in programming, which are fundamental concepts in software development.",
+    "conversation_title": "OOP"
+  },
+  "362": {
+    "category": "Programming and Software Development",
+    "reason": "Notion is a productivity software that relates to project management and development workflows.",
+    "conversation_title": "NOTION"
+  },
+  "363": {
+    "category": "Data Processing and Analysis",
+    "reason": "The conversation about optical character recognition deals with processing and analyzing data from images.",
+    "conversation_title": "TEX"
+  },
+  "364": {
+    "category": "Machine Learning and AI",
+    "reason": "Discussions on algorithms suggest a focus on pattern recognition, which is a common topic in AI.",
+    "conversation_title": "ALGORITHM(deprecated)"
+  },
+  "365": {
+    "category": "Programming and Software Development",
+    "reason": "Sending files via SSH entails programming concepts related to networking and server management.",
+    "conversation_title": "Send Large Files via SSH"
+  },
+  "366": {
+    "category": "Web Development",
+    "reason": "The conversation revolves around Amazon Web Services and DynamoDB, which are related to web application development.",
+    "conversation_title": "AMAZON"
+  },
+  "367": {
+    "category": "Web Development",
+    "reason": "The discussion focuses on React, a popular JavaScript library for building user interfaces in web development.",
+    "conversation_title": "REACT"
+  },
+  "368": {
+    "category": "Web Development",
+    "reason": "The conversation on HTTP methods relates directly to web development and API design.",
+    "conversation_title": "Method Not Allowed Error"
+  },
+  "369": {
+    "category": "Data Processing and Analysis",
+    "reason": "The use of aggregation functions relates to data processing and analysis tasks within programming.",
+    "conversation_title": "PANDAS"
+  },
+  "370": {
+    "category": "Programming and Software Development",
+    "reason": "Shell scripting is a development-related subject, often used in programming tasks.",
+    "conversation_title": "SHELL SCRIPT"
+  },
+  "371": {
+    "category": "Programming and Software Development",
+    "reason": "The topic of web scraping involves programming skills to extract data from websites.",
+    "conversation_title": "SCRAPING"
+  },
+  "372": {
+    "category": "Web Development",
+    "reason": "Discussions about React components pertain directly to web application development.",
+    "conversation_title": "REACT(depreacted)"
+  },
+  "373": {
+    "category": "Programming and Software Development",
+    "reason": "The conversation discusses updates in Python related to data structures, which is a programming topic.",
+    "conversation_title": "PYTHON(deprecated)"
+  },
+  "374": {
+    "category": "Programming and Software Development",
+    "reason": "Connecting to a remote server via SSH is a concept widely used in software development and systems administration.",
+    "conversation_title": "SSH Remote Server Connection"
+  },
+  "375": {
+    "category": "Machine Learning and AI",
+    "reason": "Image recognition using deep convolutional networks is a core topic in AI and machine learning.",
+    "conversation_title": "Deep ConvNets for Image Recognition"
+  },
+  "376": {
+    "category": "Language and Translation",
+    "reason": "Discussions about a Korean recipe indicate a focus on language and cultural translation.",
+    "conversation_title": "주펄찜 레시피 알려줘"
+  }
+}

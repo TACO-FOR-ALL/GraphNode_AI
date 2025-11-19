@@ -1,0 +1,989 @@
+[
+  {
+    "qa_id": "1_0",
+    "conversation_id": 1,
+    "qa_index": 0,
+    "keywords": [
+      {
+        "keyword": "ai머신러닝금융시뮬레이션",
+        "similarity": 0.8401089906692505
+      },
+      {
+        "keyword": "backtesting",
+        "similarity": 0.8395753502845764
+      },
+      {
+        "keyword": "ctr클릭률을",
+        "similarity": 0.8293716311454773
+      },
+      {
+        "keyword": "검증",
+        "similarity": 0.8171438574790955
+      },
+      {
+        "keyword": "추천",
+        "similarity": 0.8162952661514282
+      },
+      {
+        "keyword": "엔지니어링",
+        "similarity": 0.8151102066040039
+      },
+      {
+        "keyword": "시스템",
+        "similarity": 0.8145865201950073
+      },
+      {
+        "keyword": "과거",
+        "similarity": 0.8145731687545776
+      },
+      {
+        "keyword": "테스트",
+        "similarity": 0.8115460276603699
+      },
+      {
+        "keyword": "수익률리스크",
+        "similarity": 0.8076850771903992
+      }
+    ]
+  },
+  {
+    "qa_id": "1_1",
+    "conversation_id": 1,
+    "qa_index": 1,
+    "keywords": [
+      {
+        "keyword": "ai머신러닝금융",
+        "similarity": 0.8575539588928223
+      },
+      {
+        "keyword": "ai머신러닝",
+        "similarity": 0.8426365852355957
+      },
+      {
+        "keyword": "수익률리스크drawdown",
+        "similarity": 0.8337752819061279
+      },
+      {
+        "keyword": "머신러닝",
+        "similarity": 0.8210841417312622
+      },
+      {
+        "keyword": "학습하고",
+        "similarity": 0.8131439089775085
+      },
+      {
+        "keyword": "검증",
+        "similarity": 0.8128526210784912
+      },
+      {
+        "keyword": "계산",
+        "similarity": 0.8110305666923523
+      },
+      {
+        "keyword": "수익률최대",
+        "similarity": 0.8109882473945618
+      },
+      {
+        "keyword": "금리",
+        "similarity": 0.8109610080718994
+      },
+      {
+        "keyword": "모델전략알고리즘",
+        "similarity": 0.8098040819168091
+      }
+    ]
+  },
+  {
+    "qa_id": "1_2",
+    "conversation_id": 1,
+    "qa_index": 2,
+    "keywords": [
+      {
+        "keyword": "코드알려줘",
+        "similarity": 0.8176246881484985
+      },
+      {
+        "keyword": "matplotlib",
+        "similarity": 0.8109993934631348
+      },
+      {
+        "keyword": "한글",
+        "similarity": 0.8099970817565918
+      },
+      {
+        "keyword": "지정해줘야",
+        "similarity": 0.8059244155883789
+      },
+      {
+        "keyword": "한국어",
+        "similarity": 0.8043836355209351
+      },
+      {
+        "keyword": "합니다",
+        "similarity": 0.7990585565567017
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.7982508540153503
+      },
+      {
+        "keyword": "윈도우",
+        "similarity": 0.7977206707000732
+      },
+      {
+        "keyword": "폰트",
+        "similarity": 0.7974765300750732
+      },
+      {
+        "keyword": "알려드릴게",
+        "similarity": 0.7952772974967957
+      }
+    ]
+  },
+  {
+    "qa_id": "1_3",
+    "conversation_id": 1,
+    "qa_index": 3,
+    "keywords": [
+      {
+        "keyword": "matplotlib",
+        "similarity": 0.826459527015686
+      },
+      {
+        "keyword": "설정하고",
+        "similarity": 0.8124082088470459
+      },
+      {
+        "keyword": "폰트",
+        "similarity": 0.8046846389770508
+      },
+      {
+        "keyword": "그래프",
+        "similarity": 0.7979691028594971
+      },
+      {
+        "keyword": "설정",
+        "similarity": 0.7961779832839966
+      },
+      {
+        "keyword": "한글",
+        "similarity": 0.7952364683151245
+      },
+      {
+        "keyword": "macbook",
+        "similarity": 0.7861523032188416
+      },
+      {
+        "keyword": "방법",
+        "similarity": 0.7819337844848633
+      },
+      {
+        "keyword": "샘플",
+        "similarity": 0.7805359363555908
+      },
+      {
+        "keyword": "설정하",
+        "similarity": 0.779585599899292
+      }
+    ]
+  },
+  {
+    "qa_id": "1_4",
+    "conversation_id": 1,
+    "qa_index": 4,
+    "keywords": [
+      {
+        "keyword": "train_dfpromptapplypreprocess_text",
+        "similarity": 0.8470998406410217
+      },
+      {
+        "keyword": "train_dfresponse_bapplypreprocess_text",
+        "similarity": 0.8401129245758057
+      },
+      {
+        "keyword": "train_dfresponse_aapplypreprocess_text",
+        "similarity": 0.8372697830200195
+      },
+      {
+        "keyword": "train_dfprompt_clean",
+        "similarity": 0.8361770510673523
+      },
+      {
+        "keyword": "printf승자",
+        "similarity": 0.8338477611541748
+      },
+      {
+        "keyword": "pdread_csvuserswooseokhandesktopkagglellm_finetuningdatatraincsv",
+        "similarity": 0.8316665887832642
+      },
+      {
+        "keyword": "deprecated비권장입니다",
+        "similarity": 0.8297094702720642
+      },
+      {
+        "keyword": "create_prompt_response_pairtrain_df",
+        "similarity": 0.8293513059616089
+      },
+      {
+        "keyword": "printf전체",
+        "similarity": 0.8289631009101868
+      },
+      {
+        "keyword": "출력하도록",
+        "similarity": 0.8285490870475769
+      }
+    ]
+  },
+  {
+    "qa_id": "1_5",
+    "conversation_id": 1,
+    "qa_index": 5,
+    "keywords": [
+      {
+        "keyword": "promtloser쌍만",
+        "similarity": 0.8257561922073364
+      },
+      {
+        "keyword": "쌍",
+        "similarity": 0.8160755038261414
+      },
+      {
+        "keyword": "벡터화",
+        "similarity": 0.8125091195106506
+      },
+      {
+        "keyword": "만들어드릴까",
+        "similarity": 0.8090780973434448
+      },
+      {
+        "keyword": "대용량",
+        "similarity": 0.8049519658088684
+      },
+      {
+        "keyword": "모아달라고",
+        "similarity": 0.8040732145309448
+      },
+      {
+        "keyword": "빠르게",
+        "similarity": 0.8027981519699097
+      },
+      {
+        "keyword": "예시",
+        "similarity": 0.8026366233825684
+      },
+      {
+        "keyword": "만들",
+        "similarity": 0.8021036386489868
+      },
+      {
+        "keyword": "promtwinner",
+        "similarity": 0.8019835948944092
+      }
+    ]
+  },
+  {
+    "qa_id": "1_6",
+    "conversation_id": 1,
+    "qa_index": 6,
+    "keywords": [
+      {
+        "keyword": "dataframe",
+        "similarity": 0.830643355846405
+      },
+      {
+        "keyword": "deprecated되었어요",
+        "similarity": 0.8219010829925537
+      },
+      {
+        "keyword": "p_winner_dfappendprompt",
+        "similarity": 0.8145594596862793
+      },
+      {
+        "keyword": "반환값",
+        "similarity": 0.8103114366531372
+      },
+      {
+        "keyword": "값",
+        "similarity": 0.8042541742324829
+      },
+      {
+        "keyword": "반환",
+        "similarity": 0.800887942314148
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.8008474707603455
+      },
+      {
+        "keyword": "빠르게",
+        "similarity": 0.8005868792533875
+      },
+      {
+        "keyword": "만들면",
+        "similarity": 0.799316942691803
+      },
+      {
+        "keyword": "향상",
+        "similarity": 0.7993135452270508
+      }
+    ]
+  },
+  {
+    "qa_id": "1_7",
+    "conversation_id": 1,
+    "qa_index": 7,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.8620560765266418
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.8256171941757202
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.8144679069519043
+      },
+      {
+        "keyword": "입력",
+        "similarity": 0.812254011631012
+      },
+      {
+        "keyword": "느려지거나",
+        "similarity": 0.811959981918335
+      },
+      {
+        "keyword": "방법",
+        "similarity": 0.808250904083252
+      },
+      {
+        "keyword": "효율적이고",
+        "similarity": 0.8081207871437073
+      },
+      {
+        "keyword": "바꿔주면",
+        "similarity": 0.8070593476295471
+      },
+      {
+        "keyword": "돌아가",
+        "similarity": 0.8052334785461426
+      },
+      {
+        "keyword": "이렇게",
+        "similarity": 0.8031919002532959
+      }
+    ]
+  },
+  {
+    "qa_id": "1_8",
+    "conversation_id": 1,
+    "qa_index": 8,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.8713052272796631
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresp_loser_df",
+        "similarity": 0.8691086769104004
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.8594245910644531
+      },
+      {
+        "keyword": "dfcross_encoder_score",
+        "similarity": 0.8506577610969543
+      },
+      {
+        "keyword": "cross_encoder_predict_rank_args_decorator",
+        "similarity": 0.8433241844177246
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.8414636254310608
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.8337217569351196
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.8321956396102905
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.831587016582489
+      },
+      {
+        "keyword": "변환하도록",
+        "similarity": 0.8248856067657471
+      }
+    ]
+  },
+  {
+    "qa_id": "1_9",
+    "conversation_id": 1,
+    "qa_index": 9,
+    "keywords": [
+      {
+        "keyword": "preprocess_texttext_list_str",
+        "similarity": 0.8491836786270142
+      },
+      {
+        "keyword": "문자열str",
+        "similarity": 0.8380451798439026
+      },
+      {
+        "keyword": "전처리",
+        "similarity": 0.8264820575714111
+      },
+      {
+        "keyword": "반환하도록",
+        "similarity": 0.8228619694709778
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.8143293857574463
+      },
+      {
+        "keyword": "변환",
+        "similarity": 0.8127540946006775
+      },
+      {
+        "keyword": "함수",
+        "similarity": 0.8065289855003357
+      },
+      {
+        "keyword": "버전도",
+        "similarity": 0.8024892807006836
+      },
+      {
+        "keyword": "원하시면",
+        "similarity": 0.8024278283119202
+      },
+      {
+        "keyword": "처리",
+        "similarity": 0.8022180199623108
+      }
+    ]
+  },
+  {
+    "qa_id": "1_10",
+    "conversation_id": 1,
+    "qa_index": 10,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresdf",
+        "similarity": 0.8641429543495178
+      },
+      {
+        "keyword": "데이터프레임p_winner_df",
+        "similarity": 0.8370784521102905
+      },
+      {
+        "keyword": "cross_encoder",
+        "similarity": 0.8288062214851379
+      },
+      {
+        "keyword": "p_loser_df",
+        "similarity": 0.8195165395736694
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.8024420738220215
+      },
+      {
+        "keyword": "이렇게",
+        "similarity": 0.8023080825805664
+      },
+      {
+        "keyword": "제외",
+        "similarity": 0.8007373809814453
+      },
+      {
+        "keyword": "아니다",
+        "similarity": 0.7978782653808594
+      },
+      {
+        "keyword": "코드",
+        "similarity": 0.7961606979370117
+      },
+      {
+        "keyword": "계산",
+        "similarity": 0.7938562631607056
+      }
+    ]
+  },
+  {
+    "qa_id": "1_11",
+    "conversation_id": 1,
+    "qa_index": 11,
+    "keywords": [
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.8382230401039124
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.8282439708709717
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.8272877931594849
+      },
+      {
+        "keyword": "cross_encoder_predict_rank_args_decorator",
+        "similarity": 0.8216588497161865
+      },
+      {
+        "keyword": "typeerror",
+        "similarity": 0.8186172246932983
+      },
+      {
+        "keyword": "리스트딕셔너리float",
+        "similarity": 0.8175172209739685
+      },
+      {
+        "keyword": "버전",
+        "similarity": 0.8141356706619263
+      },
+      {
+        "keyword": "변환",
+        "similarity": 0.8139114379882812
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.8121292591094971
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.8121258020401001
+      }
+    ]
+  },
+  {
+    "qa_id": "1_12",
+    "conversation_id": 1,
+    "qa_index": 12,
+    "keywords": [
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagestorchutils_contextlibpy115",
+        "similarity": 0.8392415046691895
+      },
+      {
+        "keyword": "optanaconda3envstfmetallibpython310sitepackagessentence_transformerscross_encoderutilpy68",
+        "similarity": 0.8351864814758301
+      },
+      {
+        "keyword": "calculate_cross_encoder_scoresp_winner_df",
+        "similarity": 0.8336725234985352
+      },
+      {
+        "keyword": "cross_encoder_predict_rank_args_decorator",
+        "similarity": 0.8309754729270935
+      },
+      {
+        "keyword": "문자열화하",
+        "similarity": 0.8223186731338501
+      },
+      {
+        "keyword": "cross_encoderpredictpairs",
+        "similarity": 0.8171378374099731
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.8165600299835205
+      },
+      {
+        "keyword": "해결되지",
+        "similarity": 0.8162449598312378
+      },
+      {
+        "keyword": "저장된",
+        "similarity": 0.8160158395767212
+      },
+      {
+        "keyword": "정확한",
+        "similarity": 0.8147860169410706
+      }
+    ]
+  },
+  {
+    "qa_id": "1_13",
+    "conversation_id": 1,
+    "qa_index": 13,
+    "keywords": [
+      {
+        "keyword": "subqueries",
+        "similarity": 0.8241993188858032
+      },
+      {
+        "keyword": "subquery",
+        "similarity": 0.8212535977363586
+      },
+      {
+        "keyword": "sub",
+        "similarity": 0.8159618377685547
+      },
+      {
+        "keyword": "따르면",
+        "similarity": 0.8156567811965942
+      },
+      {
+        "keyword": "가능한",
+        "similarity": 0.8155550956726074
+      },
+      {
+        "keyword": "fundsnntherefore",
+        "similarity": 0.8125611543655396
+      },
+      {
+        "keyword": "salary",
+        "similarity": 0.8125596046447754
+      },
+      {
+        "keyword": "확인해",
+        "similarity": 0.8097844123840332
+      },
+      {
+        "keyword": "답변",
+        "similarity": 0.8091976642608643
+      },
+      {
+        "keyword": "있어서",
+        "similarity": 0.8082978129386902
+      }
+    ]
+  },
+  {
+    "qa_id": "1_14",
+    "conversation_id": 1,
+    "qa_index": 14,
+    "keywords": [
+      {
+        "keyword": "dattype",
+        "similarity": 0.8168334364891052
+      },
+      {
+        "keyword": "dataframe",
+        "similarity": 0.8094272613525391
+      },
+      {
+        "keyword": "rows",
+        "similarity": 0.7975194454193115
+      },
+      {
+        "keyword": "row",
+        "similarity": 0.7942109107971191
+      },
+      {
+        "keyword": "types",
+        "similarity": 0.7868756651878357
+      },
+      {
+        "keyword": "boolean",
+        "similarity": 0.7863175272941589
+      },
+      {
+        "keyword": "unique",
+        "similarity": 0.7834149599075317
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.7802937030792236
+      },
+      {
+        "keyword": "all",
+        "similarity": 0.7766493558883667
+      },
+      {
+        "keyword": "type",
+        "similarity": 0.7766019105911255
+      }
+    ]
+  },
+  {
+    "qa_id": "1_15",
+    "conversation_id": 1,
+    "qa_index": 15,
+    "keywords": [
+      {
+        "keyword": "p_winner_df",
+        "similarity": 0.8530551791191101
+      },
+      {
+        "keyword": "textinputsequence",
+        "similarity": 0.8054599761962891
+      },
+      {
+        "keyword": "prompt도",
+        "similarity": 0.80394446849823
+      },
+      {
+        "keyword": "encoder",
+        "similarity": 0.8023557662963867
+      },
+      {
+        "keyword": "입력",
+        "similarity": 0.7995319962501526
+      },
+      {
+        "keyword": "넣어서",
+        "similarity": 0.7963465452194214
+      },
+      {
+        "keyword": "있으면",
+        "similarity": 0.7948575615882874
+      },
+      {
+        "keyword": "비교",
+        "similarity": 0.7945813536643982
+      },
+      {
+        "keyword": "는",
+        "similarity": 0.7931078672409058
+      },
+      {
+        "keyword": "맞아",
+        "similarity": 0.7889633178710938
+      }
+    ]
+  },
+  {
+    "qa_id": "1_16",
+    "conversation_id": 1,
+    "qa_index": 16,
+    "keywords": [
+      {
+        "keyword": "crossencoder보다",
+        "similarity": 0.8714597225189209
+      },
+      {
+        "keyword": "crossencoder용과",
+        "similarity": 0.8583645820617676
+      },
+      {
+        "keyword": "biencoder용은",
+        "similarity": 0.8481945991516113
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.8443529009819031
+      },
+      {
+        "keyword": "crossencodermsmarcominilml6v2",
+        "similarity": 0.8441385626792908
+      },
+      {
+        "keyword": "rossencoderstsbrobertabase",
+        "similarity": 0.8277695178985596
+      },
+      {
+        "keyword": "“검색랭킹",
+        "similarity": 0.8247579336166382
+      },
+      {
+        "keyword": "sentencetransformer",
+        "similarity": 0.8213710784912109
+      },
+      {
+        "keyword": "biencoder",
+        "similarity": 0.8202120065689087
+      },
+      {
+        "keyword": "검색랭킹에",
+        "similarity": 0.81995689868927
+      }
+    ]
+  },
+  {
+    "qa_id": "1_17",
+    "conversation_id": 1,
+    "qa_index": 17,
+    "keywords": [
+      {
+        "keyword": "crossencodermsmarcominilml6v2",
+        "similarity": 0.8415833711624146
+      },
+      {
+        "keyword": "점수",
+        "similarity": 0.8188529014587402
+      },
+      {
+        "keyword": "msmarco",
+        "similarity": 0.8180809020996094
+      },
+      {
+        "keyword": "비교할수있게",
+        "similarity": 0.817042887210846
+      },
+      {
+        "keyword": "crossencoder",
+        "similarity": 0.8121359348297119
+      },
+      {
+        "keyword": "비교해주",
+        "similarity": 0.811684250831604
+      },
+      {
+        "keyword": "비교할",
+        "similarity": 0.8112552165985107
+      },
+      {
+        "keyword": "비교",
+        "similarity": 0.8087142705917358
+      },
+      {
+        "keyword": "코드를짜줘",
+        "similarity": 0.8054584264755249
+      },
+      {
+        "keyword": "승패",
+        "similarity": 0.8040037155151367
+      }
+    ]
+  },
+  {
+    "qa_id": "1_18",
+    "conversation_id": 1,
+    "qa_index": 18,
+    "keywords": [
+      {
+        "keyword": "p_loser_dfto_csvsemantic_analysis_resultcross_encoderms_marco_minilm_l_6_v2loser_scorescsv",
+        "similarity": 0.8683427572250366
+      },
+      {
+        "keyword": "p_winner_dfto_csvsemantic_analysis_resultcross_encoderms_marco_minilm_l_6_v2winner_scorescsv",
+        "similarity": 0.8645063638687134
+      },
+      {
+        "keyword": "osmakedirssemantic_analysis_resultcross_encoder",
+        "similarity": 0.8544450402259827
+      },
+      {
+        "keyword": "디렉토리부터",
+        "similarity": 0.8451062440872192
+      },
+      {
+        "keyword": "없으면",
+        "similarity": 0.8200454711914062
+      },
+      {
+        "keyword": "저장합니다",
+        "similarity": 0.8199458122253418
+      },
+      {
+        "keyword": "디렉토리",
+        "similarity": 0.8178666234016418
+      },
+      {
+        "keyword": "생성하고",
+        "similarity": 0.8166662454605103
+      },
+      {
+        "keyword": "존재하지",
+        "similarity": 0.8152445554733276
+      },
+      {
+        "keyword": "생성해",
+        "similarity": 0.8124388456344604
+      }
+    ]
+  },
+  {
+    "qa_id": "1_19",
+    "conversation_id": 1,
+    "qa_index": 19,
+    "keywords": [
+      {
+        "keyword": "blip3text",
+        "similarity": 0.8402512073516846
+      },
+      {
+        "keyword": "blip3",
+        "similarity": 0.8330848217010498
+      },
+      {
+        "keyword": "이미지",
+        "similarity": 0.8311324119567871
+      },
+      {
+        "keyword": "멀티모달multimodal",
+        "similarity": 0.8290228843688965
+      },
+      {
+        "keyword": "작업multimodal",
+        "similarity": 0.8263112902641296
+      },
+      {
+        "keyword": "입력interleaved",
+        "similarity": 0.8260784149169922
+      },
+      {
+        "keyword": "다운샘플링하여",
+        "similarity": 0.8249671459197998
+      },
+      {
+        "keyword": "xgenmm",
+        "similarity": 0.8243473768234253
+      },
+      {
+        "keyword": "질문명령prompt",
+        "similarity": 0.8229203224182129
+      },
+      {
+        "keyword": "정보token들을",
+        "similarity": 0.8224169611930847
+      }
+    ]
+  },
+  {
+    "qa_id": "1_20",
+    "conversation_id": 1,
+    "qa_index": 20,
+    "keywords": [
+      {
+        "keyword": "statsttest_indwinner_scores",
+        "similarity": 0.8426482677459717
+      },
+      {
+        "keyword": "scipystats",
+        "similarity": 0.8271963596343994
+      },
+      {
+        "keyword": "nameerror",
+        "similarity": 0.8250460624694824
+      },
+      {
+        "keyword": "loser_scores",
+        "similarity": 0.8215761184692383
+      },
+      {
+        "keyword": "ttest",
+        "similarity": 0.8152951002120972
+      },
+      {
+        "keyword": "t_stat",
+        "similarity": 0.807607114315033
+      },
+      {
+        "keyword": "stats",
+        "similarity": 0.8049724102020264
+      },
+      {
+        "keyword": "실행",
+        "similarity": 0.8037370443344116
+      },
+      {
+        "keyword": "import",
+        "similarity": 0.8020952343940735
+      },
+      {
+        "keyword": "크기cohen’s",
+        "similarity": 0.8020939826965332
+      }
+    ]
+  }
+]

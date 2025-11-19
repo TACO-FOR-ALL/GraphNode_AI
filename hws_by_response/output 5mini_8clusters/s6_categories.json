@@ -1,0 +1,1511 @@
+{
+  "categories": [
+    "Programming & Software Development",
+    "Machine Learning & Data Science",
+    "Mathematics & Algorithms",
+    "Language, Translation & Writing",
+    "DevOps, Tools & Environment",
+    "Product, Business & Marketing",
+    "Health & Medicine",
+    "General & Miscellaneous"
+  ],
+  "assignments": {
+    "1": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Backtesting and validation of past data is a model/validation concept commonly discussed in data science and quantitative modeling."
+    },
+    "2": {
+      "category": "Language, Translation & Writing",
+      "reason": "Comparing meanings of the Chinese term 分店 is a lexical/translation question."
+    },
+    "3": {
+      "category": "Language, Translation & Writing",
+      "reason": "Asking for Chinese terms for dental/orthodontic concepts is a translation/vocabulary request."
+    },
+    "4": {
+      "category": "Language, Translation & Writing",
+      "reason": "Translating 'Hawley/removable retainer' concerns terminology and translation."
+    },
+    "5": {
+      "category": "Language, Translation & Writing",
+      "reason": "Expressing 'shoe size' in English is a language/phrase translation question."
+    },
+    "6": {
+      "category": "Language, Translation & Writing",
+      "reason": "Translating colloquial Chinese phrases (计划 泡汤, 搞砸) is a translation/idiom question."
+    },
+    "7": {
+      "category": "Language, Translation & Writing",
+      "reason": "Comparing Chinese translations for 'detergent' is a vocabulary/translation issue."
+    },
+    "8": {
+      "category": "Language, Translation & Writing",
+      "reason": "Asking for Chinese expressions for car seats (driver, passenger, rear) is a translation task."
+    },
+    "9": {
+      "category": "Product, Business & Marketing",
+      "reason": "Inquiring about ThinkBook 14 2025 specs is a product information question."
+    },
+    "10": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing TensorFlow on an M1 Mac is an environment/setup and compatibility issue."
+    },
+    "11": {
+      "category": "Machine Learning & Data Science",
+      "reason": "K-fold vs cross-validation is a core model evaluation topic in ML."
+    },
+    "12": {
+      "category": "Language, Translation & Writing",
+      "reason": "Translating Chinese phrases about buying a refrigerator into natural Korean is a translation request."
+    },
+    "13": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Questions about training encoder-decoder architectures are deep learning topics."
+    },
+    "14": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Explaining Transformer attention and encoder-decoder mechanisms is ML model architecture content."
+    },
+    "15": {
+      "category": "Programming & Software Development",
+      "reason": "Explaining how Jupyter Notebook works (interface, internals) is a software system/topic."
+    },
+    "16": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing and accessing Hugging Face on Google Colab is an environment/tooling question."
+    },
+    "17": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Comparing StyleGAN discriminators is a generative-model architecture topic."
+    },
+    "18": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Mapping network, disentanglement, and latent z-space are ML model/representation topics."
+    },
+    "19": {
+      "category": "Machine Learning & Data Science",
+      "reason": "GAN structure and gradients (nabla theta) concern generative model learning theory."
+    },
+    "20": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Role of expand_dims in Keras TextVectorization and input tensors is ML/data preprocessing."
+    },
+    "21": {
+      "category": "Machine Learning & Data Science",
+      "reason": "ResidualBlock, conv2d filters and channel sizing are deep learning architecture details."
+    },
+    "22": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Batching, datasets and memory considerations relate to fine‑tuning large models and ML training."
+    },
+    "23": {
+      "category": "Programming & Software Development",
+      "reason": "Designing an AI API app (Android/Kotlin) is an application development/programming topic."
+    },
+    "24": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Energy-based models (EBM) and energy functions are ML model concepts."
+    },
+    "25": {
+      "category": "Programming & Software Development",
+      "reason": "Converting PDF to JPEG is a programming/tooling task often solved with software libraries."
+    },
+    "26": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discussion of likelihoods, latent variables and entropy pertains to probabilistic ML/EBMs."
+    },
+    "27": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Troubleshooting Vast.ai connection, ports and GPU drivers is an environment/infra problem."
+    },
+    "28": {
+      "category": "Programming & Software Development",
+      "reason": "Analyzing dp_base memory, bytes and bandwidth is a low‑level programming/systems topic."
+    },
+    "29": {
+      "category": "Health & Medicine",
+      "reason": "Questions about partial muscle/tendon tears and healing are medical/health issues."
+    },
+    "30": {
+      "category": "Machine Learning & Data Science",
+      "reason": "How to resume model training from a checkpoint is an ML training/practical question."
+    },
+    "31": {
+      "category": "Programming & Software Development",
+      "reason": "VSCode markdownlint extension configuration is an IDE/tooling/programming setup issue."
+    },
+    "32": {
+      "category": "General & Miscellaneous",
+      "reason": "Summarizing rules for the Yacht Auction game is a general rules/gameplay question."
+    },
+    "33": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Assessing applicability of MCTS (Monte Carlo Tree Search) is an algorithms/search topic."
+    },
+    "34": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Analyzing AI strategies for games and model-based approaches falls under AI/ML applications."
+    },
+    "35": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Discussion of positive definite symmetric matrices is linear algebra/mathematics."
+    },
+    "36": {
+      "category": "Programming & Software Development",
+      "reason": "Iterating files recursively in Python is a programming task."
+    },
+    "37": {
+      "category": "Programming & Software Development",
+      "reason": "Using C++ lists and iterators is a programming/data-structures topic."
+    },
+    "38": {
+      "category": "Programming & Software Development",
+      "reason": "Fenwick 2D implementation issues with pointers/compile errors concern programming."
+    },
+    "39": {
+      "category": "Programming & Software Development",
+      "reason": "Differences between erase and remove in C++ iterators is a programming question."
+    },
+    "40": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Time-aware MCTS for game simulations is an algorithmic planning/search topic."
+    },
+    "41": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Retrieving data from tf.data.Dataset using iterators is a TensorFlow/ML implementation issue."
+    },
+    "42": {
+      "category": "Programming & Software Development",
+      "reason": "Sorting moves via a constructor and sort implementation is a programming concern."
+    },
+    "43": {
+      "category": "Programming & Software Development",
+      "reason": "Padding punctuation and string matching relates to text-processing/implementation details."
+    },
+    "44": {
+      "category": "Programming & Software Development",
+      "reason": "Analyzing instructions, bytes and word sizes (常量和指令) is low‑level programming/architecture work."
+    },
+    "45": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Adding noise to labels and label smoothing are ML regularization/data issues."
+    },
+    "46": {
+      "category": "Programming & Software Development",
+      "reason": "Checking Git repository status is a practical programming/version-control task."
+    },
+    "47": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Resolving Keras/TensorFlow training-loop reuse errors is a deep learning troubleshooting topic."
+    },
+    "48": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Interpreting a final mathematical expression with dots and fractions is a math problem."
+    },
+    "49": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Finding coefficients in series/sums involves mathematical analysis."
+    },
+    "50": {
+      "category": "Health & Medicine",
+      "reason": "Questions about starving to death and famine address medical/health consequences."
+    },
+    "51": {
+      "category": "Programming & Software Development",
+      "reason": "Discusses numpy ndarray/up‑sampling and output size calculation — a programming / NumPy issue."
+    },
+    "52": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Complex function singularity analysis (complex analysis) is a mathematics topic."
+    },
+    "53": {
+      "category": "Language, Translation & Writing",
+      "reason": "Advice on learning English and speaking practice — a language learning / writing topic."
+    },
+    "54": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Evaluating the limit of a sequence is a mathematical analysis problem."
+    },
+    "55": {
+      "category": "Language, Translation & Writing",
+      "reason": "Methods for learning Chinese (pronunciation, TV, speaking) are language learning topics."
+    },
+    "56": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Proof of the Cauchy–Goursat theorem (analytic functions) is complex analysis."
+    },
+    "57": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Singularities and residue theorem for tan function — complex analysis / integration."
+    },
+    "58": {
+      "category": "Language, Translation & Writing",
+      "reason": "Phrases for responding to good news / congratulatory expressions — language usage."
+    },
+    "59": {
+      "category": "Language, Translation & Writing",
+      "reason": "Contains translation tasks between Chinese/Korean/English about ceasefire negotiations — translation work."
+    },
+    "60": {
+      "category": "Language, Translation & Writing",
+      "reason": "Optimizing expressions for waitlist wording (policy/phrasing) is a writing/communication task."
+    },
+    "61": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Trig half-angle formulas and related integrals are mathematics topics."
+    },
+    "62": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Dirichlet integral and integrals are mathematical analysis questions."
+    },
+    "63": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Solving a complicated integral is a mathematics problem."
+    },
+    "64": {
+      "category": "Language, Translation & Writing",
+      "reason": "Writing a polite email reply about mailbox binding is a communication/writing task."
+    },
+    "65": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Uniform boundedness of integrals over function families is real analysis."
+    },
+    "66": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Mean value theorems for integrals are mathematical analysis topics."
+    },
+    "67": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Riemann integral definition and integrability relate to mathematical analysis."
+    },
+    "68": {
+      "category": "Language, Translation & Writing",
+      "reason": "Polite phrasing for applying to resume studies (addressing a teacher) is a writing task."
+    },
+    "69": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Analysis of analytic functions and primitives on small regions is complex analysis."
+    },
+    "70": {
+      "category": "Language, Translation & Writing",
+      "reason": "Simplifying an explanation about re‑enrollment and military service — drafting/rewriting text."
+    },
+    "71": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Conditions for extrema of bivariate functions is a multivariable calculus topic."
+    },
+    "72": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Weierstrass / extreme value theorem for multivariable functions is mathematics."
+    },
+    "73": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Evaluating a limit as p→0 is a mathematical analysis problem."
+    },
+    "74": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Pascal's rule / binomial identity is a combinatorics / algebra topic."
+    },
+    "75": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Continuity and boundedness on closed intervals is a real analysis theorem."
+    },
+    "76": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Proof about Fourier series and infinite sums is a mathematical analysis topic."
+    },
+    "77": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "How to run Jupyter Notebook (environment/tool usage) fits tools & environment."
+    },
+    "78": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Convergence of series is a mathematical (analysis) topic."
+    },
+    "79": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Explaining series convergence and sufficient conditions is mathematics."
+    },
+    "80": {
+      "category": "General & Miscellaneous",
+      "reason": "Consultation about re‑enrollment and course selection is administrative/personal and not strictly language or math."
+    },
+    "81": {
+      "category": "Language, Translation & Writing",
+      "reason": "Summarizing military service status in English (translation/summary) is a language task."
+    },
+    "82": {
+      "category": "Programming & Software Development",
+      "reason": "Canonical LR(0) items and grammar construction are compiler/CS programming topics."
+    },
+    "83": {
+      "category": "Language, Translation & Writing",
+      "reason": "TOEFL essay evaluation concerns writing, academic tone and thesis statements."
+    },
+    "84": {
+      "category": "Programming & Software Development",
+      "reason": "Designing a grammar for string/substring patterns is a formal languages / programming problem."
+    },
+    "85": {
+      "category": "Programming & Software Development",
+      "reason": "Using pandas' map function on DataFrames is a programming / data manipulation question."
+    },
+    "86": {
+      "category": "Programming & Software Development",
+      "reason": "Merge errors and duplicate column names are programming / data engineering issues."
+    },
+    "87": {
+      "category": "Programming & Software Development",
+      "reason": "Code optimization suggestions for DataFrame filtering are programming-focused."
+    },
+    "88": {
+      "category": "Programming & Software Development",
+      "reason": "Python usage (factorial, figure size, VIF calculation) is a programming question."
+    },
+    "89": {
+      "category": "Programming & Software Development",
+      "reason": "Inserting rows/indices into pandas DataFrame is a programming / pandas topic."
+    },
+    "90": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Dice probability calculations are probability / mathematics problems."
+    },
+    "91": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Correlation vs causation is a statistical/data science concept frequently discussed in ML contexts."
+    },
+    "92": {
+      "category": "Machine Learning & Data Science",
+      "reason": "AR to MA model conversion is time series modeling — a data science / ML topic."
+    },
+    "93": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Using SciPy for PMF and probability mass function calculations is a data science task."
+    },
+    "94": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Explanation of the DBSCAN clustering algorithm is a machine learning topic."
+    },
+    "95": {
+      "category": "Machine Learning & Data Science",
+      "reason": "K‑Means algorithm termination conditions are clustering/ML algorithm details."
+    },
+    "96": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion about superstars and anti‑fans is general commentary, not technical or language‑specific."
+    },
+    "97": {
+      "category": "Programming & Software Development",
+      "reason": "Pandas behavior when adding columns vs rows (index interpretation) is a programming question."
+    },
+    "98": {
+      "category": "Machine Learning & Data Science",
+      "reason": "KMeans silhouette error and cluster label issues are machine learning debugging topics."
+    },
+    "99": {
+      "category": "Programming & Software Development",
+      "reason": "General code optimization and boundary checks are programming topics."
+    },
+    "100": {
+      "category": "Machine Learning & Data Science",
+      "reason": "TensorFlow tensor scope/operation errors concern a machine learning framework."
+    },
+    "101": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discusses masking in a Transformer encoder, a deep learning model detail."
+    },
+    "102": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Keras/TensorFlow tf.one_hot and functional API issue related to model code."
+    },
+    "103": {
+      "category": "Language, Translation & Writing",
+      "reason": "Audio transcription / text content—concerns language/transcription."
+    },
+    "104": {
+      "category": "Machine Learning & Data Science",
+      "reason": "TensorFlow copy error pertains to a deep learning framework issue."
+    },
+    "105": {
+      "category": "Language, Translation & Writing",
+      "reason": "Asks about Korean/English phrasing and acceptable expressions."
+    },
+    "106": {
+      "category": "Programming & Software Development",
+      "reason": "Discussion of iterator usage and performance in code."
+    },
+    "107": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Considers oversampling effects on (gradient boosting) model performance."
+    },
+    "108": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "How to unzip a file on Google Drive — a file/tooling/environment task."
+    },
+    "109": {
+      "category": "Language, Translation & Writing",
+      "reason": "Improving sentence clarity and grammar is a writing/language task."
+    },
+    "110": {
+      "category": "Language, Translation & Writing",
+      "reason": "Likely about composing a recruitment/reply mentioning enlistment — writing help."
+    },
+    "111": {
+      "category": "Language, Translation & Writing",
+      "reason": "Grammar/idiomatic correction for text about sensitive topic."
+    },
+    "112": {
+      "category": "Language, Translation & Writing",
+      "reason": "Audio transcription content — language/transcription focus."
+    },
+    "113": {
+      "category": "Language, Translation & Writing",
+      "reason": "Asks for natural phrasing and how native speakers express things."
+    },
+    "114": {
+      "category": "Programming & Software Development",
+      "reason": "Generating box plots from a DataFrame involves coding/plotting."
+    },
+    "115": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Finding a local maximum of a function is a mathematical problem."
+    },
+    "116": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Interpreting model evaluation results and validation losses."
+    },
+    "117": {
+      "category": "Programming & Software Development",
+      "reason": "Fixing duplicate logic and initialization behavior in code."
+    },
+    "118": {
+      "category": "Language, Translation & Writing",
+      "reason": "Clarification about sentence, formality, and tense — a language question."
+    },
+    "119": {
+      "category": "Language, Translation & Writing",
+      "reason": "Interpreting Korean phrasing about 'hype around Choi' — translation/interpretation."
+    },
+    "120": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Requests a variance test / chi-square-like stats — statistical analysis."
+    },
+    "121": {
+      "category": "Machine Learning & Data Science",
+      "reason": "XGBoost feature names issue relates to ML model/data formatting."
+    },
+    "122": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Discussion about drawing log/complex plane relates to complex analysis."
+    },
+    "123": {
+      "category": "Language, Translation & Writing",
+      "reason": "Asks for explanation of idiomatic phrases and examples."
+    },
+    "124": {
+      "category": "Programming & Software Development",
+      "reason": "Copying rows/data efficiently in pandas — coding/data-manipulation task."
+    },
+    "125": {
+      "category": "Machine Learning & Data Science",
+      "reason": "mlxtend association rules error concerns an ML library usage issue."
+    },
+    "126": {
+      "category": "Programming & Software Development",
+      "reason": "NumPy append and row reassignment are programming/array manipulation issues."
+    },
+    "127": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Step-by-step limit evaluation is a calculus/math problem."
+    },
+    "128": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Solving a given limit is a pure mathematics question."
+    },
+    "129": {
+      "category": "Programming & Software Development",
+      "reason": "TypeError in aggregation (nonnumeric columns) is a coding/dataframe issue."
+    },
+    "130": {
+      "category": "Programming & Software Development",
+      "reason": "Showing MAPE on a matplotlib bar chart is a data-visualization coding task."
+    },
+    "131": {
+      "category": "Language, Translation & Writing",
+      "reason": "Requests revision of English sentences — writing/editing."
+    },
+    "132": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Shapiro test (normality) and W statistic are statistical/data analysis topics."
+    },
+    "133": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discussion around decision functions and decision trees pertains to ML."
+    },
+    "134": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Solving partial derivative problems is a mathematics topic."
+    },
+    "135": {
+      "category": "Language, Translation & Writing",
+      "reason": "TOEFL speaking revision concerns language practice and phrasing."
+    },
+    "136": {
+      "category": "Programming & Software Development",
+      "reason": "Applying np.sqrt to DataFrame column is a programming/data-manipulation task."
+    },
+    "137": {
+      "category": "Programming & Software Development",
+      "reason": "Explaining DataFrame max values across numeric columns is a pandas coding question."
+    },
+    "138": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Ping command and network scanning are networking / system tools topics."
+    },
+    "139": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Printing samples from ShardingFilterIterDataPipe relates to ML data pipelines."
+    },
+    "140": {
+      "category": "Programming & Software Development",
+      "reason": "Transpose and tensor/matrix dimension behavior relates to code/array ops."
+    },
+    "141": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Unzipping a large dataset file and file-explorer/python approaches are tooling tasks."
+    },
+    "142": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Checking and extracting tar archives is an environment/tooling operation."
+    },
+    "144": {
+      "category": "General & Miscellaneous",
+      "reason": "Asking to confirm laptop model (MacBook Pro) is a general hardware identification query."
+    },
+    "145": {
+      "category": "General & Miscellaneous",
+      "reason": "Simple greeting and help about ChatGPT usage — general conversational assistance."
+    },
+    "146": {
+      "category": "Programming & Software Development",
+      "reason": "Fixing binary search between iterators is an algorithm/programming bug fix."
+    },
+    "147": {
+      "category": "Programming & Software Development",
+      "reason": "Generating random numbers/uniform distribution with NumPy is a coding task."
+    },
+    "148": {
+      "category": "Programming & Software Development",
+      "reason": "Matplotlib plotting questions are programming/data-visualization topics."
+    },
+    "149": {
+      "category": "Programming & Software Development",
+      "reason": "Filling a char array with spaces and null-termination is a programming/low-level task."
+    },
+    "150": {
+      "category": "Programming & Software Development",
+      "reason": "Optimizing unnecessary vector comparisons is a code/algorithm improvement topic."
+    },
+    "151": {
+      "category": "Programming & Software Development",
+      "reason": "Fixing input buffer size and read behavior is a programming/IO issue."
+    },
+    "152": {
+      "category": "Programming & Software Development",
+      "reason": "Discusses buffer overflow and input validation, classic programming/security issue."
+    },
+    "153": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Focused on batch normalization, a deep learning training/stability topic."
+    },
+    "154": {
+      "category": "Machine Learning & Data Science",
+      "reason": "About normalization/whitening steps in ML pipelines (batch normalization context)."
+    },
+    "155": {
+      "category": "Programming & Software Development",
+      "reason": "Fixing code for square matrix operations — a programming/debugging task."
+    },
+    "156": {
+      "category": "Programming & Software Development",
+      "reason": "Retrieving default values from a dictionary—Python programming issue."
+    },
+    "157": {
+      "category": "Programming & Software Development",
+      "reason": "General Python dictionary usage and patterns — programming topic."
+    },
+    "158": {
+      "category": "Programming & Software Development",
+      "reason": "Working with vectors (std::vector) in code — C++ programming topic."
+    },
+    "159": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Mentions forward pass and multiple outputs, indicating neural network implementation."
+    },
+    "160": {
+      "category": "Programming & Software Development",
+      "reason": "About variadic templates and template parameters — C++ language feature."
+    },
+    "161": {
+      "category": "Programming & Software Development",
+      "reason": "Parameter declaration / reference issues are coding-language level problems."
+    },
+    "162": {
+      "category": "Programming & Software Development",
+      "reason": "Dynamically constructing dictionary keys and storing values — programming task."
+    },
+    "163": {
+      "category": "Programming & Software Development",
+      "reason": "Using custom comparators with lower_bound and vector<pair> — C++ programming."
+    },
+    "164": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Korean title references Siamese network and supervised learning — ML topic."
+    },
+    "165": {
+      "category": "Programming & Software Development",
+      "reason": "Resetting a vector to empty and container behavior — programming detail."
+    },
+    "166": {
+      "category": "Programming & Software Development",
+      "reason": "Debugging/implementing MBTI distance calculation — coding/debugging task."
+    },
+    "167": {
+      "category": "Product, Business & Marketing",
+      "reason": "Discusses smart cart manufacturing industry and product/industry aspects."
+    },
+    "168": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Transformers applied to computer vision (ViT) — ML research/application topic."
+    },
+    "169": {
+      "category": "Product, Business & Marketing",
+      "reason": "GuideBot autonomous features and relation to smart cart product functionality."
+    },
+    "170": {
+      "category": "Programming & Software Development",
+      "reason": "Dynamic imports and code splitting in React — front-end development topic."
+    },
+    "171": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Clothing segmentation using deep learning — computer vision ML task."
+    },
+    "172": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Outfit segmentation using OpenCV (image processing/vision) — ML/CV topic."
+    },
+    "173": {
+      "category": "Machine Learning & Data Science",
+      "reason": "General image segmentation with deep learning — ML/CV subject."
+    },
+    "174": {
+      "category": "Programming & Software Development",
+      "reason": "Converting between PIL images and numpy arrays — practical image-processing code."
+    },
+    "175": {
+      "category": "Programming & Software Development",
+      "reason": "Correcting array initialization to a specified value — coding bugfix."
+    },
+    "176": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Sudoku solver with backtracking is an algorithmic / combinatorial problem."
+    },
+    "177": {
+      "category": "Programming & Software Development",
+      "reason": "Behavior of vector erase vs capacity — C++ container semantics."
+    },
+    "178": {
+      "category": "Machine Learning & Data Science",
+      "reason": "CIFAR-10 dataset download/check in Colab — ML dataset/environment topic."
+    },
+    "179": {
+      "category": "Programming & Software Development",
+      "reason": "Refactoring code using lambda functions and loops — programming practice."
+    },
+    "180": {
+      "category": "Product, Business & Marketing",
+      "reason": "Game concept and design around programming languages — product/design topic."
+    },
+    "181": {
+      "category": "Mathematics & Algorithms",
+      "reason": "N-Queens is a classic combinatorial/algorithmic problem."
+    },
+    "182": {
+      "category": "Programming & Software Development",
+      "reason": "Memory management and vector pointer concerns — systems/programming issue."
+    },
+    "183": {
+      "category": "Programming & Software Development",
+      "reason": "Namespace and name conflict resolution in code — programming topic."
+    },
+    "184": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Unzipping files in Drive relates to tooling and environment operations."
+    },
+    "185": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Feature extraction from images using neural networks — ML/CV task."
+    },
+    "186": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Google Colab temporary/ephemeral storage is an environment/tooling concern."
+    },
+    "187": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discusses model outputs and architectures (CNNs/RNNs) — ML topic."
+    },
+    "188": {
+      "category": "Programming & Software Development",
+      "reason": "Web crawling/scraping in Python is a programming/web automation task."
+    },
+    "189": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Downloading a Chromium WebDriver executable is a tooling/setup task."
+    },
+    "190": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing the tree command in a Linux environment — environment tooling."
+    },
+    "191": {
+      "category": "Programming & Software Development",
+      "reason": "Fixing missing URL scheme (http/https) is an application/networking bug."
+    },
+    "192": {
+      "category": "Programming & Software Development",
+      "reason": "Resizing containers (map/vector) is a programming/data-structure task."
+    },
+    "193": {
+      "category": "Programming & Software Development",
+      "reason": "Sorting/maintaining order with STL — C++ programming topic."
+    },
+    "194": {
+      "category": "Programming & Software Development",
+      "reason": "Array initialization and evaluation issues are programming concerns."
+    },
+    "195": {
+      "category": "Programming & Software Development",
+      "reason": "Sorting a queue/array in C++ — programming/algorithm implementation."
+    },
+    "196": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Building a focused AI/deep learning model for real-time vision — ML topic."
+    },
+    "197": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Regularization strength and terms (cs231) are ML model training concepts."
+    },
+    "198": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Bit masking for row selection is an algorithmic/bit-manipulation technique."
+    },
+    "199": {
+      "category": "Programming & Software Development",
+      "reason": "Iterator semantics and vector summation errors are programming issues."
+    },
+    "200": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Titled 'Algorithm' with vector usage suggests an algorithmic problem."
+    },
+    "201": {
+      "category": "Programming & Software Development",
+      "reason": "Converting integers to strings is a basic programming task."
+    },
+    "202": {
+      "category": "Programming & Software Development",
+      "reason": "std::stringstream is a C++ standard-library topic related to programming and string/IO handling."
+    },
+    "203": {
+      "category": "Programming & Software Development",
+      "reason": "Keywords about 'distance' and 'by unit' likely refer to code/math operations in a programming context."
+    },
+    "204": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Title references an algorithm and keywords focus on array size/structure, an algorithmic/data-structure concern."
+    },
+    "205": {
+      "category": "Programming & Software Development",
+      "reason": "Iterators and 2D array declarations are programming/implementation topics (likely C++/STL)."
+    },
+    "206": {
+      "category": "Programming & Software Development",
+      "reason": "Bootstrap navbar is a web front-end framework question (HTML/CSS/JS development)."
+    },
+    "207": {
+      "category": "Programming & Software Development",
+      "reason": "CSS and HTML markup topics are front-end web development issues."
+    },
+    "208": {
+      "category": "Programming & Software Development",
+      "reason": "Keywords (username, usersappend) indicate a Python programming/user-data handling question."
+    },
+    "209": {
+      "category": "Programming & Software Development",
+      "reason": "Android Studio codebase/file search is an IDE/development workflow topic."
+    },
+    "210": {
+      "category": "Programming & Software Development",
+      "reason": "FastAPI custom middleware is a Python web framework development topic."
+    },
+    "211": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "DynamoDB partition/sort keys and secondary indexes concern database design and cloud (AWS) configuration."
+    },
+    "212": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Comparison/concerns about SQL databases and schema design relate to database systems and environment choices."
+    },
+    "213": {
+      "category": "Programming & Software Development",
+      "reason": "Flutter emulator and widget tree are mobile app development subjects."
+    },
+    "214": {
+      "category": "Programming & Software Development",
+      "reason": "GPA calculation from grades suggests a Python programming/data-processing task."
+    },
+    "215": {
+      "category": "Programming & Software Development",
+      "reason": "Flutter color/hexadecimal handling is a mobile UI development issue."
+    },
+    "216": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Summing a column in Excel is a usage question about a software tool (spreadsheet environment)."
+    },
+    "217": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Viewing tmux sessions is a terminal/tooling and environment management topic."
+    },
+    "218": {
+      "category": "Programming & Software Development",
+      "reason": "Android Studio emulator and app update behavior concern mobile development/debugging."
+    },
+    "219": {
+      "category": "Programming & Software Development",
+      "reason": "Mermaid class diagrams for a Flutter app relate to documentation/architecture in a development context."
+    },
+    "220": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Remote server access, HTTPS and HDD relate to server administration and environment setup."
+    },
+    "221": {
+      "category": "General & Miscellaneous",
+      "reason": "Keywords refer to crafts/scrapbook/art and not to software topics, indicating a miscellaneous subject."
+    },
+    "222": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Conda environment creation and management is a development environment/tooling topic."
+    },
+    "223": {
+      "category": "Programming & Software Development",
+      "reason": "React components and component lists are front-end development topics."
+    },
+    "224": {
+      "category": "Programming & Software Development",
+      "reason": "React login/registration and user state refer to web application development."
+    },
+    "225": {
+      "category": "Programming & Software Development",
+      "reason": "Create React App and component usage are development/setup topics for React apps."
+    },
+    "226": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Inductive bias and types of bias are core concepts in machine learning and model behavior."
+    },
+    "227": {
+      "category": "Programming & Software Development",
+      "reason": "Discussion of division/floor-division operator is a programming-language detail."
+    },
+    "228": {
+      "category": "Machine Learning & Data Science",
+      "reason": "MONAI is a medical imaging ML library; installation and data-directory questions are ML tooling related."
+    },
+    "229": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing packages and dependencies in Colab is an environment/tooling and setup concern."
+    },
+    "230": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Accessing GPUs in Google Colab is an environment/resource allocation topic."
+    },
+    "231": {
+      "category": "Programming & Software Development",
+      "reason": "Django serialized data and model/field issues are web-development backend topics."
+    },
+    "232": {
+      "category": "Programming & Software Development",
+      "reason": "Django REST Framework and migrations are web-development (Python/Django) topics."
+    },
+    "233": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "MySQL Workbench usage is a database tool/environment topic."
+    },
+    "234": {
+      "category": "Programming & Software Development",
+      "reason": "Node.js component state and serializers relate to backend/frontend JavaScript development."
+    },
+    "235": {
+      "category": "Programming & Software Development",
+      "reason": "Searching for best Django tutorials is a software development learning/resource topic."
+    },
+    "236": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing MySQL and version issues are environment/database setup concerns."
+    },
+    "237": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "AWS root user, IAM users and instance profiles are cloud operations and security topics."
+    },
+    "238": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Conda/Anaconda issues and reinstalling TensorFlow concern environment management and tooling."
+    },
+    "239": {
+      "category": "Machine Learning & Data Science",
+      "reason": "GPU (graphics processing unit) discussions are often about hardware acceleration used heavily in ML/DS workflows."
+    },
+    "240": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Attention mechanisms in Transformers are core NLP/ML model concepts."
+    },
+    "241": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Designing user/groups tables and table structure relates to database schema and environment design."
+    },
+    "242": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Installing and using MongoDB is a database/tools installation and environment topic."
+    },
+    "243": {
+      "category": "Programming & Software Development",
+      "reason": "HTML and CSS file usage is front-end web development."
+    },
+    "244": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Opening a terminal/new terminal window is an environment/tooling operation."
+    },
+    "245": {
+      "category": "Programming & Software Development",
+      "reason": "C/C++ topics like bit sizes and random-number generation are programming language and implementation issues."
+    },
+    "246": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Implementing integer factorization is a classic algorithms/number-theory problem."
+    },
+    "247": {
+      "category": "Programming & Software Development",
+      "reason": "Makefile templates and build automation are development/build-system topics."
+    },
+    "248": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "VS Code workspace and settings are editor/environment configuration topics."
+    },
+    "249": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Jupyter Notebook installation and interface are tool/environment setup matters."
+    },
+    "250": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Calculus topics like primitives and constants of integration are pure mathematics subjects."
+    },
+    "251": {
+      "category": "Programming & Software Development",
+      "reason": "Computer graphics renderer and light-source topics typically relate to graphics programming and implementation."
+    },
+    "252": {
+      "category": "Programming & Software Development",
+      "reason": "Computer graphics (渲染, camera, scene) is a software development / graphics programming topic."
+    },
+    "253": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Vivado is an FPGA development tool; this relates to development tooling and environment."
+    },
+    "254": {
+      "category": "Programming & Software Development",
+      "reason": "Python interpreter and code usage are core programming topics."
+    },
+    "255": {
+      "category": "Programming & Software Development",
+      "reason": "Markdown image sizing is a developer documentation/markup formatting issue tied to technical content."
+    },
+    "256": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Terminal usage and emulators are tooling/environment topics."
+    },
+    "257": {
+      "category": "Programming & Software Development",
+      "reason": "HTML/CSS/JS and element attributes are web development/programming topics."
+    },
+    "258": {
+      "category": "Programming & Software Development",
+      "reason": "PHP and login form implementation are web programming tasks."
+    },
+    "259": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Although keywords mention conda, the title Docker indicates container/tooling environment topics."
+    },
+    "260": {
+      "category": "Product, Business & Marketing",
+      "reason": "Questions about Spotify usage/platform pertain to a product/service rather than code or health."
+    },
+    "261": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Creating conda/Anaconda environments is environment/tool-management work."
+    },
+    "262": {
+      "category": "Programming & Software Development",
+      "reason": "MATLAB matrix creation/manipulation is programming in a technical computing environment."
+    },
+    "263": {
+      "category": "Programming & Software Development",
+      "reason": "MySQL and SQL query issues are database development/programming topics."
+    },
+    "264": {
+      "category": "Mathematics & Algorithms",
+      "reason": "CDF/PDF and probability density are statistics/probability topics."
+    },
+    "265": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Rank and rank–nullity are linear algebra / mathematical topics."
+    },
+    "266": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "CMake is a build system/tooling topic related to development environments."
+    },
+    "267": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "VS Code is an IDE/editor/tooling subject."
+    },
+    "268": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Django deployment with uWSGI concerns server tooling and deployment environment."
+    },
+    "269": {
+      "category": "Programming & Software Development",
+      "reason": "Regex pattern construction is a programming/text-processing topic."
+    },
+    "270": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "nginx and request routing are server/devops configuration topics."
+    },
+    "271": {
+      "category": "Programming & Software Development",
+      "reason": "Memory leaks and pointer issues are low-level programming/C/C++ debugging topics."
+    },
+    "272": {
+      "category": "Programming & Software Development",
+      "reason": "Runtime errors involving queues are programming/debugging and algorithm implementation issues."
+    },
+    "273": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discussion of AI algorithms and AI technologies belongs to machine learning/data science."
+    },
+    "274": {
+      "category": "Programming & Software Development",
+      "reason": "Set operations in C++ are programming/data-structure implementation topics."
+    },
+    "275": {
+      "category": "Machine Learning & Data Science",
+      "reason": "CS231 computer vision content is a machine learning / computer vision topic."
+    },
+    "276": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion of Ming dynasty horse/political policies is a historical topic, not technical."
+    },
+    "277": {
+      "category": "General & Miscellaneous",
+      "reason": "Keywords refer to historical periods (Eastern Jin, Qin/Tang) — a history topic."
+    },
+    "278": {
+      "category": "General & Miscellaneous",
+      "reason": "Analysis of Cultural Revolution propaganda art is a historical/cultural topic."
+    },
+    "279": {
+      "category": "General & Miscellaneous",
+      "reason": "Title suggests government information management but keywords reference music; overall fits general cultural/administrative topics."
+    },
+    "280": {
+      "category": "General & Miscellaneous",
+      "reason": "Keywords focus on government information management and digital government — a public administration topic."
+    },
+    "281": {
+      "category": "Language, Translation & Writing",
+      "reason": "Book content summarization (section 400 words) is a writing/summarization task."
+    },
+    "282": {
+      "category": "Product, Business & Marketing",
+      "reason": "Kakao Ventures meeting and information sharing concern startups/VC business context."
+    },
+    "283": {
+      "category": "Health & Medicine",
+      "reason": "Keywords center on sports and health / physical well-being topics."
+    },
+    "284": {
+      "category": "General & Miscellaneous",
+      "reason": "Analysis of political systems (Song dynasty central government) is political science / history."
+    },
+    "285": {
+      "category": "Product, Business & Marketing",
+      "reason": "VC internship application and career-related content fit business/career domain."
+    },
+    "286": {
+      "category": "General & Miscellaneous",
+      "reason": "Analyzing a presentation on economic globalization is an international political-economy academic topic."
+    },
+    "287": {
+      "category": "General & Miscellaneous",
+      "reason": "Analysis of a political history book (钱穆《中国历代》) is a humanities/political history topic."
+    },
+    "288": {
+      "category": "General & Miscellaneous",
+      "reason": "International relations theory challenges are political science / IR topics."
+    },
+    "289": {
+      "category": "General & Miscellaneous",
+      "reason": "Keywords discuss cultural practices (彩礼) and gender — a social/cultural topic despite the title."
+    },
+    "290": {
+      "category": "Programming & Software Development",
+      "reason": "Merging two Python code snippets is a straightforward programming task."
+    },
+    "291": {
+      "category": "General & Miscellaneous",
+      "reason": "Request for a nickname based on MBTI/personality is a casual/personal topic."
+    },
+    "292": {
+      "category": "General & Miscellaneous",
+      "reason": "Book review about Chinese politics and relations is a humanities/political topic."
+    },
+    "293": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Detecting machine-generated text involves language models and ML methods."
+    },
+    "294": {
+      "category": "General & Miscellaneous",
+      "reason": "Korean media perceptions of socialism are a media/political studies topic."
+    },
+    "295": {
+      "category": "General & Miscellaneous",
+      "reason": "Similar media analysis of socialism in Korean press — a social/political topic."
+    },
+    "296": {
+      "category": "General & Miscellaneous",
+      "reason": "Effectiveness of multilateral mechanisms and global cooperation is an international relations topic."
+    },
+    "297": {
+      "category": "General & Miscellaneous",
+      "reason": "Playful nickname ideas in Korean are a personal / casual request."
+    },
+    "298": {
+      "category": "Product, Business & Marketing",
+      "reason": "Fit and competencies for consulting relate to career, business skills, and recruiting."
+    },
+    "299": {
+      "category": "Health & Medicine",
+      "reason": "Pre-sleep cognitive activity and insomnia are clinical/psychological health topics."
+    },
+    "300": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion of China's three major transitions and party-state reforms is political/social analysis."
+    },
+    "301": {
+      "category": "General & Miscellaneous",
+      "reason": "China's mediation and diplomacy is an international relations / political topic."
+    },
+    "302": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion of globalization and China’s reform is political/social analysis, not technical or business-specific."
+    },
+    "303": {
+      "category": "Programming & Software Development",
+      "reason": "Keywords refer to Python, regular expressions and scripting — clearly a programming task."
+    },
+    "304": {
+      "category": "Language, Translation & Writing",
+      "reason": "About how to present zeal on a resume — a writing/resume-editing question."
+    },
+    "305": {
+      "category": "Language, Translation & Writing",
+      "reason": "Restructuring a document and expression of emotion indicates editing/rephrasing tasks."
+    },
+    "306": {
+      "category": "Product, Business & Marketing",
+      "reason": "Request about professional titles for association/consulting members relates to business/organizational practice."
+    },
+    "307": {
+      "category": "General & Miscellaneous",
+      "reason": "Analysis of causes of unrest in Hong Kong is political/social topic rather than technical or medical."
+    },
+    "308": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion of mediation culture and social governance in contemporary China is political/social analysis."
+    },
+    "309": {
+      "category": "Product, Business & Marketing",
+      "reason": "Searching advertising platforms and ad models is a marketing/business topic."
+    },
+    "310": {
+      "category": "Product, Business & Marketing",
+      "reason": "Evaluating platform advertising value and pricing is a marketing/monetization problem."
+    },
+    "311": {
+      "category": "Language, Translation & Writing",
+      "reason": "Short phrase-focused question about 'word smart' suggests a language/meaning or writing query."
+    },
+    "312": {
+      "category": "Product, Business & Marketing",
+      "reason": "Korean keywords about emphasizing results and strategies indicate consulting/project strategy (business) advice."
+    },
+    "313": {
+      "category": "Language, Translation & Writing",
+      "reason": "Resume review for a venture capital intern position is an editing/writing/resume assistance task."
+    },
+    "314": {
+      "category": "Product, Business & Marketing",
+      "reason": "How to run banner ads (Korean) is a practical advertising/marketing topic."
+    },
+    "315": {
+      "category": "Product, Business & Marketing",
+      "reason": "Competition intensity and advertising unit price / performance analysis is marketing/analytics."
+    },
+    "316": {
+      "category": "Product, Business & Marketing",
+      "reason": "Question about average monthly advertising budgets in South Korea is a marketing/business matter."
+    },
+    "317": {
+      "category": "Health & Medicine",
+      "reason": "Keywords concern AIDS and leniency law, involving medical condition and legal/health considerations."
+    },
+    "318": {
+      "category": "Product, Business & Marketing",
+      "reason": "Mentions publishers and advertising services / advertising costs—an advertising/business topic."
+    },
+    "319": {
+      "category": "Product, Business & Marketing",
+      "reason": "Discussion of operating an advertising platform and service models is marketing/business focused."
+    },
+    "320": {
+      "category": "Product, Business & Marketing",
+      "reason": "Naver banner advertising rates and banner ad pricing are marketing/advertising topics."
+    },
+    "321": {
+      "category": "Programming & Software Development",
+      "reason": "CSV processing and a script to update grades is a programming task."
+    },
+    "322": {
+      "category": "Programming & Software Development",
+      "reason": "Python code for writing/reading CSV student scores is software development."
+    },
+    "323": {
+      "category": "Product, Business & Marketing",
+      "reason": "Advertising performance marketing case studies are marketing topics."
+    },
+    "324": {
+      "category": "Product, Business & Marketing",
+      "reason": "Analysis of self-employed vendors’ falling platform sales is business/market analysis."
+    },
+    "325": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Keywords about uploading slides/presentations concern tool usage and environment interactions."
+    },
+    "326": {
+      "category": "Machine Learning & Data Science",
+      "reason": "SVM and SVM loss refer to machine learning concepts in computer vision/ML contexts."
+    },
+    "327": {
+      "category": "Health & Medicine",
+      "reason": "Critique of a study on health information and students’ health is a health research topic."
+    },
+    "328": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Designing a backbone network for medical imaging is an ML/Deep Learning architecture topic."
+    },
+    "329": {
+      "category": "General & Miscellaneous",
+      "reason": "Analytical PPT on 'Peace and Development' and history is a general/humanities topic."
+    },
+    "330": {
+      "category": "Language, Translation & Writing",
+      "reason": "Keywords indicate literature review and international academic writing — an academic writing task."
+    },
+    "331": {
+      "category": "Product, Business & Marketing",
+      "reason": "Estimating demand curves and modeling price sensitivity is an economic/marketing analysis task."
+    },
+    "332": {
+      "category": "Product, Business & Marketing",
+      "reason": "Advertiser behavior, ad effectiveness and intrusiveness are marketing/advertising research topics."
+    },
+    "333": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Uploading PDFs to AI tools or PDF drive pertains to tool usage and environment integration."
+    },
+    "334": {
+      "category": "General & Miscellaneous",
+      "reason": "Debate about Korean nuclear armament and North Korea is geopolitical/policy discussion."
+    },
+    "335": {
+      "category": "General & Miscellaneous",
+      "reason": "International exchange rate regimes and monetary politics are macroeconomic/policy topics."
+    },
+    "336": {
+      "category": "General & Miscellaneous",
+      "reason": "Discussion of North Korean military agreements and regional tension is geopolitics."
+    },
+    "337": {
+      "category": "Language, Translation & Writing",
+      "reason": "Advice on writing and critiquing a book review is a writing/editing task."
+    },
+    "338": {
+      "category": "General & Miscellaneous",
+      "reason": "A book review about nationalist protests is a political/historical analysis topic."
+    },
+    "339": {
+      "category": "General & Miscellaneous",
+      "reason": "Strategic use of nationalism in diplomacy and public sentiment is political/social analysis."
+    },
+    "340": {
+      "category": "General & Miscellaneous",
+      "reason": "Chinese nationalism and protests are political/social topics rather than technical or medical."
+    },
+    "341": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Instructions about uploading files concern using tools/environments and file handling."
+    },
+    "342": {
+      "category": "Language, Translation & Writing",
+      "reason": "Revising paragraphs is a text editing/writing task."
+    },
+    "343": {
+      "category": "General & Miscellaneous",
+      "reason": "Historical/political discussion of anti-Japan protests and Sino-Japanese relations fits general/political analysis."
+    },
+    "344": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Topics about Colab, Debian, and Jupyter notebook environment are tooling/environment issues."
+    },
+    "346": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Uploading a PDF for analysis relates to using tooling and file upload functionality."
+    },
+    "347": {
+      "category": "Machine Learning & Data Science",
+      "reason": "CS231 (computer vision) and numpy array usage are common ML/data-science coding topics."
+    },
+    "348": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Logistic regression is a core machine learning/statistics topic."
+    },
+    "349": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Discussion of target vector space and vector space terminology is linear algebra / mathematical."
+    },
+    "350": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Model parameters and training examples are central machine learning concepts (CS229)."
+    },
+    "351": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Data visualization and plotting to compare categories is a data science task."
+    },
+    "352": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Converting categorical data to dummies with pandas for regression/classification is data-prep for ML."
+    },
+    "353": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Discusses partition-based and density-based clustering algorithms, which are ML/data-science topics."
+    },
+    "354": {
+      "category": "Programming & Software Development",
+      "reason": "Excel VBA (Visual Basic for Applications) programming questions relate to software development."
+    },
+    "355": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Git branch management is a developer tooling/version-control topic, fitting DevOps/tools."
+    },
+    "356": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Updating Flutter/Xcode and iOS simulator deals with development tools and environment setup."
+    },
+    "357": {
+      "category": "Programming & Software Development",
+      "reason": "Flutter widgets and Figma-to-widget concerns are application development topics."
+    },
+    "358": {
+      "category": "Programming & Software Development",
+      "reason": "Converting float to integer is a programming-language/data-type question."
+    },
+    "359": {
+      "category": "Programming & Software Development",
+      "reason": "Building a macOS stopwatch timer app in Xcode is software development."
+    },
+    "360": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Mentions vectors and index/vector operations, indicating algorithmic/mathematical content."
+    },
+    "361": {
+      "category": "Programming & Software Development",
+      "reason": "Questions about pointers and OOP are core programming language concepts."
+    },
+    "362": {
+      "category": "Product, Business & Marketing",
+      "reason": "Notion workspace/page migration is a productivity app/feature question relevant to product usage."
+    },
+    "363": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Optical character recognition (OCR) is a computer-vision/ML topic."
+    },
+    "364": {
+      "category": "Mathematics & Algorithms",
+      "reason": "Refers to the 132 pattern and sorted-array problems, which are algorithmic puzzles."
+    },
+    "365": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Transferring large files over SSH involves server tools and environment/configuration."
+    },
+    "366": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Mentions DynamoDB, GSI, caching and reverse proxy—cloud/infra topics."
+    },
+    "367": {
+      "category": "Programming & Software Development",
+      "reason": "React redirect URIs and request handling are web application development concerns."
+    },
+    "368": {
+      "category": "Programming & Software Development",
+      "reason": "HTTP 405 Method Not Allowed relates to endpoint implementation and API development."
+    },
+    "369": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Pandas aggregation functions are data analysis/data science topics."
+    },
+    "370": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "Shell scripting and interaction with AWS SDKs are infrastructure/devops tasks."
+    },
+    "371": {
+      "category": "Programming & Software Development",
+      "reason": "Web scraping is an application development/scripting activity."
+    },
+    "372": {
+      "category": "Programming & Software Development",
+      "reason": "React component rendering questions are front-end development topics."
+    },
+    "373": {
+      "category": "Machine Learning & Data Science",
+      "reason": "References to dataframes and CSV processing point to data analysis/data-science use of Python."
+    },
+    "374": {
+      "category": "DevOps, Tools & Environment",
+      "reason": "SSH remote server connection and access are system administration/devops topics."
+    },
+    "375": {
+      "category": "Machine Learning & Data Science",
+      "reason": "Deep convolutional networks for image recognition are core ML/computer-vision research topics."
+    },
+    "376": {
+      "category": "General & Miscellaneous",
+      "reason": "A Korean recipe request (cooking) does not fall under technical or medical categories."
+    }
+  },
+  "reason": "I formed 8 high-level thematic clusters from aggregated keywords (programming, ML/data, math/algorithms, language, devops/tools, product/business, health, and general/misc); each conversation was assigned to the cluster whose aggregated keywords and topical focus were most semantically dominant."
+}

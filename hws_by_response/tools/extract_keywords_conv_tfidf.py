@@ -27,6 +27,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
+from tools.keyword_tokenizer import multi_lang_tokenize
 
 
 def clean_minimal(text: str) -> str:
@@ -239,7 +240,8 @@ def run(
     token_pattern = r"(?u)(?:[\u4E00-\u9FFF]{1,}|[\u3131-\u318E\uAC00-\uD7A3]{2,}|[A-Za-z0-9_]{2,})"
 
     vectorizer = TfidfVectorizer(
-        token_pattern=token_pattern,
+        analyzer="word",
+        tokenizer=multi_lang_tokenize,
         ngram_range=(1, ngram_max),
         max_df=max_df,  # Ignore terms that appear in more than max_df of documents
         min_df=min_df,  # Ignore terms that appear in fewer than min_df documents
@@ -284,7 +286,7 @@ def main():
     p.add_argument('--emb-pkl', type=str, default='test/output_full/response_embeddings.pkl')
     p.add_argument('--model', type=str, default='paraphrase-multilingual-mpnet-base-v2')
     p.add_argument('--cache-dir', type=str, default='models_cache')
-    p.add_argument('--ngram-max', type=int, default=3)
+    p.add_argument('--ngram-max', type=int, default=2)
     p.add_argument('--max-candidates', type=int, default=100, help='limit number of candidate phrases to encode')
     p.add_argument('--top-n', type=int, default=5, help='final number of keywords per conversation')
     p.add_argument('--max-df', type=float, default=0.7, help='ignore terms appearing in more than this fraction of documents')

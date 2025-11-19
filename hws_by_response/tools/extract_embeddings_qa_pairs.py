@@ -139,128 +139,193 @@ def run(
             print("Warning: tokenizer not found. Using simple truncation.")
         
         # Encoding
+        print(f"Extract mode: {extract_mode}")
+        print(f"Encoding strategy: {'Instruction Prefix (Q weight: ' + str(question_weight) + ')' if use_instruction_prefix else 'Standard concatenation'}")
+        print(f"Using batch_size={batch_size}")
+
+        # Prepare encode kwargs
+        encode_kwargs = {
+            "batch_size": batch_size,
+            "show_progress_bar": False,
+            "normalize_embeddings": normalize_embeddings,
+            "convert_to_numpy": True,
+        }
+
         pbar = tqdm(total=len(to_encode), desc=f"Encoding ({extract_mode})", unit="pair")
         encoded_count = 0
 
-        print(f"Extract mode: {extract_mode}")
-        print(f"Encoding strategy: {'Instruction Prefix (Q weight: ' + str(question_weight) + ')' if use_instruction_prefix else 'Standard concatenation'}")
+        # Process in batches
+        def iter_batches(seq, n):
+            for i in range(0, len(seq), n):
+                yield seq[i:i + n]
 
-        for pair in to_encode:
-            question = pair.get('question', '')
-            answer = pair.get('answer', '')
-
+        for batch_pairs in iter_batches(to_encode, batch_size):
             try:
-                # Extract mode에 따라 다른 텍스트 사용
+                # Prepare texts based on extract mode
                 if extract_mode == "question":
                     # Question만 사용
-                    if use_instruction_prefix:
-                        text = f"query: {question}"
-                    else:
-                        text = question
+                    texts = []
+                    for pair in batch_pairs:
+                        question = pair.get('question', '')
+                        if use_instruction_prefix:
+                            texts.append(f"query: {question}")
+                        else:
+                            texts.append(question)
 
-                    vec = model.encode(
-                        [text],
-                        batch_size=1,
-                        show_progress_bar=False,
-                        normalize_embeddings=normalize_embeddings
-                    )[0]
+                    # Batch encode
+                    embeddings = model.encode(texts, **encode_kwargs)
 
                 elif extract_mode == "answer":
                     # Answer만 사용 (512 토큰 제한)
-                    if tokenizer:
-                        a_tokens = tokenizer.encode(answer, add_special_tokens=False)
-                        max_a_tokens = max_seq_length - 10
-                        a_tokens_truncated = a_tokens[:max_a_tokens]
-                        a_truncated = tokenizer.decode(a_tokens_truncated, skip_special_tokens=True)
-                    else:
-                        a_truncated = answer
-
-                    if use_instruction_prefix:
-                        text = f"passage: {a_truncated}"
-                    else:
-                        text = a_truncated
-
-                    vec = model.encode(
-                        [text],
-                        batch_size=1,
-                        show_progress_bar=False,
-                        normalize_embeddings=normalize_embeddings
-                    )[0]
-
-                else:  # extract_mode == "qa" (기본값)
-                    if use_instruction_prefix:
-                        # 방법 2: Instruction Prefix + Weighted Embedding
-                        # Q를 query로, A를 passage로 취급
-                        q_text = f"query: {question}"
-
-                        # A는 512 토큰 제한
+                    texts = []
+                    for pair in batch_pairs:
+                        answer = pair.get('answer', '')
                         if tokenizer:
                             a_tokens = tokenizer.encode(answer, add_special_tokens=False)
-                            max_a_tokens = max_seq_length - 10  # special tokens 여유
+                            max_a_tokens = max_seq_length - 10
                             a_tokens_truncated = a_tokens[:max_a_tokens]
                             a_truncated = tokenizer.decode(a_tokens_truncated, skip_special_tokens=True)
                         else:
                             a_truncated = answer
 
-                        a_text = f"passage: {a_truncated}"
+                        if use_instruction_prefix:
+                            texts.append(f"passage: {a_truncated}")
+                        else:
+                            texts.append(a_truncated)
 
-                        # Q와 A 각각 embedding
-                        q_emb = model.encode(
-                            [q_text],
-                            batch_size=1,
-                            show_progress_bar=False,
-                            normalize_embeddings=normalize_embeddings
-                        )[0]
+                    # Batch encode
+                    embeddings = model.encode(texts, **encode_kwargs)
 
-                        a_emb = model.encode(
-                            [a_text],
-                            batch_size=1,
-                            show_progress_bar=False,
-                            normalize_embeddings=normalize_embeddings
-                        )[0]
+                else:  # extract_mode == "qa" (기본값)
+                    if use_instruction_prefix:
+                        # Instruction Prefix + Weighted Embedding
+                        q_texts = []
+                        a_texts = []
 
-                        # Weighted combination (Q에 더 큰 비중)
-                        vec = question_weight * q_emb + (1 - question_weight) * a_emb
+                        for pair in batch_pairs:
+                            question = pair.get('question', '')
+                            answer = pair.get('answer', '')
 
-                        # 정규화
+                            q_texts.append(f"query: {question}")
+
+                            # A는 512 토큰 제한
+                            if tokenizer:
+                                a_tokens = tokenizer.encode(answer, add_special_tokens=False)
+                                max_a_tokens = max_seq_length - 10
+                                a_tokens_truncated = a_tokens[:max_a_tokens]
+                                a_truncated = tokenizer.decode(a_tokens_truncated, skip_special_tokens=True)
+                            else:
+                                a_truncated = answer
+
+                            a_texts.append(f"passage: {a_truncated}")
+
+                        # Batch encode Q and A separately
+                        q_embeddings = model.encode(q_texts, **encode_kwargs)
+                        a_embeddings = model.encode(a_texts, **encode_kwargs)
+
+                        # Weighted combination
+                        embeddings = question_weight * q_embeddings + (1 - question_weight) * a_embeddings
+
+                        # Normalize
                         if normalize_embeddings:
-                            norm = np.linalg.norm(vec)
-                            if norm > 0:
-                                vec = vec / norm
+                            norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+                            norms[norms == 0] = 1.0
+                            embeddings = embeddings / norms
 
                     else:
-                        # 기존 방법: Q 전체 + A 앞부분 (512 토큰 맞춤)
-                        if tokenizer:
-                            qa_text = truncate_qa_to_512(question, answer, tokenizer, max_seq_length)
-                        else:
-                            qa_text = f"Q: {question} A: {answer}"
+                        # Standard concatenation: Q 전체 + A 앞부분 (512 토큰 맞춤)
+                        texts = []
+                        for pair in batch_pairs:
+                            question = pair.get('question', '')
+                            answer = pair.get('answer', '')
 
-                        # Embedding 추출
-                        vec = model.encode(
-                            [qa_text],
-                            batch_size=1,
-                            show_progress_bar=False,
-                            normalize_embeddings=normalize_embeddings
-                        )[0]
-                
-                cache[pair['qa_id']] = {
-                    'qa_id': pair['qa_id'],
-                    'conversation_id': pair.get('conversation_id'),
-                    'conversation_title': pair.get('conversation_title', ''),
-                    'qa_index': pair.get('qa_index'),
-                    'timestamp': pair.get('timestamp'),
-                    'embedding': np.asarray(vec, dtype=np.float32),
-                }
+                            # Q와 A 전체를 그대로 사용
+                            qa_text = f"Q: {question} A: {answer}"
+                            texts.append(qa_text)
+
+                        # 토크나이저와 max_seq_length가 없으면 단순 인코딩 (내부 truncate)
+                        if tokenizer is None or not max_seq_length:
+                            embeddings = model.encode(texts, **encode_kwargs)
+                        else:
+                            max_len = max_seq_length
+
+                            # 1단계: 모든 텍스트를 토크나이즈하고 chunk로 분할
+                            all_chunk_texts = []
+                            chunk_metadata = []  # (text_idx, chunk_lengths_list)
+
+                            for text_idx, text in enumerate(texts):
+                                ids = tokenizer.encode(text, add_special_tokens=True, truncation=False)
+
+                                if len(ids) <= max_len:
+                                    # 짧은 텍스트: chunking 불필요
+                                    all_chunk_texts.append(text)
+                                    chunk_metadata.append((text_idx, [len(ids)]))
+                                else:
+                                    # 긴 텍스트: max_len 단위로 나누기
+                                    chunk_lengths = []
+                                    for i in range(0, len(ids), max_len):
+                                        chunk_ids = ids[i:i + max_len]
+                                        chunk_text = tokenizer.decode(chunk_ids, skip_special_tokens=True)
+                                        all_chunk_texts.append(chunk_text)
+                                        chunk_lengths.append(len(chunk_ids))
+                                    chunk_metadata.append((text_idx, chunk_lengths))
+
+                            # 2단계: 모든 chunk를 한 번에 배치 인코딩
+                            all_chunk_embeddings = model.encode(all_chunk_texts, **encode_kwargs)
+                            all_chunk_embeddings = np.asarray(all_chunk_embeddings, dtype=np.float32)
+
+                            # 3단계: 원래 텍스트 단위로 임베딩 재구성 (토큰 길이 비율 가중 평균)
+                            embeddings = []
+                            chunk_idx = 0
+
+                            for text_idx, chunk_lengths in chunk_metadata:
+                                num_chunks = len(chunk_lengths)
+
+                                if num_chunks == 1:
+                                    # 단일 chunk (짧은 텍스트)
+                                    embeddings.append(all_chunk_embeddings[chunk_idx])
+                                    chunk_idx += 1
+                                else:
+                                    # 여러 chunk: 토큰 길이 비율 가중 평균
+                                    chunk_vecs = all_chunk_embeddings[chunk_idx:chunk_idx + num_chunks]
+                                    chunk_idx += num_chunks
+
+                                    chunk_lengths_arr = np.asarray(chunk_lengths, dtype=np.float32)
+                                    weights = chunk_lengths_arr / chunk_lengths_arr.sum()
+                                    mean_vec = np.average(chunk_vecs, axis=0, weights=weights)
+
+                                    # 필요 시 재정규화
+                                    if normalize_embeddings:
+                                        norm = np.linalg.norm(mean_vec)
+                                        if norm > 0:
+                                            mean_vec = mean_vec / norm
+
+                                    embeddings.append(mean_vec.astype(np.float32))
+
+                            embeddings = np.array(embeddings)
+
+                # Store embeddings
+                embeddings = np.asarray(embeddings, dtype=np.float32)
+                for pair, vec in zip(batch_pairs, embeddings):
+                    cache[pair['qa_id']] = {
+                        'qa_id': pair['qa_id'],
+                        'conversation_id': pair.get('conversation_id'),
+                        'conversation_title': pair.get('conversation_title', ''),
+                        'qa_index': pair.get('qa_index'),
+                        'timestamp': pair.get('timestamp'),
+                        'embedding': vec,
+                    }
+
+                pbar.update(len(batch_pairs))
+                encoded_count += len(batch_pairs)
+
+                if save_every and (encoded_count % save_every == 0):
+                    save_cache(out_pkl, cache)
+
             except Exception as e:
-                print(f"Error encoding Q-A pair {pair['qa_id']}: {e}")
+                print(f"\nError encoding batch: {e}")
                 raise
-            
-            pbar.update(1)
-            encoded_count += 1
-            
-            if save_every and (encoded_count % save_every == 0):
-                save_cache(out_pkl, cache)
-        
+
         pbar.close()
         save_cache(out_pkl, cache)
         print(f"Encoded and cached: {len(to_encode)} Q-A embeddings")

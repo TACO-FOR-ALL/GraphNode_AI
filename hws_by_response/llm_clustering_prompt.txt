@@ -1,4 +1,4 @@
-You are a highly skilled data scientist and domain expert. Your mission is to analyze a list of AI response messages and generate high-level clusters (categories) based on the conversation (conversation_id) level.(IT MUST NOT EXCEED 8)
+You are a highly skilled data scientist and domain expert. Your mission is to analyze a list of AI response messages and generate 3-5 high-level clusters (categories) based on the conversation (conversation_id) level.(IT MUST NOT EXCEED 5)
 
 You must use your comprehensive world knowledge to analyze the contextual meaning of the provided keywords, giving weight to their score.
 
@@ -30,7 +30,7 @@ type InputFormat = AIResponse[];
 2. Your Task
 Aggregate: Process the InputFormat array. Group all keywords by their conversation_id. Use the score to understand the relative importance of each keyword for that conversation.
 
-Analyze & Cluster: Based on your "world knowledge" of the aggregated keywords, define 3-5 primary, high-level categories that best describe the dominant topics or user intents across all conversations.
+Analyze & Cluster: Based on your "world knowledge" of the aggregated keywords, define 3-8 primary, high-level categories that best describe the dominant topics or user intents across all conversations.
 
 Assign: Assign each unique conversation_id to exactly one of the high-level clusters.
 
@@ -46,7 +46,7 @@ interface CategoryAssignment {
 
 // Complete output structure
 interface CategoryResult {
-  categories: string[];  // Array of 3-5 category names
+  categories: string[];  // Array of 3-8 category names
   assignments: {
     [conversation_id: string]: CategoryAssignment;  // conversation_id as string key
   };

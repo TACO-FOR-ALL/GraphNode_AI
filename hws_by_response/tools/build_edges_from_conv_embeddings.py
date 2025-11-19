@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Dict, Any, List
 
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances, manhattan_distances
 
 try:
     import matplotlib
@@ -30,18 +30,30 @@ def load_conversation_embeddings(path: str) -> Dict[int, Dict[str, Any]]:
 def compute_similarity_matrix(conv_embeddings: Dict[int, Dict[str, Any]], metric: str = "cosine") -> tuple:
     """
     Compute pairwise similarity matrix
-    
+
+    Args:
+        conv_embeddings: Conversation embeddings
+        metric: Distance metric ("cosine", "l2", "l1")
+
     Returns:
         (similarity_matrix, conv_ids)
     """
     conv_ids = sorted(conv_embeddings.keys())
     embeddings = np.array([conv_embeddings[cid]['embedding'] for cid in conv_ids])
-    
+
     if metric == "cosine":
         sim_matrix = cosine_similarity(embeddings)
+    elif metric == "l2":
+        # L2 distance -> similarity: 1 / (1 + dist)
+        dist_matrix = euclidean_distances(embeddings)
+        sim_matrix = 1.0 / (1.0 + dist_matrix)
+    elif metric == "l1":
+        # L1 distance -> similarity: 1 / (1 + dist)
+        dist_matrix = manhattan_distances(embeddings)
+        sim_matrix = 1.0 / (1.0 + dist_matrix)
     else:
-        raise ValueError(f"Unsupported metric: {metric}")
-    
+        raise ValueError(f"Unsupported metric: {metric}. Choose from: cosine, l2, l1")
+
     return sim_matrix, conv_ids
 
 
@@ -282,8 +294,10 @@ def plot_similarity_distribution(similarities: np.ndarray, output_path: Path, st
     if not MATPLOTLIB_AVAILABLE:
         print("Warning: matplotlib not available, skipping plot")
         return
-    
+
+    metric = stats.get('metric', 'cosine')
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    fig.suptitle(f'Similarity Distribution ({metric.upper()})', fontsize=16, fontweight='bold')
     
     # 1. Histogram
     ax = axes[0, 0]
@@ -358,17 +372,17 @@ def plot_similarity_distribution(similarities: np.ndarray, output_path: Path, st
 def main():
     import argparse
     
-    parser = argparse.ArgumentParser(description="Build edges from conversation_embeddings.pkl")
-    parser.add_argument("--embeddings", type=str, default="output/conversation_embeddings.pkl")
+    parser = argparse.ArgumentParser(description="Build edges from qa_embeddings.pkl")
+    parser.add_argument("--embeddings", type=str, default="output/qa_embeddings.pkl")
     parser.add_argument("--output-dir", type=str, default="output")
     parser.add_argument("--hard-threshold", type=float, default=None, help="Hard edge threshold (default: 90th percentile)")
     parser.add_argument("--pending-low", type=float, default=None, help="Pending edge lower bound (default: 80th percentile)")
     parser.add_argument("--pending-high", type=float, default=None, help="Pending edge upper bound (default: same as hard_threshold)")
-    parser.add_argument("--metric", type=str, default="cosine", choices=["cosine"])
+    parser.add_argument("--metric", type=str, default="cosine", choices=["cosine", "l2", "l1"], help="Distance metric (cosine, l2, l1)")
     parser.add_argument("--plot", action="store_true", help="Save similarity distribution plot as PNG")
     parser.add_argument("--categories", type=str, default=None, help="Optional: category JSON file (conversation_id -> category)")
     parser.add_argument("--keywords", type=str, default=None, help="Optional: keywords JSON file for node metadata")
-    parser.add_argument("--target-hard-cross-edges", type=int, default=300, help="Target number of hard cross-category edges (default: 300)")
+    parser.add_argument("--target-hard-cross-edges", type=int, default=300, help="Target number of hard cross-category edges for dynamic threshold (default: 300, use -1 to disable and use P90)")
     args = parser.parse_args()
     
     t_start = time.time()
@@ -427,11 +441,13 @@ def main():
         p90 = float(np.percentile(all_similarities, 90))
 
         # Dynamic threshold: target ~N hard cross-category edges
-        if hard_threshold is None and categories and cross_category_similarities:
+        target_hard_cross_edges = args.target_hard_cross_edges
+
+        if hard_threshold is None and target_hard_cross_edges > 0 and categories and cross_category_similarities:
+            # Dynamic threshold based on target number of cross-category edges
             cross_cat_sims = np.array(cross_category_similarities)
             cross_cat_sims_sorted = np.sort(cross_cat_sims)[::-1]  # Descending order
 
-            target_hard_cross_edges = args.target_hard_cross_edges
             if len(cross_cat_sims_sorted) > target_hard_cross_edges:
                 # Take the similarity of the Nth edge as threshold
                 hard_threshold = float(cross_cat_sims_sorted[target_hard_cross_edges - 1])
@@ -442,7 +458,10 @@ def main():
                 hard_threshold = p90
                 print(f"Not enough cross-category pairs ({len(cross_cat_sims_sorted)}), using P90: {hard_threshold:.4f}")
         elif hard_threshold is None:
+            # Use P90 (target_hard_cross_edges == -1 or no categories)
             hard_threshold = p90
+            if target_hard_cross_edges == -1:
+                print(f"Using automatic P90 threshold (target_hard_cross_edges=-1): {hard_threshold:.4f}")
 
         if pending_high is None:
             pending_high = hard_threshold  # Same as hard_threshold
@@ -481,19 +500,21 @@ def main():
         print(f"  - Pending: {stats['pending_cross_category_edges']}")
     
     # Save graph
-    graph_path = out_dir / "graph.json"
+    metric_suffix = f"_{args.metric}" if args.metric != "cosine" else ""
+    graph_path = out_dir / f"graph{metric_suffix}.json"
     save_graph(edges, graph_path, conv_embeddings, categories, keywords_map, stats)
     print(f"\nGraph saved: {graph_path}")
-    
+
     # Save stats
-    stats_path = out_dir / "edge_stats.json"
+    stats_path = out_dir / f"edge_stats{metric_suffix}.json"
+    stats["metric"] = args.metric  # Add metric to stats
     with open(stats_path, "w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
     print(f"Stats saved: {stats_path}")
-    
+
     # Plot similarity distribution
     if args.plot:
-        plot_path = out_dir / "similarity_distribution.png"
+        plot_path = out_dir / f"similarity_distribution{metric_suffix}.png"
         plot_similarity_distribution(similarities, plot_path, stats)
     
     elapsed = time.time() - t_start

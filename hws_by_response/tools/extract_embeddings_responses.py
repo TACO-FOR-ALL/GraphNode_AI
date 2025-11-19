@@ -123,62 +123,96 @@ def run(
 
         encoded_count = 0
 
-        # helper: encode one text with optional chunk-mean
-        def encode_single_text(text: str):
-            # Prepare encode kwargs (some models don't support num_workers)
-            encode_kwargs = {
-                "batch_size": max(1, batch_size),
-                "show_progress_bar": False,
-                "normalize_embeddings": normalize_embeddings,
-            }
-            if num_workers > 0:
-                encode_kwargs["num_workers"] = max(0, num_workers)
-            
-            if long_strategy != "chunk-mean":
-                vec = model.encode([text], **encode_kwargs)[0]
-                return np.asarray(vec, dtype=np.float32)
-            
-            # chunk-mean path
-            if tokenizer is None or not max_len:
-                # fallback to truncate behavior if we cannot tokenize
-                vec = model.encode([text], **encode_kwargs)[0]
-                return np.asarray(vec, dtype=np.float32)
-            
-            ids = tokenizer.encode(text, add_special_tokens=True, truncation=False)
-            if len(ids) <= max_len:
-                vec = model.encode([text], **encode_kwargs)[0]
-                return np.asarray(vec, dtype=np.float32)
-            
-            # Chunk and average with token length weighting
-            chunk_texts = []
-            chunk_lengths = []
-            for i in range(0, len(ids), max_len):
-                chunk_ids = ids[i:i+max_len]
-                chunk_texts.append(tokenizer.decode(chunk_ids, skip_special_tokens=True))
-                chunk_lengths.append(len(chunk_ids))
-            
-            chunk_vecs = model.encode(chunk_texts, **encode_kwargs)
-            chunk_vecs = np.asarray(chunk_vecs, dtype=np.float32)
-            
-            # Length-weighted average of chunks
-            chunk_lengths = np.asarray(chunk_lengths, dtype=np.float32)
-            weights = chunk_lengths / chunk_lengths.sum()
-            mean_vec = np.average(chunk_vecs, axis=0, weights=weights)
-            
-            # Re-normalize if needed
-            if normalize_embeddings:
-                norm = np.linalg.norm(mean_vec)
-                if norm > 0:
-                    mean_vec = mean_vec / norm
-            
-            return mean_vec.astype(np.float32)
+        # Prepare encode kwargs
+        encode_kwargs = {
+            "batch_size": batch_size,
+            "show_progress_bar": False,
+            "normalize_embeddings": normalize_embeddings,
+            "convert_to_numpy": True,
+        }
+        if num_workers > 0:
+            encode_kwargs["num_workers"] = num_workers
+
+        print(f"Using batch_size={batch_size}, num_workers={num_workers}, device={use_device}")
 
         pbar = tqdm(total=len(to_encode), desc="Encoding responses", unit="response")
-        for chunk in iter_chunks(to_encode, max(1, chunk_size)):
-            for r in chunk:
-                text = r.get('content', '')
-                try:
-                    vec = encode_single_text(text)
+
+        # Process in chunks for memory management and periodic saves
+        for chunk in iter_chunks(to_encode, chunk_size):
+            # Extract texts from chunk
+            texts = [r.get('content', '') for r in chunk]
+
+            try:
+                # Batch encode all texts in chunk at once
+                if long_strategy == "truncate":
+                    # Simple batch encoding with truncation
+                    embeddings = model.encode(texts, **encode_kwargs)
+
+                else:
+                    # chunk-mean strategy: batch process all chunks together
+                    if tokenizer is None or not max_len:
+                        # Fallback to simple batch encoding
+                        embeddings = model.encode(texts, **encode_kwargs)
+                    else:
+                        # Step 1: Tokenize all texts and prepare chunks
+                        all_chunk_texts = []
+                        chunk_metadata = []  # (text_idx, chunk_lengths_list)
+
+                        for text_idx, text in enumerate(texts):
+                            ids = tokenizer.encode(text, add_special_tokens=True, truncation=False)
+
+                            if len(ids) <= max_len:
+                                # Short text: no chunking needed
+                                all_chunk_texts.append(text)
+                                chunk_metadata.append((text_idx, [len(ids)]))
+                            else:
+                                # Long text: split into chunks
+                                chunk_lengths = []
+                                for i in range(0, len(ids), max_len):
+                                    chunk_ids = ids[i:i+max_len]
+                                    chunk_text = tokenizer.decode(chunk_ids, skip_special_tokens=True)
+                                    all_chunk_texts.append(chunk_text)
+                                    chunk_lengths.append(len(chunk_ids))
+                                chunk_metadata.append((text_idx, chunk_lengths))
+
+                        # Step 2: Batch encode ALL chunks at once (parallel processing)
+                        all_chunk_embeddings = model.encode(all_chunk_texts, **encode_kwargs)
+                        all_chunk_embeddings = np.asarray(all_chunk_embeddings, dtype=np.float32)
+
+                        # Step 3: Reconstruct embeddings per original text
+                        embeddings = []
+                        chunk_idx = 0
+
+                        for text_idx, chunk_lengths in chunk_metadata:
+                            num_chunks = len(chunk_lengths)
+
+                            if num_chunks == 1:
+                                # Single chunk (short text)
+                                embeddings.append(all_chunk_embeddings[chunk_idx])
+                                chunk_idx += 1
+                            else:
+                                # Multiple chunks: length-weighted average
+                                chunk_vecs = all_chunk_embeddings[chunk_idx:chunk_idx + num_chunks]
+                                chunk_idx += num_chunks
+
+                                # Length-weighted average
+                                chunk_lengths_arr = np.asarray(chunk_lengths, dtype=np.float32)
+                                weights = chunk_lengths_arr / chunk_lengths_arr.sum()
+                                mean_vec = np.average(chunk_vecs, axis=0, weights=weights)
+
+                                # Re-normalize if needed
+                                if normalize_embeddings:
+                                    norm = np.linalg.norm(mean_vec)
+                                    if norm > 0:
+                                        mean_vec = mean_vec / norm
+
+                                embeddings.append(mean_vec.astype(np.float32))
+
+                        embeddings = np.array(embeddings)
+
+                # Store embeddings in cache
+                embeddings = np.asarray(embeddings, dtype=np.float32)
+                for r, vec in zip(chunk, embeddings):
                     cache[r['response_id']] = {
                         'conversation_id': r.get('conversation_id'),
                         'response_id': r.get('response_id'),
@@ -186,13 +220,18 @@ def run(
                         'timestamp': r.get('timestamp'),
                         'embedding': vec,
                     }
-                except Exception as e:
-                    print(f"Error encoding response {r['response_id']}: {e}")
-                    raise
-                pbar.update(1)
-            encoded_count += len(chunk)
-            if save_every and (encoded_count % save_every == 0):
-                save_cache(out_pkl, cache)
+
+                pbar.update(len(chunk))
+                encoded_count += len(chunk)
+
+                # Periodic save
+                if save_every and (encoded_count % save_every == 0):
+                    save_cache(out_pkl, cache)
+
+            except Exception as e:
+                print(f"\nError encoding batch: {e}")
+                raise
+
         pbar.close()
 
         save_cache(out_pkl, cache)
@@ -209,13 +248,13 @@ def main():
     p.add_argument('--out-pkl', type=str, default='output/response_embeddings.pkl')
     p.add_argument('--model', type=str, default='paraphrase-multilingual-mpnet-base-v2')
     p.add_argument('--cache-dir', type=str, default='models_cache')
-    p.add_argument('--batch-size', type=int, default=64)
+    p.add_argument('--batch-size', type=int, default=128, help='Batch size for encoding (increase for faster processing)')
     p.add_argument('--device', type=str, default='auto', help="cpu, cuda, or auto")
-    p.add_argument('--fp16', action='store_true')
-    p.add_argument('--normalize', action='store_true')
-    p.add_argument('--chunk-size', type=int, default=4096)
-    p.add_argument('--save-every', type=int, default=2000)
-    p.add_argument('--num-workers', type=int, default=0, help='DataLoader workers for tokenization')
+    p.add_argument('--fp16', action='store_true', help='Use FP16 precision (faster on GPU)')
+    p.add_argument('--normalize', action='store_true', help='Normalize embeddings to unit length')
+    p.add_argument('--chunk-size', type=int, default=4096, help='Number of items to process before saving')
+    p.add_argument('--save-every', type=int, default=2000, help='Save cache every N items')
+    p.add_argument('--num-workers', type=int, default=4, help='DataLoader workers for tokenization (0=single-threaded, 4=recommended)')
     p.add_argument('--long-strategy', type=str, default='truncate', choices=['truncate', 'chunk-mean'], help='Handle long responses by truncation or chunk-averaged embeddings')
     p.add_argument('--max-seq-length', type=int, default=512, help='Maximum sequence length for model (default: 512)')
     args = p.parse_args()

@@ -23,6 +23,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
+from tools.keyword_tokenizer import multi_lang_tokenize
 
 
 def clean_minimal(text: str) -> str:
@@ -70,7 +71,7 @@ def conversation_vector_for(conv_rows: List[Dict[str, Any]], emb_index: Dict[str
 
 def build_candidates_from_text(full_text: str, ngram_max: int, max_candidates: int) -> Tuple[List[str], np.ndarray]:
     token_pattern = r"(?u)(?:[\u4E00-\u9FFF]{1,}|[\u3131-\u318E\uAC00-\uD7A3]{2,}|[A-Za-z0-9_]{2,})"
-    vectorizer = CountVectorizer(token_pattern=token_pattern, ngram_range=(1, ngram_max))
+    vectorizer = CountVectorizer(analyzer="word", tokenizer=multi_lang_tokenize, ngram_range=(1, ngram_max))
     X = vectorizer.fit_transform([full_text])  # 1 x V
     vocab = np.array(vectorizer.get_feature_names_out())
     counts = X.toarray()[0]
@@ -195,7 +196,7 @@ def main():
     p.add_argument('--emb-pkl', type=str, default='test/output_full/response_embeddings.pkl')
     p.add_argument('--model', type=str, default='paraphrase-multilingual-mpnet-base-v2')
     p.add_argument('--cache-dir', type=str, default='models_cache')
-    p.add_argument('--ngram-max', type=int, default=3)
+    p.add_argument('--ngram-max', type=int, default=2)
     p.add_argument('--max-candidates', type=int, default=2000, help='limit number of candidate phrases to encode')
     p.add_argument('--top-n', type=int, default=5)
     args = p.parse_args()

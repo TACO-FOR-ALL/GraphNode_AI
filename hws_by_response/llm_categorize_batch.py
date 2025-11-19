@@ -86,7 +86,7 @@ def call_llm(system_prompt: str, user_prompt: str, model: str, provider: str = '
 
 def define_categories(conv_keywords: Dict[Any, List[str]], prompt_template: str, model: str, provider: str = 'openai') -> tuple[List[str], str]:
     """
-    STEP 1: Define 3-5 categories based on ALL keywords from ALL conversations
+    STEP 1: Define 3-8 categories based on ALL keywords from ALL conversations
     """
     # Create a representation of ALL keywords from ALL conversations
     all_keywords_data = {}
@@ -222,7 +222,7 @@ def main():
     parser.add_argument("--prompt-file", type=str, default=str(project_root / 'llm_clustering_prompt.txt'), help="프롬프트 템플릿 파일 경로")
     parser.add_argument("--output", type=str, default=str(project_root / 'output' / 's6_categories.json'), help="대분류 결과 JSON 출력 경로")
     parser.add_argument("--assignments-output", type=str, default=str(project_root / 'output' / 's6_categories_assignments.json'), help="assignments 전용 매핑 JSON 출력 경로")
-    parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM 모델명 (예: gpt-4o)")
+    parser.add_argument("--model", type=str, default="gpt-5-mini", help="LLM 모델명 (예: gpt-4o)")
     parser.add_argument("--provider", type=str, default="openai", help="LLM 제공자 (현재 openai만 지원)")
     parser.add_argument("--top-n-per-response", type=int, default=5, help="응답당 사용할 상위 키워드 수")
     parser.add_argument("--batch-size", type=int, default=50, help="한 번에 처리할 대화 수")

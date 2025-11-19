@@ -26,7 +26,7 @@ python build_qa_pairs.py --data-path data/conversations.json --output output/qa_
 
 **방법 1: 기본 방식 (Q 전체 + A 앞부분, 512 토큰 맞춤)**
 ```bash
-python tools/extract_embeddings_qa_pairs.py --input output/qa_pairs.json --out-pkl output/qa_embeddings.pkl --model intfloat/multilingual-e5-base --normalize --save-every 500
+python tools/extract_embeddings_qa_pairs.py --input output/qa_pairs.json --out-pkl output/qa_embeddings.pkl --model intfloat/multilingual-e5-base --normalize --save-every 500 --extract_mode qa --max_seq_length 512
 ```
 
 **방법 2: Instruction Prefix + Weighted Embedding (Question 비중 강화, 추천)** 
@@ -54,9 +54,7 @@ python tools/extract_embeddings_qa_pairs.py --input output/qa_pairs.json --out-p
 
 Conversation-level로 pooling
 ```bash
-  python pool_qa_to_conversation.py \
-    --input output/qa_embeddings_question.pkl \
-    --output output/conversation_embeddings_question.pkl      
+  python tools/pool_qa_to_conversation.py --input output/qa_embeddings_question.pkl --output output/conversation_embeddings_question.pkl   
 ```
 ## 3. answer 임베딩만 추출 (기존 방식)
 
@@ -73,11 +71,7 @@ python tools/extract_keywords_conv_tfidf.py --input output/s1_ai_responses.json 
 
 ## 2. question만 키워드 추출
 ```bash
-  python extract_keywords_conv_tfidf.py \
-    --input output/s1_ai_responses.json \
-    --emb-pkl output/conversation_embeddings_question.pkl \   
-    --emb-source conversation \
-    --output output/s2_keywords_tfidf.json
+  python tools/extract_keywords_conv_tfidf.py --input output/s1_ai_responses.json   --emb-pkl output/conversation_embeddings_question.pkl --emb-source conversation --output output/s2_question_keywords_tfidf.json
  ```
 → 출력: output/s2_keywords_tfidf_qa.json
 
@@ -108,7 +102,7 @@ python tools/extract_keywords_conv_tfidf.py --input output/s1_ai_responses.json 
 # 대분류
 
 ```bash
-python llm_categorize_batch.py --keywords-input output/s2_keywords_pipeline_embedreuse.json
+python llm_categorize_batch.py --keywords-input output/s2_keywords_pipeline_embedreuse_tfidf.json
 ```
 
 # 엣지생성
@@ -116,7 +110,7 @@ python llm_categorize_batch.py --keywords-input output/s2_keywords_pipeline_embe
 ## 일반 유사도 기반 생성
 ```bash
 # 카테고리 + 키워드 포함 (추천)
-python tools/build_edges_from_conv_embeddings.py --embeddings output/conversation_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --keywords output/s2_keywords_pipeline_embedreuse_tfidf.json --plot --target-hard-cross-edges 50
+python tools/build_edges_from_conv_embeddings.py --embeddings output/qa_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --keywords output/s2_keywords_pipeline_embedreuse_tfidf.json --plot --target-hard-cross-edges 50 --metric cosine
 
 # 카테고리만
 python tools/build_edges_from_conv_embeddings.py --embeddings output/conversation_embeddings.pkl --output-dir output --categories output/s6_categories_assignments.json --plot

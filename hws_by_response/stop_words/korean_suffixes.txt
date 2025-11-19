@@ -1,0 +1,35 @@
+# Korean common suffixes / particles to strip in fallback tokenizer
+# one per line, no spaces
+에서는
+에서의
+에서도
+에서
+으로
+로
+까지
+인지
+해야한다
+해드릴까요
+해드릴게요
+해볼까요
+이라면
+해서
+해야
+이면
+하면
+돼요
+또는
+은
+는
+이
+가
+을
+를
+의
+에
+까요
+요
+이나
+보고
+에서
+의

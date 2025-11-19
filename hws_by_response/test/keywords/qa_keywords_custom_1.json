@@ -1,0 +1,2493 @@
+[
+  {
+    "qa_id": "243_0",
+    "conversation_id": 243,
+    "qa_index": 0,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8469564914703369
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.830041766166687
+      },
+      {
+        "keyword": "ai",
+        "similarity": 0.8242690563201904
+      },
+      {
+        "keyword": "style",
+        "similarity": 0.8189231753349304
+      },
+      {
+        "keyword": "basic",
+        "similarity": 0.8171044588088989
+      },
+      {
+        "keyword": "styles",
+        "similarity": 0.8103197813034058
+      },
+      {
+        "keyword": "fetch",
+        "similarity": 0.8073911666870117
+      },
+      {
+        "keyword": "for",
+        "similarity": 0.8056656122207642
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.8052825331687927
+      },
+      {
+        "keyword": "any",
+        "similarity": 0.8049994111061096
+      }
+    ]
+  },
+  {
+    "qa_id": "243_1",
+    "conversation_id": 243,
+    "qa_index": 1,
+    "keywords": [
+      {
+        "keyword": "和opacit区别",
+        "similarity": 0.8543984889984131
+      },
+      {
+        "keyword": "spacearound均分",
+        "similarity": 0.846964418888092
+      },
+      {
+        "keyword": "3设置",
+        "similarity": 0.846274733543396
+      },
+      {
+        "keyword": "点击",
+        "similarity": 0.8457347750663757
+      },
+      {
+        "keyword": "rgba值",
+        "similarity": 0.8456119298934937
+      },
+      {
+        "keyword": "下划线",
+        "similarity": 0.8441368341445923
+      },
+      {
+        "keyword": "navlist>liactive",
+        "similarity": 0.8440513610839844
+      },
+      {
+        "keyword": "标题logo",
+        "similarity": 0.8424407839775085
+      },
+      {
+        "keyword": "spacebetween两端",
+        "similarity": 0.8414890766143799
+      },
+      {
+        "keyword": "textalign",
+        "similarity": 0.8408893346786499
+      }
+    ]
+  },
+  {
+    "qa_id": "243_2",
+    "conversation_id": 243,
+    "qa_index": 2,
+    "keywords": [
+      {
+        "keyword": "torrent",
+        "similarity": 0.8654431104660034
+      },
+      {
+        "keyword": "bittorrent",
+        "similarity": 0.8553406000137329
+      },
+      {
+        "keyword": "qbittorrent",
+        "similarity": 0.8464998006820679
+      },
+      {
+        "keyword": "utorrent",
+        "similarity": 0.8359259963035583
+      },
+      {
+        "keyword": "download",
+        "similarity": 0.8159043788909912
+      },
+      {
+        "keyword": "downloading",
+        "similarity": 0.8063839077949524
+      },
+      {
+        "keyword": "downloads",
+        "similarity": 0.8044028282165527
+      },
+      {
+        "keyword": "uploads",
+        "similarity": 0.7953641414642334
+      },
+      {
+        "keyword": "install",
+        "similarity": 0.7933667898178101
+      },
+      {
+        "keyword": "copyright",
+        "similarity": 0.7862796783447266
+      }
+    ]
+  },
+  {
+    "qa_id": "243_3",
+    "conversation_id": 243,
+    "qa_index": 3,
+    "keywords": [
+      {
+        "keyword": "qbittorrent",
+        "similarity": 0.8549284934997559
+      },
+      {
+        "keyword": "bittorrent",
+        "similarity": 0.8531639575958252
+      },
+      {
+        "keyword": "utorrent",
+        "similarity": 0.828340470790863
+      },
+      {
+        "keyword": "adfree",
+        "similarity": 0.8128530979156494
+      },
+      {
+        "keyword": "free",
+        "similarity": 0.8113584518432617
+      },
+      {
+        "keyword": "opensource",
+        "similarity": 0.8010232448577881
+      },
+      {
+        "keyword": "linux",
+        "similarity": 0.7993721961975098
+      },
+      {
+        "keyword": "client",
+        "similarity": 0.789180338382721
+      },
+      {
+        "keyword": "protocol",
+        "similarity": 0.7858824729919434
+      },
+      {
+        "keyword": "clients",
+        "similarity": 0.7786582708358765
+      }
+    ]
+  },
+  {
+    "qa_id": "243_4",
+    "conversation_id": 243,
+    "qa_index": 4,
+    "keywords": [
+      {
+        "keyword": "torrent",
+        "similarity": 0.8488544821739197
+      },
+      {
+        "keyword": "filenametorrent",
+        "similarity": 0.8233491778373718
+      },
+      {
+        "keyword": "bittorrent",
+        "similarity": 0.8231276273727417
+      },
+      {
+        "keyword": "builtin",
+        "similarity": 0.7977561950683594
+      },
+      {
+        "keyword": "download",
+        "similarity": 0.7967343926429749
+      },
+      {
+        "keyword": "downloading",
+        "similarity": 0.790178656578064
+      },
+      {
+        "keyword": "folder",
+        "similarity": 0.7886791229248047
+      },
+      {
+        "keyword": "mac",
+        "similarity": 0.7875988483428955
+      },
+      {
+        "keyword": "downloads",
+        "similarity": 0.7864466905593872
+      },
+      {
+        "keyword": "terminal",
+        "similarity": 0.7833720445632935
+      }
+    ]
+  },
+  {
+    "qa_id": "243_5",
+    "conversation_id": 243,
+    "qa_index": 5,
+    "keywords": [
+      {
+        "keyword": "checkbox",
+        "similarity": 0.8217345476150513
+      },
+      {
+        "keyword": "checkboxes",
+        "similarity": 0.8148974180221558
+      },
+      {
+        "keyword": "disable",
+        "similarity": 0.8075809478759766
+      },
+      {
+        "keyword": "disabled",
+        "similarity": 0.803596019744873
+      },
+      {
+        "keyword": "checked",
+        "similarity": 0.8032386302947998
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8019286394119263
+      },
+      {
+        "keyword": "validate",
+        "similarity": 0.8012288808822632
+      },
+      {
+        "keyword": "other",
+        "similarity": 0.7994664907455444
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.7994203567504883
+      },
+      {
+        "keyword": "clientside",
+        "similarity": 0.7915462255477905
+      }
+    ]
+  },
+  {
+    "qa_id": "243_6",
+    "conversation_id": 243,
+    "qa_index": 6,
+    "keywords": [
+      {
+        "keyword": "checkboxes",
+        "similarity": 0.8255733847618103
+      },
+      {
+        "keyword": "checkbox",
+        "similarity": 0.824468195438385
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8187077045440674
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.8168486952781677
+      },
+      {
+        "keyword": "checked",
+        "similarity": 0.8078524470329285
+      },
+      {
+        "keyword": "unselected",
+        "similarity": 0.804458737373352
+      },
+      {
+        "keyword": "unchecked",
+        "similarity": 0.7949318885803223
+      },
+      {
+        "keyword": "one",
+        "similarity": 0.7929173111915588
+      },
+      {
+        "keyword": "other",
+        "similarity": 0.7896718382835388
+      },
+      {
+        "keyword": "selected",
+        "similarity": 0.7885168790817261
+      }
+    ]
+  },
+  {
+    "qa_id": "243_7",
+    "conversation_id": 243,
+    "qa_index": 7,
+    "keywords": [
+      {
+        "keyword": "js",
+        "similarity": 0.8478796482086182
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.840128481388092
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8352924585342407
+      },
+      {
+        "keyword": "checkbox",
+        "similarity": 0.8239103555679321
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.815449595451355
+      },
+      {
+        "keyword": "checkboxes",
+        "similarity": 0.8140441179275513
+      },
+      {
+        "keyword": "file",
+        "similarity": 0.8128030300140381
+      },
+      {
+        "keyword": "like",
+        "similarity": 0.8126644492149353
+      },
+      {
+        "keyword": "write",
+        "similarity": 0.8122763633728027
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.8109863996505737
+      }
+    ]
+  },
+  {
+    "qa_id": "243_8",
+    "conversation_id": 243,
+    "qa_index": 8,
+    "keywords": [
+      {
+        "keyword": "selectdeparture",
+        "similarity": 0.8514813184738159
+      },
+      {
+        "keyword": "departure",
+        "similarity": 0.8129317164421082
+      },
+      {
+        "keyword": "departures",
+        "similarity": 0.8125999569892883
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.8085408210754395
+      },
+      {
+        "keyword": "selected",
+        "similarity": 0.8039774298667908
+      },
+      {
+        "keyword": "updated",
+        "similarity": 0.7997177839279175
+      },
+      {
+        "keyword": "changes",
+        "similarity": 0.7994003295898438
+      },
+      {
+        "keyword": "select",
+        "similarity": 0.7980321049690247
+      },
+      {
+        "keyword": "options",
+        "similarity": 0.7980018258094788
+      },
+      {
+        "keyword": "update",
+        "similarity": 0.7933671474456787
+      }
+    ]
+  },
+  {
+    "qa_id": "243_9",
+    "conversation_id": 243,
+    "qa_index": 9,
+    "keywords": [
+      {
+        "keyword": "sie",
+        "similarity": 0.8194198608398438
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8176940679550171
+      },
+      {
+        "keyword": "select",
+        "similarity": 0.8079425096511841
+      },
+      {
+        "keyword": "fix",
+        "similarity": 0.7986946105957031
+      },
+      {
+        "keyword": "width",
+        "similarity": 0.7952748537063599
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.7922779321670532
+      },
+      {
+        "keyword": "size",
+        "similarity": 0.7909708619117737
+      },
+      {
+        "keyword": "replace",
+        "similarity": 0.7869107127189636
+      },
+      {
+        "keyword": "remove",
+        "similarity": 0.7868356704711914
+      },
+      {
+        "keyword": "adjust",
+        "similarity": 0.782497763633728
+      }
+    ]
+  },
+  {
+    "qa_id": "243_10",
+    "conversation_id": 243,
+    "qa_index": 10,
+    "keywords": [
+      {
+        "keyword": "rowwise",
+        "similarity": 0.8345625400543213
+      },
+      {
+        "keyword": "forms",
+        "similarity": 0.8159317970275879
+      },
+      {
+        "keyword": "flexbox",
+        "similarity": 0.8123764395713806
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8113334774971008
+      },
+      {
+        "keyword": "align",
+        "similarity": 0.8069748282432556
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8062336444854736
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7928978800773621
+      },
+      {
+        "keyword": "a",
+        "similarity": 0.7911661863327026
+      },
+      {
+        "keyword": "you",
+        "similarity": 0.785312831401825
+      },
+      {
+        "keyword": "an",
+        "similarity": 0.7785911560058594
+      }
+    ]
+  },
+  {
+    "qa_id": "243_11",
+    "conversation_id": 243,
+    "qa_index": 11,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8480589389801025
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8117303848266602
+      },
+      {
+        "keyword": "styles",
+        "similarity": 0.8017353415489197
+      },
+      {
+        "keyword": "external",
+        "similarity": 0.8003170490264893
+      },
+      {
+        "keyword": "add",
+        "similarity": 0.7955788373947144
+      },
+      {
+        "keyword": "apply",
+        "similarity": 0.7916885614395142
+      },
+      {
+        "keyword": "how",
+        "similarity": 0.7901535034179688
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7895666360855103
+      },
+      {
+        "keyword": "include",
+        "similarity": 0.7890625
+      },
+      {
+        "keyword": "1",
+        "similarity": 0.7851128578186035
+      }
+    ]
+  },
+  {
+    "qa_id": "243_12",
+    "conversation_id": 243,
+    "qa_index": 12,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8037917613983154
+      },
+      {
+        "keyword": "forms",
+        "similarity": 0.7985564470291138
+      },
+      {
+        "keyword": "form",
+        "similarity": 0.7984081506729126
+      },
+      {
+        "keyword": "manually",
+        "similarity": 0.7968153357505798
+      },
+      {
+        "keyword": "margin",
+        "similarity": 0.7956686019897461
+      },
+      {
+        "keyword": "between",
+        "similarity": 0.7859746217727661
+      },
+      {
+        "keyword": "by",
+        "similarity": 0.7858686447143555
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.7858155369758606
+      },
+      {
+        "keyword": "space",
+        "similarity": 0.7845727205276489
+      },
+      {
+        "keyword": "adjust",
+        "similarity": 0.7829383015632629
+      }
+    ]
+  },
+  {
+    "qa_id": "243_13",
+    "conversation_id": 243,
+    "qa_index": 13,
+    "keywords": [
+      {
+        "keyword": "planbox",
+        "similarity": 0.8281655311584473
+      },
+      {
+        "keyword": "videos",
+        "similarity": 0.8213654160499573
+      },
+      {
+        "keyword": "video",
+        "similarity": 0.8207911252975464
+      },
+      {
+        "keyword": "autoplay",
+        "similarity": 0.8171852827072144
+      },
+      {
+        "keyword": "html5",
+        "similarity": 0.8123940229415894
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.809931218624115
+      },
+      {
+        "keyword": "div",
+        "similarity": 0.796696126461029
+      },
+      {
+        "keyword": "zindex",
+        "similarity": 0.7961165308952332
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.7942955493927002
+      },
+      {
+        "keyword": "browsers",
+        "similarity": 0.7901216745376587
+      }
+    ]
+  },
+  {
+    "qa_id": "243_14",
+    "conversation_id": 243,
+    "qa_index": 14,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8363832235336304
+      },
+      {
+        "keyword": "video",
+        "similarity": 0.8222253322601318
+      },
+      {
+        "keyword": "videos",
+        "similarity": 0.8143883943557739
+      },
+      {
+        "keyword": "html5",
+        "similarity": 0.8128789663314819
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.8120051622390747
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8094442486763
+      },
+      {
+        "keyword": "autoplay",
+        "similarity": 0.8092232942581177
+      },
+      {
+        "keyword": "zindex",
+        "similarity": 0.7975200414657593
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.7959259748458862
+      },
+      {
+        "keyword": "div",
+        "similarity": 0.7908729314804077
+      }
+    ]
+  },
+  {
+    "qa_id": "243_15",
+    "conversation_id": 243,
+    "qa_index": 15,
+    "keywords": [
+      {
+        "keyword": "outputmp4",
+        "similarity": 0.8278813362121582
+      },
+      {
+        "keyword": "ffmpeg",
+        "similarity": 0.8258883357048035
+      },
+      {
+        "keyword": "mp4",
+        "similarity": 0.8231763243675232
+      },
+      {
+        "keyword": "mov",
+        "similarity": 0.8206332921981812
+      },
+      {
+        "keyword": "onlineconvertercom",
+        "similarity": 0.811138391494751
+      },
+      {
+        "keyword": "convert",
+        "similarity": 0.8092246055603027
+      },
+      {
+        "keyword": "upload",
+        "similarity": 0.8039794564247131
+      },
+      {
+        "keyword": "inputmov",
+        "similarity": 0.7991119623184204
+      },
+      {
+        "keyword": "vlc",
+        "similarity": 0.7982246279716492
+      },
+      {
+        "keyword": "converter",
+        "similarity": 0.7949854135513306
+      }
+    ]
+  },
+  {
+    "qa_id": "243_16",
+    "conversation_id": 243,
+    "qa_index": 16,
+    "keywords": [
+      {
+        "keyword": "ffmpeg",
+        "similarity": 0.8281087279319763
+      },
+      {
+        "keyword": "zsh",
+        "similarity": 0.8019692897796631
+      },
+      {
+        "keyword": "homebrew",
+        "similarity": 0.7914575338363647
+      },
+      {
+        "keyword": "install",
+        "similarity": 0.7830719947814941
+      },
+      {
+        "keyword": "command",
+        "similarity": 0.7591350078582764
+      },
+      {
+        "keyword": "terminal",
+        "similarity": 0.7569804787635803
+      },
+      {
+        "keyword": "installed",
+        "similarity": 0.7558942437171936
+      },
+      {
+        "keyword": "programs",
+        "similarity": 0.7526098489761353
+      },
+      {
+        "keyword": "program",
+        "similarity": 0.7511654496192932
+      },
+      {
+        "keyword": "found",
+        "similarity": 0.7509222030639648
+      }
+    ]
+  },
+  {
+    "qa_id": "243_17",
+    "conversation_id": 243,
+    "qa_index": 17,
+    "keywords": [
+      {
+        "keyword": "elementb위에",
+        "similarity": 0.8671385049819946
+      },
+      {
+        "keyword": "배치합니다",
+        "similarity": 0.8294335007667542
+      },
+      {
+        "keyword": "위치하게",
+        "similarity": 0.8245722055435181
+      },
+      {
+        "keyword": "위치시키",
+        "similarity": 0.8178584575653076
+      },
+      {
+        "keyword": "지정합니다",
+        "similarity": 0.8144428133964539
+      },
+      {
+        "keyword": "설정하고",
+        "similarity": 0.8142892718315125
+      },
+      {
+        "keyword": "사용하여",
+        "similarity": 0.8062946200370789
+      },
+      {
+        "keyword": "예입니다",
+        "similarity": 0.8056176900863647
+      },
+      {
+        "keyword": "예제에서",
+        "similarity": 0.8051084280014038
+      },
+      {
+        "keyword": "속성",
+        "similarity": 0.8039625883102417
+      }
+    ]
+  },
+  {
+    "qa_id": "243_18",
+    "conversation_id": 243,
+    "qa_index": 18,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8297471404075623
+      },
+      {
+        "keyword": "sticky",
+        "similarity": 0.8196030855178833
+      },
+      {
+        "keyword": "viewport",
+        "similarity": 0.8194724321365356
+      },
+      {
+        "keyword": "relative",
+        "similarity": 0.8129544258117676
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.8125902414321899
+      },
+      {
+        "keyword": "fixed",
+        "similarity": 0.8125382661819458
+      },
+      {
+        "keyword": "absolute",
+        "similarity": 0.8095699548721313
+      },
+      {
+        "keyword": "elements",
+        "similarity": 0.8059842586517334
+      },
+      {
+        "keyword": "scrolled",
+        "similarity": 0.8046755790710449
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.8045258522033691
+      }
+    ]
+  },
+  {
+    "qa_id": "243_19",
+    "conversation_id": 243,
+    "qa_index": 19,
+    "keywords": [
+      {
+        "keyword": "filterbox",
+        "similarity": 0.8406479358673096
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8381645083427429
+      },
+      {
+        "keyword": "600px",
+        "similarity": 0.8279030323028564
+      },
+      {
+        "keyword": "confirm",
+        "similarity": 0.8022581338882446
+      },
+      {
+        "keyword": "clean",
+        "similarity": 0.7969615459442139
+      },
+      {
+        "keyword": "design",
+        "similarity": 0.7966183423995972
+      },
+      {
+        "keyword": "button",
+        "similarity": 0.796476423740387
+      },
+      {
+        "keyword": "width",
+        "similarity": 0.7963688373565674
+      },
+      {
+        "keyword": "forms",
+        "similarity": 0.7962173223495483
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.7959684133529663
+      }
+    ]
+  },
+  {
+    "qa_id": "243_20",
+    "conversation_id": 243,
+    "qa_index": 20,
+    "keywords": [
+      {
+        "keyword": "formbox",
+        "similarity": 0.8236525058746338
+      },
+      {
+        "keyword": "transparent",
+        "similarity": 0.8221262693405151
+      },
+      {
+        "keyword": "semitransparent",
+        "similarity": 0.8218995332717896
+      },
+      {
+        "keyword": "opacity",
+        "similarity": 0.8158855438232422
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8095346689224243
+      },
+      {
+        "keyword": "opaque",
+        "similarity": 0.8075901865959167
+      },
+      {
+        "keyword": "transperant",
+        "similarity": 0.8038585782051086
+      },
+      {
+        "keyword": "form",
+        "similarity": 0.8025357723236084
+      },
+      {
+        "keyword": "rgba",
+        "similarity": 0.8003134727478027
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.7964890003204346
+      }
+    ]
+  },
+  {
+    "qa_id": "243_21",
+    "conversation_id": 243,
+    "qa_index": 21,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.818144679069519
+      },
+      {
+        "keyword": "little",
+        "similarity": 0.8171235918998718
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.8107452392578125
+      },
+      {
+        "keyword": "lower",
+        "similarity": 0.8087637424468994
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.8045620918273926
+      },
+      {
+        "keyword": "bit",
+        "similarity": 0.8018582463264465
+      },
+      {
+        "keyword": "pushing",
+        "similarity": 0.8012762665748596
+      },
+      {
+        "keyword": "put",
+        "similarity": 0.7994362711906433
+      },
+      {
+        "keyword": "down",
+        "similarity": 0.7982847094535828
+      },
+      {
+        "keyword": "page",
+        "similarity": 0.796857476234436
+      }
+    ]
+  },
+  {
+    "qa_id": "243_22",
+    "conversation_id": 243,
+    "qa_index": 22,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8503581285476685
+      },
+      {
+        "keyword": "flexbox",
+        "similarity": 0.8191182017326355
+      },
+      {
+        "keyword": "positioning",
+        "similarity": 0.8155080080032349
+      },
+      {
+        "keyword": "elements",
+        "similarity": 0.8137638568878174
+      },
+      {
+        "keyword": "properties",
+        "similarity": 0.8134239912033081
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.8108727931976318
+      },
+      {
+        "keyword": "flex",
+        "similarity": 0.8088462352752686
+      },
+      {
+        "keyword": "positioned",
+        "similarity": 0.805988609790802
+      },
+      {
+        "keyword": "padding",
+        "similarity": 0.8048690557479858
+      },
+      {
+        "keyword": "gridbased",
+        "similarity": 0.8031713962554932
+      }
+    ]
+  },
+  {
+    "qa_id": "243_23",
+    "conversation_id": 243,
+    "qa_index": 23,
+    "keywords": [
+      {
+        "keyword": "margins",
+        "similarity": 0.8429034352302551
+      },
+      {
+        "keyword": "margin",
+        "similarity": 0.8402878046035767
+      },
+      {
+        "keyword": "margintop",
+        "similarity": 0.8381897807121277
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8270874619483948
+      },
+      {
+        "keyword": "affect",
+        "similarity": 0.8080331683158875
+      },
+      {
+        "keyword": "properties",
+        "similarity": 0.8078746795654297
+      },
+      {
+        "keyword": "shorthand",
+        "similarity": 0.8013933897018433
+      },
+      {
+        "keyword": "four",
+        "similarity": 0.8000322580337524
+      },
+      {
+        "keyword": "an",
+        "similarity": 0.7991877794265747
+      },
+      {
+        "keyword": "or",
+        "similarity": 0.7983713150024414
+      }
+    ]
+  },
+  {
+    "qa_id": "243_24",
+    "conversation_id": 243,
+    "qa_index": 24,
+    "keywords": [
+      {
+        "keyword": "inputlabel",
+        "similarity": 0.8120927810668945
+      },
+      {
+        "keyword": "margin",
+        "similarity": 0.8087071180343628
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8002088069915771
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7983927130699158
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.7960614562034607
+      },
+      {
+        "keyword": "label",
+        "similarity": 0.7949366569519043
+      },
+      {
+        "keyword": "between",
+        "similarity": 0.7944780588150024
+      },
+      {
+        "keyword": "groups",
+        "similarity": 0.7885683178901672
+      },
+      {
+        "keyword": "input",
+        "similarity": 0.787426769733429
+      },
+      {
+        "keyword": "sides",
+        "similarity": 0.7835674285888672
+      }
+    ]
+  },
+  {
+    "qa_id": "243_25",
+    "conversation_id": 243,
+    "qa_index": 25,
+    "keywords": [
+      {
+        "keyword": "checkbox",
+        "similarity": 0.8375802636146545
+      },
+      {
+        "keyword": "checkboxes",
+        "similarity": 0.8348144888877869
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8249058723449707
+      },
+      {
+        "keyword": "filterbox",
+        "similarity": 0.8248980045318604
+      },
+      {
+        "keyword": "width",
+        "similarity": 0.8195739984512329
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.8159679174423218
+      },
+      {
+        "keyword": "marginright",
+        "similarity": 0.8142638802528381
+      },
+      {
+        "keyword": "labels",
+        "similarity": 0.812527596950531
+      },
+      {
+        "keyword": "h2",
+        "similarity": 0.8121325969696045
+      },
+      {
+        "keyword": "20px",
+        "similarity": 0.8117445111274719
+      }
+    ]
+  },
+  {
+    "qa_id": "243_26",
+    "conversation_id": 243,
+    "qa_index": 26,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8416447639465332
+      },
+      {
+        "keyword": "overlay",
+        "similarity": 0.8398184180259705
+      },
+      {
+        "keyword": "opacity",
+        "similarity": 0.8262984752655029
+      },
+      {
+        "keyword": "alpha",
+        "similarity": 0.8061028718948364
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.8058055639266968
+      },
+      {
+        "keyword": "absolute",
+        "similarity": 0.8036350011825562
+      },
+      {
+        "keyword": "webpage",
+        "similarity": 0.7996060848236084
+      },
+      {
+        "keyword": "what",
+        "similarity": 0.7989882230758667
+      },
+      {
+        "keyword": "relative",
+        "similarity": 0.7986017465591431
+      },
+      {
+        "keyword": "or",
+        "similarity": 0.7976841926574707
+      }
+    ]
+  },
+  {
+    "qa_id": "243_27",
+    "conversation_id": 243,
+    "qa_index": 27,
+    "keywords": [
+      {
+        "keyword": "flexbox",
+        "similarity": 0.8236448764801025
+      },
+      {
+        "keyword": "checkbox",
+        "similarity": 0.8216499090194702
+      },
+      {
+        "keyword": "align",
+        "similarity": 0.818757176399231
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8108271360397339
+      },
+      {
+        "keyword": "aligns",
+        "similarity": 0.8077552914619446
+      },
+      {
+        "keyword": "flex",
+        "similarity": 0.8042634725570679
+      },
+      {
+        "keyword": "elements",
+        "similarity": 0.8035247325897217
+      },
+      {
+        "keyword": "pretty",
+        "similarity": 0.8007566928863525
+      },
+      {
+        "keyword": "visually",
+        "similarity": 0.8000190854072571
+      },
+      {
+        "keyword": "how",
+        "similarity": 0.798965334892273
+      }
+    ]
+  },
+  {
+    "qa_id": "243_28",
+    "conversation_id": 243,
+    "qa_index": 28,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8103077411651611
+      },
+      {
+        "keyword": "label",
+        "similarity": 0.8068971633911133
+      },
+      {
+        "keyword": "input",
+        "similarity": 0.7986572980880737
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7898870706558228
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.7888407707214355
+      },
+      {
+        "keyword": "reduce",
+        "similarity": 0.7843988537788391
+      },
+      {
+        "keyword": "adjust",
+        "similarity": 0.7837003469467163
+      },
+      {
+        "keyword": "rule",
+        "similarity": 0.7833318710327148
+      },
+      {
+        "keyword": "space",
+        "similarity": 0.7830337285995483
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.7818816900253296
+      }
+    ]
+  },
+  {
+    "qa_id": "243_29",
+    "conversation_id": 243,
+    "qa_index": 29,
+    "keywords": [
+      {
+        "keyword": "flexbox",
+        "similarity": 0.8540531396865845
+      },
+      {
+        "keyword": "flex",
+        "similarity": 0.8325405716896057
+      },
+      {
+        "keyword": "displayflex",
+        "similarity": 0.8295637369155884
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8269454836845398
+      },
+      {
+        "keyword": "perpendicular",
+        "similarity": 0.8156706094741821
+      },
+      {
+        "keyword": "flexible",
+        "similarity": 0.812795102596283
+      },
+      {
+        "keyword": "widthheight",
+        "similarity": 0.8100984692573547
+      },
+      {
+        "keyword": "directionagnostic",
+        "similarity": 0.8081384897232056
+      },
+      {
+        "keyword": "flexibility",
+        "similarity": 0.8070768117904663
+      },
+      {
+        "keyword": "inline",
+        "similarity": 0.8064837455749512
+      }
+    ]
+  },
+  {
+    "qa_id": "243_30",
+    "conversation_id": 243,
+    "qa_index": 30,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8429895639419556
+      },
+      {
+        "keyword": "fonts",
+        "similarity": 0.8341931104660034
+      },
+      {
+        "keyword": "font",
+        "similarity": 0.8321676254272461
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8278712034225464
+      },
+      {
+        "keyword": "adobe",
+        "similarity": 0.8207564353942871
+      },
+      {
+        "keyword": "sansserif",
+        "similarity": 0.8203991651535034
+      },
+      {
+        "keyword": "browser",
+        "similarity": 0.8108285069465637
+      },
+      {
+        "keyword": "change",
+        "similarity": 0.8061567544937134
+      },
+      {
+        "keyword": "serif",
+        "similarity": 0.8045119047164917
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.8013471364974976
+      }
+    ]
+  },
+  {
+    "qa_id": "243_31",
+    "conversation_id": 243,
+    "qa_index": 31,
+    "keywords": [
+      {
+        "keyword": "colorset",
+        "similarity": 0.8447338938713074
+      },
+      {
+        "keyword": "websites",
+        "similarity": 0.8265267014503479
+      },
+      {
+        "keyword": "palettes",
+        "similarity": 0.8253018856048584
+      },
+      {
+        "keyword": "q",
+        "similarity": 0.8238577842712402
+      },
+      {
+        "keyword": "website",
+        "similarity": 0.8222807049751282
+      },
+      {
+        "keyword": "color",
+        "similarity": 0.8097399473190308
+      },
+      {
+        "keyword": "a",
+        "similarity": 0.805523157119751
+      },
+      {
+        "keyword": "any",
+        "similarity": 0.8023650646209717
+      },
+      {
+        "keyword": "for",
+        "similarity": 0.8011616468429565
+      },
+      {
+        "keyword": "is",
+        "similarity": 0.7990198135375977
+      }
+    ]
+  },
+  {
+    "qa_id": "243_32",
+    "conversation_id": 243,
+    "qa_index": 32,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.832422137260437
+      },
+      {
+        "keyword": "hexadecimal",
+        "similarity": 0.8184531927108765
+      },
+      {
+        "keyword": "rgb",
+        "similarity": 0.7959973812103271
+      },
+      {
+        "keyword": "hsl",
+        "similarity": 0.793447732925415
+      },
+      {
+        "keyword": "palettes",
+        "similarity": 0.7917615175247192
+      },
+      {
+        "keyword": "palette",
+        "similarity": 0.7896738052368164
+      },
+      {
+        "keyword": "colors",
+        "similarity": 0.7845141887664795
+      },
+      {
+        "keyword": "websites",
+        "similarity": 0.7827397584915161
+      },
+      {
+        "keyword": "codes",
+        "similarity": 0.7771883010864258
+      },
+      {
+        "keyword": "etc",
+        "similarity": 0.775978147983551
+      }
+    ]
+  },
+  {
+    "qa_id": "243_33",
+    "conversation_id": 243,
+    "qa_index": 33,
+    "keywords": [
+      {
+        "keyword": "filterdeparturebox",
+        "similarity": 0.8446108102798462
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.800649106502533
+      },
+      {
+        "keyword": "rgb",
+        "similarity": 0.7915481328964233
+      },
+      {
+        "keyword": "margin",
+        "similarity": 0.7892540693283081
+      },
+      {
+        "keyword": "color",
+        "similarity": 0.7863914966583252
+      },
+      {
+        "keyword": "select",
+        "similarity": 0.7858924865722656
+      },
+      {
+        "keyword": "replace",
+        "similarity": 0.7826935052871704
+      },
+      {
+        "keyword": "hexadecimal",
+        "similarity": 0.7815511226654053
+      },
+      {
+        "keyword": "change",
+        "similarity": 0.7794460654258728
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.7766400575637817
+      }
+    ]
+  },
+  {
+    "qa_id": "243_34",
+    "conversation_id": 243,
+    "qa_index": 34,
+    "keywords": [
+      {
+        "keyword": "roundedrectangle",
+        "similarity": 0.8373511433601379
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8153845071792603
+      },
+      {
+        "keyword": "rounded",
+        "similarity": 0.8136751651763916
+      },
+      {
+        "keyword": "wrap",
+        "similarity": 0.8099304437637329
+      },
+      {
+        "keyword": "hexadecimal",
+        "similarity": 0.8059099912643433
+      },
+      {
+        "keyword": "corners",
+        "similarity": 0.799176812171936
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.7943436503410339
+      },
+      {
+        "keyword": "div",
+        "similarity": 0.7919958233833313
+      },
+      {
+        "keyword": "213363in",
+        "similarity": 0.7875115871429443
+      },
+      {
+        "keyword": "radius",
+        "similarity": 0.7862534523010254
+      }
+    ]
+  },
+  {
+    "qa_id": "243_35",
+    "conversation_id": 243,
+    "qa_index": 35,
+    "keywords": [
+      {
+        "keyword": "css",
+        "similarity": 0.8438103199005127
+      },
+      {
+        "keyword": "to",
+        "similarity": 0.8129680156707764
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.8066040277481079
+      },
+      {
+        "keyword": "style",
+        "similarity": 0.8057815432548523
+      },
+      {
+        "keyword": "background",
+        "similarity": 0.8024879693984985
+      },
+      {
+        "keyword": "for",
+        "similarity": 0.8021875619888306
+      },
+      {
+        "keyword": "as",
+        "similarity": 0.7958879470825195
+      },
+      {
+        "keyword": "rounded",
+        "similarity": 0.7950806617736816
+      },
+      {
+        "keyword": "design",
+        "similarity": 0.794532835483551
+      },
+      {
+        "keyword": "these",
+        "similarity": 0.7940573692321777
+      }
+    ]
+  },
+  {
+    "qa_id": "243_36",
+    "conversation_id": 243,
+    "qa_index": 36,
+    "keywords": [
+      {
+        "keyword": "responsive",
+        "similarity": 0.808727502822876
+      },
+      {
+        "keyword": "size",
+        "similarity": 0.8037916421890259
+      },
+      {
+        "keyword": "image",
+        "similarity": 0.8011444211006165
+      },
+      {
+        "keyword": "percentage",
+        "similarity": 0.7985239624977112
+      },
+      {
+        "keyword": "width",
+        "similarity": 0.7984318733215332
+      },
+      {
+        "keyword": "appropriate",
+        "similarity": 0.7920560836791992
+      },
+      {
+        "keyword": "original",
+        "similarity": 0.789630651473999
+      },
+      {
+        "keyword": "fixed",
+        "similarity": 0.7882668972015381
+      },
+      {
+        "keyword": "height",
+        "similarity": 0.7882097959518433
+      },
+      {
+        "keyword": "scale",
+        "similarity": 0.7879599332809448
+      }
+    ]
+  },
+  {
+    "qa_id": "243_37",
+    "conversation_id": 243,
+    "qa_index": 37,
+    "keywords": [
+      {
+        "keyword": "viewport",
+        "similarity": 0.8306955099105835
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8212668299674988
+      },
+      {
+        "keyword": "inline",
+        "similarity": 0.8151500225067139
+      },
+      {
+        "keyword": "centered",
+        "similarity": 0.8023011088371277
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8010433316230774
+      },
+      {
+        "keyword": "center",
+        "similarity": 0.8004826307296753
+      },
+      {
+        "keyword": "middle",
+        "similarity": 0.7992116212844849
+      },
+      {
+        "keyword": "flex",
+        "similarity": 0.7975167036056519
+      },
+      {
+        "keyword": "override",
+        "similarity": 0.79490065574646
+      },
+      {
+        "keyword": "vertically",
+        "similarity": 0.7940129041671753
+      }
+    ]
+  },
+  {
+    "qa_id": "243_38",
+    "conversation_id": 243,
+    "qa_index": 38,
+    "keywords": [
+      {
+        "keyword": "margin",
+        "similarity": 0.8174537420272827
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8153632879257202
+      },
+      {
+        "keyword": "spacing",
+        "similarity": 0.8121029138565063
+      },
+      {
+        "keyword": "pixels",
+        "similarity": 0.7932854294776917
+      },
+      {
+        "keyword": "top",
+        "similarity": 0.7929580211639404
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7907904386520386
+      },
+      {
+        "keyword": "adjust",
+        "similarity": 0.7886439561843872
+      },
+      {
+        "keyword": "reduce",
+        "similarity": 0.7883910536766052
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.7872911691665649
+      },
+      {
+        "keyword": "properties",
+        "similarity": 0.7860268354415894
+      }
+    ]
+  },
+  {
+    "qa_id": "243_39",
+    "conversation_id": 243,
+    "qa_index": 39,
+    "keywords": [
+      {
+        "keyword": "marginbottom10px",
+        "similarity": 0.8577394485473633
+      },
+      {
+        "keyword": "<div",
+        "similarity": 0.8461752533912659
+      },
+      {
+        "keyword": "0",
+        "similarity": 0.8410060405731201
+      },
+      {
+        "keyword": "点击",
+        "similarity": 0.8408690690994263
+      },
+      {
+        "keyword": "和opacit区别",
+        "similarity": 0.8407548666000366
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8399311304092407
+      },
+      {
+        "keyword": "textalign",
+        "similarity": 0.838512659072876
+      },
+      {
+        "keyword": "f5f5f5",
+        "similarity": 0.837558925151825
+      },
+      {
+        "keyword": "navlist>liactive",
+        "similarity": 0.8373739123344421
+      },
+      {
+        "keyword": "spacearound均分",
+        "similarity": 0.8368618488311768
+      }
+    ]
+  },
+  {
+    "qa_id": "243_40",
+    "conversation_id": 243,
+    "qa_index": 40,
+    "keywords": [
+      {
+        "keyword": "algorithmpathplanpy",
+        "similarity": 0.8461718559265137
+      },
+      {
+        "keyword": "ajax",
+        "similarity": 0.8282848000526428
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8279023766517639
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.8256335258483887
+      },
+      {
+        "keyword": "pathplan",
+        "similarity": 0.823864221572876
+      },
+      {
+        "keyword": "checkboxes",
+        "similarity": 0.8193240165710449
+      },
+      {
+        "keyword": "dropdown",
+        "similarity": 0.8126137852668762
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.8119263648986816
+      },
+      {
+        "keyword": "django",
+        "similarity": 0.8096039295196533
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8077131509780884
+      }
+    ]
+  },
+  {
+    "qa_id": "243_41",
+    "conversation_id": 243,
+    "qa_index": 41,
+    "keywords": [
+      {
+        "keyword": "js",
+        "similarity": 0.8288885354995728
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.8227764964103699
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8056021928787231
+      },
+      {
+        "keyword": "file",
+        "similarity": 0.7949596643447876
+      },
+      {
+        "keyword": "write",
+        "similarity": 0.7892245054244995
+      },
+      {
+        "keyword": "create",
+        "similarity": 0.7842441201210022
+      },
+      {
+        "keyword": "code",
+        "similarity": 0.7819246053695679
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.7794216275215149
+      },
+      {
+        "keyword": "link",
+        "similarity": 0.778626024723053
+      },
+      {
+        "keyword": "tag",
+        "similarity": 0.7777656316757202
+      }
+    ]
+  },
+  {
+    "qa_id": "243_42",
+    "conversation_id": 243,
+    "qa_index": 42,
+    "keywords": [
+      {
+        "keyword": "applicationjson",
+        "similarity": 0.8486626148223877
+      },
+      {
+        "keyword": "jsonformatted",
+        "similarity": 0.8465297222137451
+      },
+      {
+        "keyword": "contenttype",
+        "similarity": 0.8448742628097534
+      },
+      {
+        "keyword": "json",
+        "similarity": 0.832383394241333
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8249310255050659
+      },
+      {
+        "keyword": "？",
+        "similarity": 0.80047208070755
+      },
+      {
+        "keyword": "option",
+        "similarity": 0.790165901184082
+      },
+      {
+        "keyword": "server",
+        "similarity": 0.790124773979187
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.7900999784469604
+      },
+      {
+        "keyword": "sent",
+        "similarity": 0.7884331941604614
+      }
+    ]
+  },
+  {
+    "qa_id": "243_43",
+    "conversation_id": 243,
+    "qa_index": 43,
+    "keywords": [
+      {
+        "keyword": "marginbottom10px",
+        "similarity": 0.8577394485473633
+      },
+      {
+        "keyword": "margintop200px",
+        "similarity": 0.8559482097625732
+      },
+      {
+        "keyword": "0",
+        "similarity": 0.8410060405731201
+      },
+      {
+        "keyword": "点击",
+        "similarity": 0.8408690690994263
+      },
+      {
+        "keyword": "和opacit区别",
+        "similarity": 0.8407548666000366
+      },
+      {
+        "keyword": "css",
+        "similarity": 0.8399311304092407
+      },
+      {
+        "keyword": "textalign",
+        "similarity": 0.838512659072876
+      },
+      {
+        "keyword": "f5f5f5",
+        "similarity": 0.837558925151825
+      },
+      {
+        "keyword": "navlist>liactive",
+        "similarity": 0.8373739123344421
+      },
+      {
+        "keyword": "spacearound均分",
+        "similarity": 0.8368618488311768
+      }
+    ]
+  },
+  {
+    "qa_id": "243_44",
+    "conversation_id": 243,
+    "qa_index": 44,
+    "keywords": [
+      {
+        "keyword": "import",
+        "similarity": 0.8272346258163452
+      },
+      {
+        "keyword": "subdirectory",
+        "similarity": 0.819135844707489
+      },
+      {
+        "keyword": "directory",
+        "similarity": 0.8116885423660278
+      },
+      {
+        "keyword": "directorys",
+        "similarity": 0.8100600242614746
+      },
+      {
+        "keyword": "function",
+        "similarity": 0.8094393610954285
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.8067828416824341
+      },
+      {
+        "keyword": "replace",
+        "similarity": 0.7970225811004639
+      },
+      {
+        "keyword": "sub",
+        "similarity": 0.7940881848335266
+      },
+      {
+        "keyword": "in",
+        "similarity": 0.790162205696106
+      },
+      {
+        "keyword": "if",
+        "similarity": 0.7885509729385376
+      }
+    ]
+  },
+  {
+    "qa_id": "243_45",
+    "conversation_id": 243,
+    "qa_index": 45,
+    "keywords": [
+      {
+        "keyword": "algorithmpathplanpathplan",
+        "similarity": 0.8416916131973267
+      },
+      {
+        "keyword": "import",
+        "similarity": 0.8328789472579956
+      },
+      {
+        "keyword": "imports",
+        "similarity": 0.8192848563194275
+      },
+      {
+        "keyword": "syntaxically",
+        "similarity": 0.8192737102508545
+      },
+      {
+        "keyword": "module",
+        "similarity": 0.8168238401412964
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.8144867420196533
+      },
+      {
+        "keyword": "modules",
+        "similarity": 0.814405620098114
+      },
+      {
+        "keyword": "path",
+        "similarity": 0.8140159845352173
+      },
+      {
+        "keyword": "directory",
+        "similarity": 0.8042631149291992
+      },
+      {
+        "keyword": "functions",
+        "similarity": 0.7961505651473999
+      }
+    ]
+  },
+  {
+    "qa_id": "243_46",
+    "conversation_id": 243,
+    "qa_index": 46,
+    "keywords": [
+      {
+        "keyword": "import",
+        "similarity": 0.8242709636688232
+      },
+      {
+        "keyword": "imports",
+        "similarity": 0.8146413564682007
+      },
+      {
+        "keyword": "modules",
+        "similarity": 0.8068100810050964
+      },
+      {
+        "keyword": "directories",
+        "similarity": 0.794278085231781
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.7935103178024292
+      },
+      {
+        "keyword": "directory",
+        "similarity": 0.7813683748245239
+      },
+      {
+        "keyword": "package",
+        "similarity": 0.7686170339584351
+      },
+      {
+        "keyword": "script",
+        "similarity": 0.767544686794281
+      },
+      {
+        "keyword": "absolute",
+        "similarity": 0.7622351050376892
+      },
+      {
+        "keyword": "your",
+        "similarity": 0.7615549564361572
+      }
+    ]
+  },
+  {
+    "qa_id": "243_47",
+    "conversation_id": 243,
+    "qa_index": 47,
+    "keywords": [
+      {
+        "keyword": "approutepathplan,methodpost",
+        "similarity": 0.8395125865936279
+      },
+      {
+        "keyword": "json",
+        "similarity": 0.838671863079071
+      },
+      {
+        "keyword": "pathplan",
+        "similarity": 0.8340822458267212
+      },
+      {
+        "keyword": "ajax",
+        "similarity": 0.8206098675727844
+      },
+      {
+        "keyword": "documentreadyfunction",
+        "similarity": 0.8163084387779236
+      },
+      {
+        "keyword": "route",
+        "similarity": 0.8146634101867676
+      },
+      {
+        "keyword": "sned",
+        "similarity": 0.8081141114234924
+      },
+      {
+        "keyword": "departure",
+        "similarity": 0.8074157238006592
+      },
+      {
+        "keyword": "return",
+        "similarity": 0.8042747974395752
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.802776038646698
+      }
+    ]
+  },
+  {
+    "qa_id": "243_48",
+    "conversation_id": 243,
+    "qa_index": 48,
+    "keywords": [
+      {
+        "keyword": "javascript",
+        "similarity": 0.8191179633140564
+      },
+      {
+        "keyword": "jquery",
+        "similarity": 0.8053141832351685
+      },
+      {
+        "keyword": "input",
+        "similarity": 0.8027787208557129
+      },
+      {
+        "keyword": "value",
+        "similarity": 0.7937041521072388
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.7871187925338745
+      },
+      {
+        "keyword": "selector",
+        "similarity": 0.7817228436470032
+      },
+      {
+        "keyword": "function",
+        "similarity": 0.7816603183746338
+      },
+      {
+        "keyword": "element",
+        "similarity": 0.7794085741043091
+      },
+      {
+        "keyword": "id",
+        "similarity": 0.7704238891601562
+      },
+      {
+        "keyword": "example",
+        "similarity": 0.7699688673019409
+      }
+    ]
+  },
+  {
+    "qa_id": "243_49",
+    "conversation_id": 243,
+    "qa_index": 49,
+    "keywords": [
+      {
+        "keyword": "jsonify",
+        "similarity": 0.8659948110580444
+      },
+      {
+        "keyword": "json",
+        "similarity": 0.8360044360160828
+      },
+      {
+        "keyword": "applicationjson",
+        "similarity": 0.8130761981010437
+      },
+      {
+        "keyword": "javascript",
+        "similarity": 0.807652473449707
+      },
+      {
+        "keyword": "dictionary",
+        "similarity": 0.8054401874542236
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.8010328412055969
+      },
+      {
+        "keyword": "flask",
+        "similarity": 0.7989511489868164
+      },
+      {
+        "keyword": "return",
+        "similarity": 0.7981947064399719
+      },
+      {
+        "keyword": "function",
+        "similarity": 0.7973432540893555
+      },
+      {
+        "keyword": "response",
+        "similarity": 0.7970215082168579
+      }
+    ]
+  },
+  {
+    "qa_id": "243_50",
+    "conversation_id": 243,
+    "qa_index": 50,
+    "keywords": [
+      {
+        "keyword": "travel_guide_num",
+        "similarity": 0.8104773759841919
+      },
+      {
+        "keyword": "收费",
+        "similarity": 0.8081526756286621
+      },
+      {
+        "keyword": "replace",
+        "similarity": 0.8061552047729492
+      },
+      {
+        "keyword": "tourism_percent",
+        "similarity": 0.8046792149543762
+      },
+      {
+        "keyword": "port",
+        "similarity": 0.8018975257873535
+      },
+      {
+        "keyword": "ticket_price",
+        "similarity": 0.8004578948020935
+      },
+      {
+        "keyword": "0",
+        "similarity": 0.798901379108429
+      },
+      {
+        "keyword": "server",
+        "similarity": 0.7984549403190613
+      },
+      {
+        "keyword": "巷为",
+        "similarity": 0.7983760833740234
+      },
+      {
+        "keyword": "app",
+        "similarity": 0.7980791330337524
+      }
+    ]
+  },
+  {
+    "qa_id": "243_51",
+    "conversation_id": 243,
+    "qa_index": 51,
+    "keywords": [
+      {
+        "keyword": "flask",
+        "similarity": 0.8358545303344727
+      },
+      {
+        "keyword": "framework",
+        "similarity": 0.8255670070648193
+      },
+      {
+        "keyword": "microframework",
+        "similarity": 0.8216903209686279
+      },
+      {
+        "keyword": "python",
+        "similarity": 0.8160573244094849
+      },
+      {
+        "keyword": "html",
+        "similarity": 0.8141669034957886
+      },
+      {
+        "keyword": "debugger",
+        "similarity": 0.8075978755950928
+      },
+      {
+        "keyword": "btw",
+        "similarity": 0.8027306795120239
+      },
+      {
+        "keyword": "function",
+        "similarity": 0.8018412590026855
+      },
+      {
+        "keyword": "urls",
+        "similarity": 0.8006698489189148
+      },
+      {
+        "keyword": "url",
+        "similarity": 0.8004134297370911
+      }
+    ]
+  },
+  {
+    "qa_id": "243_52",
+    "conversation_id": 243,
+    "qa_index": 52,
+    "keywords": [
+      {
+        "keyword": "usrlibpython3distpackagesrequests__init__py89",
+        "similarity": 0.8247122764587402
+      },
+      {
+        "keyword": "travel_guide_num",
+        "similarity": 0.8190435171127319
+      },
+      {
+        "keyword": "relative",
+        "similarity": 0.8176702260971069
+      },
+      {
+        "keyword": "requestsdependencywarning",
+        "similarity": 0.8175643086433411
+      },
+      {
+        "keyword": "import",
+        "similarity": 0.8170157074928284
+      },
+      {
+        "keyword": "__main__",
+        "similarity": 0.812757134437561
+      },
+      {
+        "keyword": "importerror",
+        "similarity": 0.8119077682495117
+      },
+      {
+        "keyword": "traffic_guidelines",
+        "similarity": 0.8104262351989746
+      },
+      {
+        "keyword": "warningswarnurllib3",
+        "similarity": 0.8090709447860718
+      },
+      {
+        "keyword": "tourism_percent",
+        "similarity": 0.8086280822753906
+      }
+    ]
+  }
+]

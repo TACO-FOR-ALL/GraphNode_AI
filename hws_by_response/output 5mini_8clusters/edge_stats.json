@@ -1,0 +1,18 @@
+{
+  "total_pairs": 69751,
+  "total_edges": 13951,
+  "hard_edges": 598,
+  "pending_edges": 13353,
+  "mean_similarity": 0.8776800632476807,
+  "median_similarity": 0.8802131414413452,
+  "std_similarity": 0.04469011723995209,
+  "max_similarity": 0.9939944744110107,
+  "min_similarity": 0.6913588047027588,
+  "within_category_edges": 4570,
+  "cross_category_edges": 9381,
+  "hard_within_category_edges": 298,
+  "hard_cross_category_edges": 300,
+  "pending_within_category_edges": 4272,
+  "pending_cross_category_edges": 9081,
+  "metric": "cosine"
+}

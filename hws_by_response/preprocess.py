@@ -55,7 +55,8 @@ def preprocess_content(text):
     text = re.sub(r'--+', '', text)
     
     # 7. 특수기호 및 문장 부호 제거
-    PUNCT_TO_REMOVE = r'[\*\-→·/》，、：《』『。，"""\'（）()?\[\]{}!.;:%@#$&+=~`|\\]'
+    #    ASCII 느낌표 (!) 뿐 아니라 전각 느낌표(！, U+FF01)도 함께 제거
+    PUNCT_TO_REMOVE = r'[\*\-→·/》，、：《』『。，"""\'（）()?\[\]{}!！.;:%@#$&+=~`|\\]'
     text = re.sub(PUNCT_TO_REMOVE, '', text)
     
     # 8. 중국어(CJK) 블록에만 jieba 적용 (특수기호 제거 후)

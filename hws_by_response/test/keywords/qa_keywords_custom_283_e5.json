@@ -1,0 +1,707 @@
+[
+  {
+    "qa_id": "283_0",
+    "conversation_id": 283,
+    "qa_index": 0,
+    "keywords": [
+      {
+        "keyword": "体育",
+        "similarity": 0.8562270402908325
+      },
+      {
+        "keyword": "健康",
+        "similarity": 0.84890216588974
+      },
+      {
+        "keyword": "运动",
+        "similarity": 0.8480950593948364
+      },
+      {
+        "keyword": "心理健康",
+        "similarity": 0.8465319871902466
+      },
+      {
+        "keyword": "身体健康",
+        "similarity": 0.8464500904083252
+      },
+      {
+        "keyword": "认知",
+        "similarity": 0.8309985995292664
+      },
+      {
+        "keyword": "关系",
+        "similarity": 0.8288829922676086
+      },
+      {
+        "keyword": "有助于",
+        "similarity": 0.8273226022720337
+      },
+      {
+        "keyword": "内啡肽",
+        "similarity": 0.825870156288147
+      },
+      {
+        "keyword": "身体",
+        "similarity": 0.8248171806335449
+      }
+    ]
+  },
+  {
+    "qa_id": "283_1",
+    "conversation_id": 283,
+    "qa_index": 1,
+    "keywords": [
+      {
+        "keyword": "体育",
+        "similarity": 0.852920651435852
+      },
+      {
+        "keyword": "体育锻炼",
+        "similarity": 0.8522820472717285
+      },
+      {
+        "keyword": "运动",
+        "similarity": 0.8486495018005371
+      },
+      {
+        "keyword": "健康",
+        "similarity": 0.8469192385673523
+      },
+      {
+        "keyword": "身体健康",
+        "similarity": 0.8462603092193604
+      },
+      {
+        "keyword": "健康状况",
+        "similarity": 0.8442369103431702
+      },
+      {
+        "keyword": "心理健康",
+        "similarity": 0.8427886366844177
+      },
+      {
+        "keyword": "积极",
+        "similarity": 0.83699631690979
+      },
+      {
+        "keyword": "相关",
+        "similarity": 0.8350889682769775
+      },
+      {
+        "keyword": "有助于",
+        "similarity": 0.8341195583343506
+      }
+    ]
+  },
+  {
+    "qa_id": "283_2",
+    "conversation_id": 283,
+    "qa_index": 2,
+    "keywords": [
+      {
+        "keyword": "训练30分钟",
+        "similarity": 0.8656125068664551
+      },
+      {
+        "keyword": "训练60分钟",
+        "similarity": 0.8629546761512756
+      },
+      {
+        "keyword": "训练20分钟",
+        "similarity": 0.8594731092453003
+      },
+      {
+        "keyword": "羽毛球",
+        "similarity": 0.8564407825469971
+      },
+      {
+        "keyword": "慢跑30分钟",
+        "similarity": 0.8532730937004089
+      },
+      {
+        "keyword": "拉伸30分钟",
+        "similarity": 0.8508219718933105
+      },
+      {
+        "keyword": "骑行30分钟",
+        "similarity": 0.8507556915283203
+      },
+      {
+        "keyword": "有氧",
+        "similarity": 0.8485482335090637
+      },
+      {
+        "keyword": "训练",
+        "similarity": 0.8429824709892273
+      },
+      {
+        "keyword": "健身",
+        "similarity": 0.84271240234375
+      }
+    ]
+  },
+  {
+    "qa_id": "283_3",
+    "conversation_id": 283,
+    "qa_index": 3,
+    "keywords": [
+      {
+        "keyword": "骨质疏松症",
+        "similarity": 0.8623263835906982
+      },
+      {
+        "keyword": "对“体育",
+        "similarity": 0.8470653891563416
+      },
+      {
+        "keyword": "体育锻炼",
+        "similarity": 0.84693443775177
+      },
+      {
+        "keyword": "身体健康",
+        "similarity": 0.8453881144523621
+      },
+      {
+        "keyword": "运动",
+        "similarity": 0.8447648286819458
+      },
+      {
+        "keyword": "健康",
+        "similarity": 0.8426010608673096
+      },
+      {
+        "keyword": "骨密度",
+        "similarity": 0.8424318432807922
+      },
+      {
+        "keyword": "相关",
+        "similarity": 0.8360571265220642
+      },
+      {
+        "keyword": "体育",
+        "similarity": 0.8360340595245361
+      },
+      {
+        "keyword": "心理健康",
+        "similarity": 0.8332517147064209
+      }
+    ]
+  },
+  {
+    "qa_id": "283_4",
+    "conversation_id": 283,
+    "qa_index": 4,
+    "keywords": [
+      {
+        "keyword": "太极拳",
+        "similarity": 0.8522893190383911
+      },
+      {
+        "keyword": "称为24式",
+        "similarity": 0.8368154168128967
+      },
+      {
+        "keyword": "是24式",
+        "similarity": 0.8362339735031128
+      },
+      {
+        "keyword": "蹬脚zhuǎn",
+        "similarity": 0.8249074220657349
+      },
+      {
+        "keyword": "闪通臂shǎn",
+        "similarity": 0.822023332118988
+      },
+      {
+        "keyword": "在24式",
+        "similarity": 0.82098388671875
+      },
+      {
+        "keyword": "左下势",
+        "similarity": 0.8206193447113037
+      },
+      {
+        "keyword": "左揽雀尾zuǒ",
+        "similarity": 0.8175435662269592
+      },
+      {
+        "keyword": "右下势",
+        "similarity": 0.8168803453445435
+      },
+      {
+        "keyword": "动作",
+        "similarity": 0.813207745552063
+      }
+    ]
+  },
+  {
+    "qa_id": "283_5",
+    "conversation_id": 283,
+    "qa_index": 5,
+    "keywords": [
+      {
+        "keyword": "출력합니다",
+        "similarity": 0.8610596656799316
+      },
+      {
+        "keyword": "파이썬",
+        "similarity": 0.8600876331329346
+      },
+      {
+        "keyword": "문자열만",
+        "similarity": 0.852539598941803
+      },
+      {
+        "keyword": "입력받아",
+        "similarity": 0.8471015691757202
+      },
+      {
+        "keyword": "해석해보겠습니다",
+        "similarity": 0.8392528295516968
+      },
+      {
+        "keyword": "입력받고",
+        "similarity": 0.8373616933822632
+      },
+      {
+        "keyword": "문자열",
+        "similarity": 0.836601734161377
+      },
+      {
+        "keyword": "해석좀",
+        "similarity": 0.8355309963226318
+      },
+      {
+        "keyword": "패턴",
+        "similarity": 0.8350076675415039
+      },
+      {
+        "keyword": "프로그램입니다",
+        "similarity": 0.8322540521621704
+      }
+    ]
+  },
+  {
+    "qa_id": "283_6",
+    "conversation_id": 283,
+    "qa_index": 6,
+    "keywords": [
+      {
+        "keyword": "파이썬",
+        "similarity": 0.8414947986602783
+      },
+      {
+        "keyword": "조건입니다",
+        "similarity": 0.8326008915901184
+      },
+      {
+        "keyword": "아무것도",
+        "similarity": 0.8298867344856262
+      },
+      {
+        "keyword": "의미입니다",
+        "similarity": 0.8293069005012512
+      },
+      {
+        "keyword": "값",
+        "similarity": 0.8233147859573364
+      },
+      {
+        "keyword": "아니라",
+        "similarity": 0.8230178356170654
+      },
+      {
+        "keyword": "조건문",
+        "similarity": 0.8203606605529785
+      },
+      {
+        "keyword": "일치한다면",
+        "similarity": 0.8200235366821289
+      },
+      {
+        "keyword": "없음",
+        "similarity": 0.8169095516204834
+      },
+      {
+        "keyword": "있음",
+        "similarity": 0.8160897493362427
+      }
+    ]
+  },
+  {
+    "qa_id": "283_7",
+    "conversation_id": 283,
+    "qa_index": 7,
+    "keywords": [
+      {
+        "keyword": "파이썬",
+        "similarity": 0.8426552414894104
+      },
+      {
+        "keyword": "값입니다",
+        "similarity": 0.8370481729507446
+      },
+      {
+        "keyword": "반환합니다",
+        "similarity": 0.8321951627731323
+      },
+      {
+        "keyword": "이는",
+        "similarity": 0.8297602534294128
+      },
+      {
+        "keyword": "반환하고",
+        "similarity": 0.8295163512229919
+      },
+      {
+        "keyword": "사용하여",
+        "similarity": 0.828844428062439
+      },
+      {
+        "keyword": "있으면",
+        "similarity": 0.8279176950454712
+      },
+      {
+        "keyword": "정확히",
+        "similarity": 0.8249645829200745
+      },
+      {
+        "keyword": "사용됩니다",
+        "similarity": 0.8244238495826721
+      },
+      {
+        "keyword": "실제",
+        "similarity": 0.8227124810218811
+      }
+    ]
+  },
+  {
+    "qa_id": "283_8",
+    "conversation_id": 283,
+    "qa_index": 8,
+    "keywords": [
+      {
+        "keyword": "레비아탄",
+        "similarity": 0.8237890005111694
+      },
+      {
+        "keyword": "자신의",
+        "similarity": 0.8137073516845703
+      },
+      {
+        "keyword": "주권자에게",
+        "similarity": 0.8098342418670654
+      },
+      {
+        "keyword": "독후감",
+        "similarity": 0.8093514442443848
+      },
+      {
+        "keyword": "인간에게",
+        "similarity": 0.8084529042243958
+      },
+      {
+        "keyword": "권력과",
+        "similarity": 0.8067423701286316
+      },
+      {
+        "keyword": "그가",
+        "similarity": 0.8060359358787537
+      },
+      {
+        "keyword": "핵심적인",
+        "similarity": 0.805424690246582
+      },
+      {
+        "keyword": "근본적",
+        "similarity": 0.8051430583000183
+      },
+      {
+        "keyword": "집권적",
+        "similarity": 0.8040497303009033
+      }
+    ]
+  },
+  {
+    "qa_id": "283_9",
+    "conversation_id": 283,
+    "qa_index": 9,
+    "keywords": [
+      {
+        "keyword": "자신의",
+        "similarity": 0.8288581967353821
+      },
+      {
+        "keyword": "매우",
+        "similarity": 0.8219037652015686
+      },
+      {
+        "keyword": "자유와",
+        "similarity": 0.8185945749282837
+      },
+      {
+        "keyword": "정치와",
+        "similarity": 0.8176912069320679
+      },
+      {
+        "keyword": "사회",
+        "similarity": 0.817510724067688
+      },
+      {
+        "keyword": "1학년으로서",
+        "similarity": 0.8160843849182129
+      },
+      {
+        "keyword": "독후감",
+        "similarity": 0.8148796558380127
+      },
+      {
+        "keyword": "자유",
+        "similarity": 0.8126150965690613
+      },
+      {
+        "keyword": "개인적",
+        "similarity": 0.8123466968536377
+      },
+      {
+        "keyword": "1학년의",
+        "similarity": 0.8121658563613892
+      }
+    ]
+  },
+  {
+    "qa_id": "283_10",
+    "conversation_id": 283,
+    "qa_index": 10,
+    "keywords": [
+      {
+        "keyword": "권리와",
+        "similarity": 0.824989914894104
+      },
+      {
+        "keyword": "대학생으로서",
+        "similarity": 0.816980242729187
+      },
+      {
+        "keyword": "자신의",
+        "similarity": 0.8150680065155029
+      },
+      {
+        "keyword": "읽으며",
+        "similarity": 0.811754047870636
+      },
+      {
+        "keyword": "레비아탄",
+        "similarity": 0.8117307424545288
+      },
+      {
+        "keyword": "사회",
+        "similarity": 0.8111593723297119
+      },
+      {
+        "keyword": "권력과",
+        "similarity": 0.8099501132965088
+      },
+      {
+        "keyword": "가져야",
+        "similarity": 0.8088575601577759
+      },
+      {
+        "keyword": "책임",
+        "similarity": 0.8076299428939819
+      },
+      {
+        "keyword": "자유와",
+        "similarity": 0.8076038360595703
+      }
+    ]
+  },
+  {
+    "qa_id": "283_11",
+    "conversation_id": 283,
+    "qa_index": 11,
+    "keywords": [
+      {
+        "keyword": "短篇小说",
+        "similarity": 0.8352804183959961
+      },
+      {
+        "keyword": "乡村",
+        "similarity": 0.8348008394241333
+      },
+      {
+        "keyword": "写于1934年",
+        "similarity": 0.830866813659668
+      },
+      {
+        "keyword": "写于1950年代",
+        "similarity": 0.8226898908615112
+      },
+      {
+        "keyword": "小二黑",
+        "similarity": 0.8221365213394165
+      },
+      {
+        "keyword": "农村",
+        "similarity": 0.8189384341239929
+      },
+      {
+        "keyword": "小镇",
+        "similarity": 0.8187117576599121
+      },
+      {
+        "keyword": "小说",
+        "similarity": 0.8185659646987915
+      },
+      {
+        "keyword": "风土人情",
+        "similarity": 0.8175278902053833
+      },
+      {
+        "keyword": "边陲",
+        "similarity": 0.8158100843429565
+      }
+    ]
+  },
+  {
+    "qa_id": "283_12",
+    "conversation_id": 283,
+    "qa_index": 12,
+    "keywords": [
+      {
+        "keyword": "的“传奇性”特征",
+        "similarity": 0.8665081262588501
+      },
+      {
+        "keyword": "其“传奇性”特征",
+        "similarity": 0.8625128269195557
+      },
+      {
+        "keyword": "传奇色彩",
+        "similarity": 0.8525041341781616
+      },
+      {
+        "keyword": "林海雪原",
+        "similarity": 0.838914155960083
+      },
+      {
+        "keyword": "戏剧性",
+        "similarity": 0.8385477662086487
+      },
+      {
+        "keyword": "小说",
+        "similarity": 0.8368579149246216
+      },
+      {
+        "keyword": "尤为",
+        "similarity": 0.834431529045105
+      },
+      {
+        "keyword": "强烈",
+        "similarity": 0.8339715600013733
+      },
+      {
+        "keyword": "深入敌后",
+        "similarity": 0.8324325680732727
+      },
+      {
+        "keyword": "情节",
+        "similarity": 0.8315574526786804
+      }
+    ]
+  },
+  {
+    "qa_id": "283_13",
+    "conversation_id": 283,
+    "qa_index": 13,
+    "keywords": [
+      {
+        "keyword": "的“成长”主题",
+        "similarity": 0.8561035394668579
+      },
+      {
+        "keyword": "主题深刻",
+        "similarity": 0.8384749889373779
+      },
+      {
+        "keyword": "陈梦君",
+        "similarity": 0.8291540741920471
+      },
+      {
+        "keyword": "个人成长",
+        "similarity": 0.8264745473861694
+      },
+      {
+        "keyword": "成长",
+        "similarity": 0.821636438369751
+      },
+      {
+        "keyword": "深刻理解",
+        "similarity": 0.8206589818000793
+      },
+      {
+        "keyword": "困惑",
+        "similarity": 0.8176240921020508
+      },
+      {
+        "keyword": "变得",
+        "similarity": 0.8145618438720703
+      },
+      {
+        "keyword": "杨沫",
+        "similarity": 0.8141907453536987
+      },
+      {
+        "keyword": "面对",
+        "similarity": 0.8140556812286377
+      }
+    ]
+  },
+  {
+    "qa_id": "283_14",
+    "conversation_id": 283,
+    "qa_index": 14,
+    "keywords": [
+      {
+        "keyword": "角色；李双双",
+        "similarity": 0.8614516854286194
+      },
+      {
+        "keyword": "英雄主义；李双双",
+        "similarity": 0.8565555810928345
+      },
+      {
+        "keyword": "显著",
+        "similarity": 0.8320382237434387
+      },
+      {
+        "keyword": "农村妇女",
+        "similarity": 0.8302619457244873
+      },
+      {
+        "keyword": "李双双",
+        "similarity": 0.830132782459259
+      },
+      {
+        "keyword": "坚强",
+        "similarity": 0.8275772929191589
+      },
+      {
+        "keyword": "革命理想",
+        "similarity": 0.8252716660499573
+      },
+      {
+        "keyword": "女性",
+        "similarity": 0.8245517015457153
+      },
+      {
+        "keyword": "具体",
+        "similarity": 0.8225955963134766
+      },
+      {
+        "keyword": "赵树理",
+        "similarity": 0.8223159313201904
+      }
+    ]
+  }
+]
