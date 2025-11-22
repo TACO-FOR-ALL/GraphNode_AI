@@ -6,6 +6,9 @@ from typing import Dict, List, Any, Set
 from pyvis.network import Network
 
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
 def load_qa_clusters(path: Path) -> Dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
@@ -172,22 +175,31 @@ def main() -> None:
         description="Visualize QA clusters as QA-only graph (nodes=QAs, edges=keyword similarity)",
     )
     parser.add_argument(
+        "--conversation-id",
+        type=int,
+        default=None,
+        help="대상 conversation_id. 지정하면 기본 파일 경로를 자동으로 사용합니다.",
+    )
+    parser.add_argument(
         "--qa-clusters-json",
         type=str,
-        required=True,
-        help="qa_clusters_{conv}_{algo}.json 경로 (예: output/qa_clusters_283_kmeans.json)",
+        default=None,
+        help="qa_clusters_{conv}_{algo}_{metric}.json 경로 (예: output/cluster_results/qa_clusters_283_hdbscan_euclidean.json). --conversation-id가 주어지면 생략 가능.",
     )
     parser.add_argument(
         "--qa-keywords-json",
         type=str,
-        required=True,
-        help="qa_keywords_custom_{conv}.json 경로 (예: test/qa_keywords_custom_283.json)",
+        default=None,
+        help="qa_keywords_custom_{conv}.json 경로 (예: output/keywords/qa_keywords_custom_283_e5.json). --conversation-id가 주어지면 생략 가능.",
     )
     parser.add_argument(
         "--output-html",
         type=str,
-        default="output/qa_clusters_qa_only_graph.html",
-        help="pyvis HTML 출력 경로 (기본: output/qa_clusters_qa_only_graph.html)",
+        default=None,
+        help=(
+            "pyvis HTML 출력 경로. 생략 시 --conversation-id 기반 기본값: "
+            "output/view/qa_clusters_{conv}_hdbscan_e5.html"
+        ),
     )
     parser.add_argument(
         "--max-keywords-per-qa",
@@ -201,13 +213,53 @@ def main() -> None:
         default=0.1,
         help="엣지 생성 최소 Jaccard 유사도 (기본: 0.1)",
     )
+    parser.add_argument(
+        "--metric",
+        type=str,
+        default="euclidean",
+        help="클러스터링에 사용한 거리 metric (기본: euclidean). --conversation-id 사용 시 기본 파일명에 반영됩니다.",
+    )
 
     args = parser.parse_args()
 
+    conv_id = args.conversation_id
+
+    # qa_clusters_json 경로 결정
+    if args.qa_clusters_json is not None:
+        qa_clusters_path = Path(args.qa_clusters_json)
+        if not qa_clusters_path.is_absolute():
+            qa_clusters_path = PROJECT_ROOT / qa_clusters_path
+    else:
+        if conv_id is None:
+            parser.error("Either --conversation-id or --qa-clusters-json/--qa-keywords-json must be provided.")
+        qa_clusters_path = PROJECT_ROOT / "output" / "cluster_results" / f"qa_clusters_{conv_id}_hdbscan_{args.metric}.json"
+
+    # qa_keywords_json 경로 결정
+    if args.qa_keywords_json is not None:
+        qa_keywords_path = Path(args.qa_keywords_json)
+        if not qa_keywords_path.is_absolute():
+            qa_keywords_path = PROJECT_ROOT / qa_keywords_path
+    else:
+        if conv_id is None:
+            parser.error("Either --conversation-id or --qa-clusters-json/--qa-keywords-json must be provided.")
+        qa_keywords_path = PROJECT_ROOT / "output" / "keywords" / f"qa_keywords_custom_{conv_id}_e5.json"
+
+    # output_html 경로 결정
+    if args.output_html is not None:
+        output_html = Path(args.output_html)
+        if not output_html.is_absolute():
+            output_html = PROJECT_ROOT / output_html
+    else:
+        if conv_id is None:
+            # conv_id 없으면 예전 기본값 유지
+            output_html = PROJECT_ROOT / "output" / "qa_clusters_qa_only_graph.html"
+        else:
+            output_html = PROJECT_ROOT / "output" / "view" / f"qa_clusters_{conv_id}_hdbscan_{args.metric}_e5.html"
+
     build_network(
-        qa_clusters_path=Path(args.qa_clusters_json),
-        qa_keywords_path=Path(args.qa_keywords_json),
-        output_html=Path(args.output_html),
+        qa_clusters_path=qa_clusters_path,
+        qa_keywords_path=qa_keywords_path,
+        output_html=output_html,
         max_keywords_per_qa=args.max_keywords_per_qa,
         min_jaccard=args.min_jaccard,
     )

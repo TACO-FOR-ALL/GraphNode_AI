@@ -131,8 +131,8 @@ def main() -> None:
     parser.add_argument(
         "--qa-embeddings",
         type=str,
-        default="output/qa_embeddings.pkl",
-        help="qa_embeddings.pkl 경로 (기본: output/qa_embeddings.pkl)",
+        default="output/embeddings/qa_embeddings.pkl",
+        help="qa_embeddings.pkl 경로 (기본: output/embeddings/qa_embeddings.pkl)",
     )
     parser.add_argument(
         "--conversation-id",
@@ -184,7 +184,7 @@ def main() -> None:
 
     if args.output is None:
         default_name = f"qa_clusters_{args.conversation_id}_{args.algo}.json"
-        output_path = Path("output") / default_name
+        output_path = Path("output") / "cluster_results" / default_name
     else:
         output_path = Path(args.output)
 

@@ -11,7 +11,7 @@ sys.path.insert(0, str(project_root))
 from analyze.loader import ConversationLoader
 from analyze.parser import NoteParser
 try:
-    from preprocess import preprocess_content
+    from tools.preprocess import preprocess_content
 except Exception:
     preprocess_content = None
 

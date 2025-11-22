@@ -41,6 +41,11 @@ def preprocess_content(text):
     text = re.sub(r'\$[^$\n]+\$', ' ', text)
     text = re.sub(r'\\\[[\s\S]*?\\\]', ' ', text)
     text = re.sub(r'\\\([^)]*\\\)', ' ', text)
+    # Bare LaTeX macros (not wrapped by $) 제거: \command{...}{...} 등 최대 몇 개의 인자 제거
+    text = re.sub(r"\\[A-Za-z]+(?:\s*\{[^{}]*\}){0,3}", ' ', text)
+    # 남은 지수/첨자 패턴 제거: ^{...}, _{...}, ^x, _n
+    text = re.sub(r"[_^]\{[^{}]*\}", ' ', text)
+    text = re.sub(r"[_^][A-Za-z0-9]+", ' ', text)
     
     # 3. URL 제거
     text = re.sub(r'https?://\S+|www\.\S+', '', text)
@@ -61,8 +66,8 @@ def preprocess_content(text):
     text = re.sub(r'--+', '', text)
     
     # 7. 특수기호 및 문장 부호 제거
-    #    ASCII 느낌표 (!) 뿐 아니라 전각 느낌표(！, U+FF01)도 함께 제거
-    PUNCT_TO_REMOVE = r'[\*\-→·/》，、：《』『。，"""\'（）()?\[\]{}!！.;:%@#$&+=~`|\\]'
+    #    ASCII 느낌표 (!) 뿐 아니라 전각 느낌표(！, U+FF01), 전각 세미콜론(；), 중국어 인용부호(“ ” ‘ ’)도 함께 제거
+    PUNCT_TO_REMOVE = r'[\*\-→·/》，、；：“”‘’《』『。，"""\'（）()?\[\]{}!！.;:%@#$&+=~`|\\]'
     text = re.sub(PUNCT_TO_REMOVE, '', text)
     
     # 8. 중국어(CJK) 블록에만 jieba 적용 (특수기호 제거 후)
@@ -85,7 +90,7 @@ json_data = [
  {
   "response_id": "288_1",
   "conversation_id": 288,
-  "content": "该文档名为《国际关系理论研究的困境、进展与前景》，作者为刘丰。Despite these challenges, the paper notes that significant efforts are still being made in the field. Researchers are exploring local knowledge, developing mid-level theories, seeking theoretical integration and dialogue, and drawing on interdisciplinary approaches. 文中讨论了国际关系理论领域的当前状态和挑战。摘要部分指出，国际关系学界普遍存在对主义的怀疑、理论发展的终结以及学科衰落的论调。국제관계 이론을 연구하는 과정에서 학자들은 종종 이론의 실용성과 설명력에 대한 의문을 마주한다. 이러한 현상은 류펑(刘丰)의 『국제관계 이론 연구의 난관, 진전 및 전망』을 읽기 전에는 특히 두드러졌다. 류펑은 현재 국제관계 이론이 처한 난관을 심도 있게 분석했으며, 특히 학계가 이론 혁신에 대해 보이는 비관적 태도를 비판함으로써 기존 관점을 도전했다. 이론 혁신의 동력, 주기 및 패턴을 깊이 있게 분석함으로써 류펑은 이론 연구가 여전히 중요한 가치를 지닌다는 점을 밝혀냈다. 这种看法源于对理论创新动力、周期和模式的认识偏差，以及受到大辩论学科史叙事方式的误导。\n\n尽管面临这些挑战，但仍有研究人员在积极探索，例如研究地方性知识、发展中层理论、寻求理论综合与对话以及跨学科借鉴。这些努力对未来国际关系理论的发展和进步至"
+  "content": "该文档名为《国际关系理论研究的困境、进展与前景》，作者为：“”刘丰。Despite these challenges, the paper notes that significant efforts are still being made in the field. Researchers are exploring local knowledge, developing mid-level theories, seeking theoretical integration and dialogue, and drawing on interdisciplinary approaches. 文中讨论了国际关系理论领域的当前状态和挑战。摘要部分指出，国际关系学界普遍存在对主义的怀疑、理论发展的终结以及学科衰落的论调。국제관계 이론을 연구하는 과정에서 학자들은 종종 이론의 실용성과 설명력에 대한 의문을 마주한다. 이러한 현상은 류펑(刘丰)의 『국제관계 이론 연구의 난관, 진전 및 전망』을 읽기 전에는 특히 두드러졌다. 류펑은 현재 국제관계 이론이 처한 난관을 심도 있게 분석했으며, 특히 학계가 이론 혁신에 대해 보이는 비관적 태도를 비판함으로써 기존 관점을 도전했다. 이론 혁신의 동력, 주기 및 패턴을 깊이 있게 분석함으로써 류펑은 이론 연구가 여전히 중요한 가치를 지닌다는 점을 밝혀냈다. 这种看法源于对理论创新动力、周期和模式的认识偏差，以及受到大辩论学科史叙事方式的误导。\n\n尽管面临这些挑战，但仍有研究人员在积极探索，例如研究地方性知识、发展中层理论、寻求理论综合与对话以及跨学科借鉴。这些努力对未来国际关系理论的发展和进步至"
  }
 ]
 

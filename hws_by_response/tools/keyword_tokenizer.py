@@ -14,6 +14,7 @@ import re
 # Lazy-loaded globals
 _okt = None
 _jieba = None
+_jieba_pos = None
 _en_stopwords = None
 _ko_stopwords = None
 _zh_stopwords = None
@@ -85,6 +86,17 @@ def _load_jieba():
             _jieba = None
 
 
+def _load_jieba_pos():
+    global _jieba_pos
+    if _jieba_pos is None:
+        try:
+            import jieba.posseg as pseg  # type: ignore
+
+            _jieba_pos = pseg
+        except Exception:
+            _jieba_pos = None
+
+
 _KO_RE = re.compile(r"^[가-힣]+$")
 _ZH_RE = re.compile(r"^[\u4e00-\u9fff]+$")
 _EN_RE = re.compile(r"^[A-Za-z]+$")
@@ -154,19 +166,57 @@ def _tokenize_korean(text: str) -> List[str]:
 
 def _tokenize_chinese(text: str) -> List[str]:
     _load_jieba()
+    _load_jieba_pos()
     _load_stopwords()
     if not text:
         return []
     tokens: List[str] = []
-    if _jieba is None:
+    if _jieba is None and _jieba_pos is None:
         # Fallback: treat full string as one token if not stopword
         t = text.strip()
         if t and t not in _zh_stopwords:
             tokens.append(t)
         return tokens
 
+    # 우선 posseg 기반 품사 태깅 사용 (가능한 경우)
+    if _jieba_pos is not None:
+        # 중국어 품사 태그 예: n, nr, ns, nt, nz, v, vn, a, an, m(수사), k(접미) 등
+        keep_pos_prefix = ("n", "v", "a")
+        seg: List[tuple[str, str]] = []
+        for word, flag in _jieba_pos.cut(text):
+            w = str(word).strip()
+            f = str(flag)
+            if not w:
+                continue
+            seg.append((w, f))
+
+        i = 0
+        n = len(seg)
+        while i < n:
+            w, f = seg[i]
+            if not w or w in _zh_stopwords:
+                i += 1
+                continue
+
+            # 패턴: 숫자(m) + 분류사/접미사(예: "式")를 하나의 토큰으로 병합 (예: "24"+"式" -> "24式")
+            if f.startswith("m") and i + 1 < n:
+                w2, f2 = seg[i + 1]
+                if w2 and w2 not in _zh_stopwords and (f2.startswith("n") or f2 in ("k", "q")):
+                    tokens.append(w + w2)
+                    i += 2
+                    continue
+
+            # 기본: 명사/동사/형용사 계열만 유지
+            if any(f.startswith(p) for p in keep_pos_prefix):
+                tokens.append(w)
+
+            i += 1
+
+        return tokens
+
+    # posseg 를 쓸 수 없으면 예전처럼 jieba.cut 기반으로만 동작
     for word in _jieba.cut(text):
-        w = word.strip()
+        w = str(word).strip()
         if not w:
             continue
         if w in _zh_stopwords:

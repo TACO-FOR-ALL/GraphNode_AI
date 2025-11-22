@@ -35,6 +35,7 @@ def build_candidates_for_text(text: str, ngram_max: int, max_candidates: int) ->
     vectorizer = CountVectorizer(
         analyzer="word",
         tokenizer=multi_lang_tokenize,
+        token_pattern=None,
         ngram_range=(1, ngram_max),
         min_df=1,
     )
@@ -156,7 +157,7 @@ def extract_keywords_for_conv(
     print(f"\n저장 완료: {output_path}")
 
     # 항상 QA 및 후보 임베딩을 conv별 pickle로 저장
-    emb_output_path = Path("output") / f"qa_keyword_embeddings_{conv_id_target}.pkl"
+    emb_output_path = Path("output") / "embeddings" / f"qa_keyword_embeddings_{conv_id_target}.pkl"
     emb_output_path.parent.mkdir(parents=True, exist_ok=True)
     with emb_output_path.open("wb") as f:
         pickle.dump(emb_records, f)
@@ -199,8 +200,8 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=str,
-        default="test/qa_keywords_conv.json",
-        help="출력 JSON 경로 (기본: test/qa_keywords_conv.json)",
+        default="output/keywords/qa_keywords_conv.json",
+        help="출력 JSON 경로 (기본: output/keywords/qa_keywords_conv.json)",
     )
 
     args = parser.parse_args()
