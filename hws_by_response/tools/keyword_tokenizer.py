@@ -293,6 +293,70 @@ def multi_lang_tokenize(text: str) -> List[str]:
                 tokens.extend(_tokenize_english(stripped))
                 continue
 
+            # 문자 종류 확인
+            has_zh = any('\u4e00' <= ch <= '\u9fff' for ch in stripped)
+            has_alpha = any('A' <= ch <= 'Z' or 'a' <= ch <= 'z' for ch in stripped)
+            has_ko = any('가' <= ch <= '힣' for ch in stripped)
+
+            # (1) 한국어 + 중국어 혼합: 앞의 한글 부분은 한국어 토크나이저로, 나머지 중국어 부분은 중국어 토크나이저로
+            #     예) "중국어是24式" -> _tokenize_korean("중국어") + _tokenize_chinese("是24式")
+            if has_ko and has_zh:
+                first_zh_idx = next((i for i, ch in enumerate(stripped) if '\u4e00' <= ch <= '\u9fff'), None)
+                if first_zh_idx is not None and first_zh_idx > 0:
+                    ko_part = stripped[:first_zh_idx]
+                    zh_part = stripped[first_zh_idx:]
+                    if ko_part.strip():
+                        tokens.extend(_tokenize_korean(ko_part.strip()))
+                    if zh_part.strip():
+                        tokens.extend(_tokenize_chinese(zh_part.strip()))
+                    continue
+
+            # (2) 영어/숫자 + 중국어 혼합: 앞의 영문/숫자 부분은 영어 토크나이저로, 뒤의 중국어 부분은 중국어 토크나이저로
+            #     예) "mark是24式" -> _tokenize_english("mark") + _tokenize_chinese("是24式")
+            if has_alpha and has_zh:
+                first_zh_idx = next((i for i, ch in enumerate(stripped) if '\u4e00' <= ch <= '\u9fff'), None)
+                if first_zh_idx is not None and first_zh_idx > 0:
+                    en_part = stripped[:first_zh_idx]
+                    zh_part = stripped[first_zh_idx:]
+                    if en_part.strip():
+                        tokens.extend(_tokenize_english(en_part.strip()))
+                    if zh_part.strip():
+                        tokens.extend(_tokenize_chinese(zh_part.strip()))
+                    continue
+
+            # (2.5) 한국어 + 영어 혼합(중국어 없음): 앞의 한글 부분은 한국어, 뒤의 영문/숫자 부분은 영어 토크나이저로 처리
+            #       예) "지지집합support" -> _tokenize_korean("지지집합") + _tokenize_english("support")
+            if has_ko and has_alpha and not has_zh:
+                m_mixed_ko_en = re.match(r"^([가-힣]+)([A-Za-z0-9]+)$", stripped)
+                if m_mixed_ko_en:
+                    ko_part, en_part = m_mixed_ko_en.group(1), m_mixed_ko_en.group(2)
+                    if ko_part.strip():
+                        tokens.extend(_tokenize_korean(ko_part.strip()))
+                    if en_part.strip():
+                        tokens.extend(_tokenize_english(en_part.strip()))
+                    continue
+
+            if has_alpha and has_ko and not has_zh:
+                m_mixed_en_ko = re.match(r"^([A-Za-z0-9]+)([가-힣]+)$", stripped)
+                if m_mixed_en_ko:
+                    en_root, ko_tail = m_mixed_en_ko.group(1), m_mixed_en_ko.group(2)
+                    en_root = en_root.strip()
+                    ko_tail = ko_tail.strip()
+                    if en_root:
+                        tokens.extend(_tokenize_english(en_root))
+                    if ko_tail:
+                        _load_stopwords()
+                        tail_is_grammar = ko_tail in {"은", "는", "이", "가", "을", "를", "에", "에서", "에게", "보다", "도", "만"}
+                        tail_in_stop = ko_tail in (_ko_stopwords or set())
+                        if not (tail_is_grammar or tail_in_stop):
+                            tokens.extend(_tokenize_korean(ko_tail))
+                    continue
+
+            # (3) 중국어 + 숫자 조합(영문자는 없음)인 혼합 토큰: 예) "是24式" 등은 중국어 토크나이저로 처리
+            if has_zh and not has_alpha:
+                tokens.extend(_tokenize_chinese(stripped))
+                continue
+
             # 2) "임의의 root + 한글 tail" 패턴이면 tail을 ko/zh stopwords 기준으로 처리
             #    tail 이 ko/cn stopwords에 해당하면 tail은 버리고 root만 사용
             base = None

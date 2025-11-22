@@ -26,8 +26,7 @@ python tools/cluster_qa.py --qa-embeddings output/embeddings/qa_embeddings.pkl -
 
 # 위 과정 한번에
 ```bash
-python tools/run_conv_pipeline.py --qa-pairs output/qa_pairs.json --model intfloat/multilingual-e5-base --ngram-max 1 --max-candidates 0 --top-n 10 --min-cluster-size 2 --min-samples 1 --metric cosine --conversation-id 283
-
+python tools/run_conv_pipeline.py --qa-pairs output/qa_pairs.json --model intfloat/multilingual-e5-base --ngram-max 1 --max-candidates 0 --top-n 10 --min-cluster-size 2 --min-samples 1 --metric euclidean --conversation-id 19
 ```
 
 배치(전체 대화)
@@ -54,7 +53,7 @@ python tools/preview_preprocess_conversation.py --data-path data/conversations.j
 
 # 시각화
 ```bash
-python viewer/visualize_qa_clusters.py --conversation-id 283 --min-jaccard 0.1 --metric cosine
+python viewer/visualize_qa_clusters.py --conversation-id 19 --min-jaccard 0.1 --metric euclidean
 ```
 
 

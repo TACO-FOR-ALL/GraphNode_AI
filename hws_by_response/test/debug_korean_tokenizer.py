@@ -19,6 +19,15 @@ TEST_SENTENCES = [
     "값입니다.",
     "출력합니다.",
     "해석해보겠습니다.",
+    # 혼합 한국어+영어 키워드 디버그용
+    "지지집합support",
+    "disjoint서로",
+    "사라지는지vanishing",
+    "비포화nonsaturating",
+    "gradient는",
+    "판별자discriminator",
+    "판별자critic",
+    "clipping보다",
 ]
 
 
